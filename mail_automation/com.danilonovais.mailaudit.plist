@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.danilonovais.mailaudit</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/osascript</string>
+        <string>/Users/danilonovais/MacOS-Use/mail_automation/mail-morning-audit.applescript</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/danilonovais/MacOS-Use/mail_automation</string>
+
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>8</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>LimitLoadToSessionType</key>
+    <string>Aqua</string>
+
+    <key>ProcessType</key>
+    <string>Background</string>
+
+    <key>StandardOutPath</key>
+    <string>/Users/danilonovais/Library/Logs/MailAudit/mailaudit.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/danilonovais/Library/Logs/MailAudit/mailaudit-error.log</string>
+</dict>
+</plist>

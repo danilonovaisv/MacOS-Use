@@ -19,7 +19,7 @@ class ProductTelemetry:
     def __init__(self):
         self._client = None
         self._user_id = None
-        self._enabled = os.getenv("ANONYMIZED_TELEMETRY", "True").lower() == "true"
+        self._enabled = os.getenv("ANONYMIZED_TELEMETRY", "false").lower() == "true"
 
     @property
     def client(self):

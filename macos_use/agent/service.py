@@ -49,6 +49,7 @@ class Agent(BaseAgent):
         event_subscriber: Callable[[AgentEvent], None] | None = None,
         experimental: bool = False,
         disable_loop_detection: bool = True,
+        enabled_tools: list[str] | None = None,
     ):
         """
         Initialize the Agent.
@@ -69,13 +70,20 @@ class Agent(BaseAgent):
             event_subscriber: Optional callback for each agent event.
             experimental: Include experimental tools.
             disable_loop_detection: Disable loop detection warnings. Defaults to True.
+            enabled_tools: Optional allowlist of tool names exposed to the model.
         """
         self.name = "MacOS Use"
         self.description = "An agent that can interact with GUI elements on macOS"
         self.mode = mode
-        self.registry = Registry(
-            BUILTIN_TOOLS + EXPERIMENTAL_TOOLS if experimental else BUILTIN_TOOLS
-        )
+        available_tools = BUILTIN_TOOLS + EXPERIMENTAL_TOOLS if experimental else BUILTIN_TOOLS
+        if enabled_tools is not None:
+            enabled_set = set(enabled_tools)
+            unknown_tools = enabled_set.difference(tool.name for tool in available_tools)
+            if unknown_tools:
+                names = ", ".join(sorted(unknown_tools))
+                raise ValueError(f"Unknown enabled tools: {names}")
+            available_tools = [tool for tool in available_tools if tool.name in enabled_set]
+        self.registry = Registry(available_tools)
         self.instructions = instructions or []
         self.browser = browser
         self.auto_minimize = auto_minimize

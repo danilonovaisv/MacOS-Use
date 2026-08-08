@@ -25,6 +25,7 @@ class ChatOllama(BaseChatLLM):
         host: Optional[str] = None,
         timeout: float = 600.0,
         temperature: Optional[float] = None,
+        think: Optional[bool] = None,
         **kwargs
     ):
         """
@@ -35,11 +36,13 @@ class ChatOllama(BaseChatLLM):
             host (str, optional): Ollama host URL. Defaults to OLLAMA_HOST environment variable or localhost.
             timeout (float): Request timeout.
             temperature (float, optional): Sampling temperature.
+            think (bool, optional): Explicitly enable or disable model thinking.
             **kwargs: Additional arguments for chat.
         """
         self._model = model
         self.host = host or os.environ.get("OLLAMA_HOST", "http://localhost:11434")
         self.temperature = temperature
+        self.think = think
 
         self.client = Client(host=self.host, timeout=timeout)
         self.aclient = AsyncClient(host=self.host, timeout=timeout)
@@ -60,6 +63,12 @@ class ChatOllama(BaseChatLLM):
             m.startswith(p)
             for p in ("qwen3", "deepseek-r1", "deepseek-v3", "gpt-oss")
         )
+
+    def _configure_thinking(self, params: dict) -> None:
+        if self.think is not None:
+            params["think"] = self.think
+        elif self._is_thinking_model():
+            params["think"] = True
 
     def _convert_messages(self, messages: List[BaseMessage]) -> List[dict]:
         """
@@ -114,6 +123,18 @@ class ChatOllama(BaseChatLLM):
             for tool in tools
         ]
 
+    @staticmethod
+    def _token_usage(response: Any, thinking_tokens: Optional[int] = None) -> TokenUsage:
+        """Build token usage while tolerating Ollama's nullable counters."""
+        prompt_tokens = response.get("prompt_eval_count") or 0
+        completion_tokens = response.get("eval_count") or 0
+        return TokenUsage(
+            prompt_tokens=prompt_tokens,
+            completion_tokens=completion_tokens,
+            total_tokens=prompt_tokens + completion_tokens,
+            thinking_tokens=thinking_tokens,
+        )
+
     def _process_response(self, response: Any) -> LLMEvent:
         """Process Ollama API response into AIMessage or ToolMessage."""
         message = response.get("message", {})
@@ -123,12 +144,7 @@ class ChatOllama(BaseChatLLM):
         if thinking:
             thinking_tokens = max(1, len(thinking) // 4)
 
-        usage = TokenUsage(
-            prompt_tokens=response.get("prompt_eval_count", 0),
-            completion_tokens=response.get("eval_count", 0),
-            total_tokens=response.get("prompt_eval_count", 0) + response.get("eval_count", 0),
-            thinking_tokens=thinking_tokens,
-        )
+        usage = self._token_usage(response, thinking_tokens)
 
         tool_calls = message.get("tool_calls", [])
         if tool_calls:
@@ -168,8 +184,7 @@ class ChatOllama(BaseChatLLM):
 
         if ollama_tools:
             params["tools"] = ollama_tools
-        if self._is_thinking_model():
-            params["think"] = True
+        self._configure_thinking(params)
 
         if self.temperature is not None:
             if "options" not in params:
@@ -185,12 +200,7 @@ class ChatOllama(BaseChatLLM):
             try:
                 parsed = structured_output.model_validate_json(response["message"]["content"])
                 content = parsed.model_dump() if hasattr(parsed, "model_dump") else str(parsed)
-                usage = TokenUsage(
-                    prompt_tokens=response.get("prompt_eval_count", 0),
-                    completion_tokens=response.get("eval_count", 0),
-                    total_tokens=response.get("prompt_eval_count", 0) + response.get("eval_count", 0),
-                    thinking_tokens=None,
-                )
+                usage = self._token_usage(response)
                 return LLMEvent(type=LLMEventType.TEXT, content=json.dumps(content) if isinstance(content, dict) else content, usage=usage)
             except (json.JSONDecodeError, ValueError) as e:
                 logger.error(f"Failed to parse structured output: {e}")
@@ -214,8 +224,7 @@ class ChatOllama(BaseChatLLM):
 
         if ollama_tools:
             params["tools"] = ollama_tools
-        if self._is_thinking_model():
-            params["think"] = True
+        self._configure_thinking(params)
 
         if self.temperature is not None:
             if "options" not in params:
@@ -231,12 +240,7 @@ class ChatOllama(BaseChatLLM):
             try:
                 parsed = structured_output.model_validate_json(response["message"]["content"])
                 content = parsed.model_dump() if hasattr(parsed, "model_dump") else parsed
-                usage = TokenUsage(
-                    prompt_tokens=response.get("prompt_eval_count", 0),
-                    completion_tokens=response.get("eval_count", 0),
-                    total_tokens=response.get("prompt_eval_count", 0) + response.get("eval_count", 0),
-                    thinking_tokens=None,
-                )
+                usage = self._token_usage(response)
                 return LLMEvent(type=LLMEventType.TEXT, content=json.dumps(content) if isinstance(content, dict) else content, usage=usage)
             except (json.JSONDecodeError, ValueError) as e:
                 logger.error(f"Failed to parse structured output: {e}")
@@ -260,8 +264,7 @@ class ChatOllama(BaseChatLLM):
 
         if ollama_tools:
             params["tools"] = ollama_tools
-        if self._is_thinking_model():
-            params["think"] = True
+        self._configure_thinking(params)
 
         if self.temperature is not None:
             if "options" not in params:
@@ -283,12 +286,7 @@ class ChatOllama(BaseChatLLM):
             if "eval_count" in chunk or "prompt_eval_count" in chunk:
                 thinking = message.get("thinking")
                 thinking_tokens = max(1, len(thinking) // 4) if thinking else None
-                usage = TokenUsage(
-                    prompt_tokens=chunk.get("prompt_eval_count", 0),
-                    completion_tokens=chunk.get("eval_count", 0),
-                    total_tokens=chunk.get("prompt_eval_count", 0) + chunk.get("eval_count", 0),
-                    thinking_tokens=thinking_tokens,
-                )
+                usage = self._token_usage(chunk, thinking_tokens)
             if message.get("thinking"):
                 if not think_started:
                     think_started = True
@@ -346,8 +344,7 @@ class ChatOllama(BaseChatLLM):
 
         if ollama_tools:
             params["tools"] = ollama_tools
-        if self._is_thinking_model():
-            params["think"] = True
+        self._configure_thinking(params)
 
         if self.temperature is not None:
             if "options" not in params:
@@ -369,12 +366,7 @@ class ChatOllama(BaseChatLLM):
             if "eval_count" in chunk or "prompt_eval_count" in chunk:
                 thinking = message.get("thinking")
                 thinking_tokens = max(1, len(thinking) // 4) if thinking else None
-                usage = TokenUsage(
-                    prompt_tokens=chunk.get("prompt_eval_count", 0),
-                    completion_tokens=chunk.get("eval_count", 0),
-                    total_tokens=chunk.get("prompt_eval_count", 0) + chunk.get("eval_count", 0),
-                    thinking_tokens=thinking_tokens,
-                )
+                usage = self._token_usage(chunk, thinking_tokens)
             if message.get("thinking"):
                 if not think_started:
                     think_started = True

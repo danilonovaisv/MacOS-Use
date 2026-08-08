@@ -93,7 +93,7 @@ agent.invoke(task=input("Enter a task: "))
 from macos_use.providers.ollama import ChatOllama
 from macos_use import Agent
 
-llm = ChatOllama(model="qwen3-vl:4b")
+llm = ChatOllama(model="qwen3.6:latest", think=False)
 agent = Agent(llm=llm, use_vision=False)
 agent.invoke(task=input("Enter a task: "))
 ```

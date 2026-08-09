@@ -112,12 +112,15 @@ class AuthManager:
             # Navigate to NotebookLM
             page = context.new_page()
             page.goto("https://notebooklm.google.com", wait_until="domcontentloaded")
+            time.sleep(3)
 
-            # Check if already authenticated
-            if "notebooklm.google.com" in page.url and "accounts.google.com" not in page.url:
-                print("  ✅ Already authenticated!")
-                self._save_browser_state(context)
-                return True
+            # Check if already authenticated (ensure no redirect to accounts.google.com)
+            if "accounts.google.com" not in page.url and ("notebooklm.google.com" in page.url or "notebook.google.com" in page.url):
+                # Double check that we aren't on landing/login page
+                if not page.query_selector('a[href*="accounts.google.com"]'):
+                    print("  ✅ Already authenticated!")
+                    self._save_browser_state(context)
+                    return True
 
             # Wait for manual login
             print("\n  ⏳ Please log in to your Google account...")
@@ -126,7 +129,7 @@ class AuthManager:
             try:
                 # Wait for URL to change to NotebookLM (regex ensures it's the actual domain, not a parameter)
                 timeout_ms = int(timeout_minutes * 60 * 1000)
-                page.wait_for_url(re.compile(r"^https://notebooklm\.google\.com/"), timeout=timeout_ms)
+                page.wait_for_url(re.compile(r"^https://notebook(lm)?\.google\.com/"), timeout=timeout_ms)
 
                 print(f"  ✅ Login successful!")
 

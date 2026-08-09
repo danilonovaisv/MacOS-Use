@@ -74,10 +74,10 @@ def ask_notebooklm(question: str, notebook_url: str, headless: bool = True) -> s
         # Navigate to notebook
         page = context.new_page()
         print("  🌐 Opening notebook...")
-        page.goto(notebook_url, wait_until="domcontentloaded")
-
-        # Wait for NotebookLM
-        page.wait_for_url(re.compile(r"^https://notebooklm\.google\.com/"), timeout=10000)
+        page.goto(notebook_url, wait_until="commit", timeout=60000)
+        time.sleep(3)
+        print(f"  📍 Current URL: {page.url}")
+        print(f"  📑 Page Title: {page.title()}")
 
         # Wait for query input (MCP approach)
         print("  ⏳ Waiting for query input...")
@@ -87,7 +87,7 @@ def ask_notebooklm(question: str, notebook_url: str, headless: bool = True) -> s
             try:
                 query_element = page.wait_for_selector(
                     selector,
-                    timeout=10000,
+                    timeout=30000,
                     state="visible"  # Only check visibility, not disabled!
                 )
                 if query_element:

@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "macOS Desired Defaults Configuration",
+  "defaults": [
+    {
+      "domain": "com.apple.dock",
+      "key": "autohide",
+      "type": "bool",
+      "value": true,
+      "postAction": "killall Dock"
+    },
+    {
+      "domain": "com.apple.dock",
+      "key": "tilesize",
+      "type": "int",
+      "value": 48,
+      "postAction": "killall Dock"
+    },
+    {
+      "domain": "com.apple.finder",
+      "key": "AppleShowAllFiles",
+      "type": "bool",
+      "value": true,
+      "postAction": "killall Finder"
+    },
+    {
+      "domain": "com.apple.finder",
+      "key": "ShowPathbar",
+      "type": "bool",
+      "value": true,
+      "postAction": "killall Finder"
+    },
+    {
+      "domain": "NSGlobalDomain",
+      "key": "AppleInterfaceStyle",
+      "type": "string",
+      "value": "Dark",
+      "postAction": null
+    }
+  ]
+}

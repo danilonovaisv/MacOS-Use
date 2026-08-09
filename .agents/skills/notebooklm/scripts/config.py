@@ -17,8 +17,15 @@ LIBRARY_FILE = DATA_DIR / "library.json"
 # NotebookLM Selectors
 QUERY_INPUT_SELECTORS = [
     "textarea.query-box-input",  # Primary
-    'textarea[aria-label="Feld für Anfragen"]',  # Fallback German
-    'textarea[aria-label="Input for queries"]',  # Fallback English
+    'textarea[placeholder*="Pergunte"]',
+    'textarea[placeholder*="Ask"]',
+    'textarea[aria-label*="Pergunte"]',
+    'textarea[aria-label*="query"]',
+    'textarea[aria-label*="Input"]',
+    'textarea[aria-label="Feld für Anfragen"]',
+    'textarea[aria-label="Input for queries"]',
+    "textarea",
+    'div[contenteditable="true"]',
 ]
 
 RESPONSE_SELECTORS = [

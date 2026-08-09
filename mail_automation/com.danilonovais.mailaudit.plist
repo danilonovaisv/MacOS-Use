@@ -7,8 +7,8 @@
 
     <key>ProgramArguments</key>
     <array>
-        <string>/usr/bin/osascript</string>
-        <string>/Users/danilonovais/MacOS-Use/mail_automation/mail-morning-audit.applescript</string>
+        <string>/Users/danilonovais/MacOS-Use/.venv/bin/python3</string>
+        <string>/Users/danilonovais/MacOS-Use/mail_automation/ai_mail_summarizer.py</string>
     </array>
 
     <key>WorkingDirectory</key>

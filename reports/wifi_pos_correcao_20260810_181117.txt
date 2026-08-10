@@ -1,0 +1,64 @@
+=== RELATÓRIO PÓS-CORREÇÃO WI-FI ===
+Mon Aug 10 18:11:28 -03 2026
+
+Interface Física: en0
+Serviço Lógico:   Wi-Fi
+
+=== DNS ===
+1.1.1.1
+1.0.0.1
+
+=== IP ===
+	inet6 fe80::14ab:d6dc:5a29:5c62%en0 prefixlen 64 secured scopeid 0xf 
+	inet6 2804:7f0:6401:9d90:b9:b3f4:5799:5b8c prefixlen 64 autoconf secured 
+	inet6 2804:7f0:6401:9d90:d1b:15e2:fbed:397e prefixlen 64 autoconf temporary 
+	inet 192.168.15.22 netmask 0xffffff00 broadcast 192.168.15.255
+
+=== DHCP ===
+op = BOOTREPLY
+htype = 1
+flags = 0x0
+hlen = 6
+hops = 0
+xid = 0x30d6a50f
+secs = 0
+ciaddr = 0.0.0.0
+yiaddr = 192.168.15.22
+siaddr = 0.0.0.0
+giaddr = 0.0.0.0
+chaddr = ce:ba:59:5e:b7:7a
+sname = 
+file = 
+options:
+Options count is 9
+dhcp_message_type (uint8): ACK 0x5
+server_identifier (ip): 192.168.15.1
+lease_time (uint32): 0x3840
+subnet_mask (ip): 255.255.255.0
+router (ip_mult): {192.168.15.1}
+domain_name_server (ip_mult): {8.8.8.8, 8.8.4.4}
+domain_name (string): Home
+nb_over_tcpip_name_server (ip_mult): {192.168.15.1}
+end (none): 
+
+=== PING ROUTER (Gateway) ===
+PING 192.168.15.1 (192.168.15.1): 56 data bytes
+64 bytes from 192.168.15.1: icmp_seq=0 ttl=64 time=3.769 ms
+64 bytes from 192.168.15.1: icmp_seq=1 ttl=64 time=11.024 ms
+64 bytes from 192.168.15.1: icmp_seq=2 ttl=64 time=14.799 ms
+64 bytes from 192.168.15.1: icmp_seq=3 ttl=64 time=8.377 ms
+
+--- 192.168.15.1 ping statistics ---
+4 packets transmitted, 4 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 3.769/9.492/14.799/4.016 ms
+
+=== PING CLOUDFLARE ===
+PING 1.1.1.1 (1.1.1.1): 56 data bytes
+64 bytes from 1.1.1.1: icmp_seq=0 ttl=57 time=8.340 ms
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=57 time=10.529 ms
+64 bytes from 1.1.1.1: icmp_seq=2 ttl=57 time=8.166 ms
+64 bytes from 1.1.1.1: icmp_seq=3 ttl=57 time=10.367 ms
+
+--- 1.1.1.1 ping statistics ---
+4 packets transmitted, 4 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 8.166/9.351/10.529/1.101 ms

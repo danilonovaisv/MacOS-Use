@@ -47,7 +47,7 @@ instalação garante que a permissão do Mail seja solicitada em uma sessão vis
 ## Instalação
 
 ```bash
-./script/build_and_run.sh --install
+./mail_automation/script/build_and_run.sh --install
 ```
 
 O instalador:
@@ -64,9 +64,9 @@ no próximo carregamento ou no horário seguinte.
 ## Operação
 
 ```bash
-./script/build_and_run.sh --verify
-./script/build_and_run.sh --logs
-./script/build_and_run.sh --run-agent
+./mail_automation/script/build_and_run.sh --verify
+./mail_automation/script/build_and_run.sh --logs
+./mail_automation/script/build_and_run.sh --run-agent
 ```
 
 `--run-agent` dispara o serviço já instalado. O comando sem argumentos executa o

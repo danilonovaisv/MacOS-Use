@@ -1,0 +1,832 @@
+/Users/danilonovais/MacOS-Use/.agents/agents/agent-skills-spec.md
+/Users/danilonovais/MacOS-Use/.agents/agents/cli-developer.md
+/Users/danilonovais/MacOS-Use/.agents/agents/electron-pro.md
+/Users/danilonovais/MacOS-Use/.agents/agents/macos-sysadmin.md
+/Users/danilonovais/MacOS-Use/.agents/agents/swift-expert.md
+/Users/danilonovais/MacOS-Use/.agents/rules/graphify.md
+/Users/danilonovais/MacOS-Use/.agents/skills/agent-skills-spec.md
+/Users/danilonovais/MacOS-Use/.agents/skills/deep-research/SKILL.md
+/Users/danilonovais/MacOS-Use/.agents/skills/deep-research/agents/openai.yaml
+/Users/danilonovais/MacOS-Use/.agents/skills/graphify/SKILL.md
+/Users/danilonovais/MacOS-Use/.agents/skills/graphify/references/add-watch.md
+/Users/danilonovais/MacOS-Use/.agents/skills/graphify/references/exports.md
+/Users/danilonovais/MacOS-Use/.agents/skills/graphify/references/extraction-spec.md
+/Users/danilonovais/MacOS-Use/.agents/skills/graphify/references/github-and-merge.md
+/Users/danilonovais/MacOS-Use/.agents/skills/graphify/references/hooks.md
+/Users/danilonovais/MacOS-Use/.agents/skills/graphify/references/query.md
+/Users/danilonovais/MacOS-Use/.agents/skills/graphify/references/transcribe.md
+/Users/danilonovais/MacOS-Use/.agents/skills/graphify/references/update.md
+/Users/danilonovais/MacOS-Use/.agents/skills/macos-diagnostics/SKILL.md
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/AUTHENTICATION.md
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/CHANGELOG.md
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/README.md
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/SKILL.md
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/optimization_guide_model_store/15/E6DC4029A1E4B4C1/0F528B994BEC0E72/VERSION.txt
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/optimization_guide_model_store/24/E6DC4029A1E4B4C1/97765B8CDF9213E6/enus_denylist_encoded_241007.txt
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/optimization_guide_model_store/24/E6DC4029A1E4B4C1/97765B8CDF9213E6/vocab_en-us.txt
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/references/api_reference.md
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/references/troubleshooting.md
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/references/usage_patterns.md
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/requirements.txt
+/Users/danilonovais/MacOS-Use/.agents/skills/systematic-debugging/SKILL.md
+/Users/danilonovais/MacOS-Use/.agents/skills/verification-before-completion/SKILL.md
+/Users/danilonovais/MacOS-Use/.agents/skills/verification-loop/SKILL.md
+/Users/danilonovais/MacOS-Use/.agents/skills/verification-loop/agents/openai.yaml
+/Users/danilonovais/MacOS-Use/.agents/skills/wiki-brain/README.md
+/Users/danilonovais/MacOS-Use/.agents/skills/wiki-brain/SKILL.md
+/Users/danilonovais/MacOS-Use/.agents/skills/wiki-brain/templates/claude-md-patch.md
+/Users/danilonovais/MacOS-Use/.agents/skills/wiki-brain/templates/index.md
+/Users/danilonovais/MacOS-Use/.agents/skills/wiki-brain/templates/log.md
+/Users/danilonovais/MacOS-Use/.agents/workflows/agents-orquestrator.md
+/Users/danilonovais/MacOS-Use/.agents/workflows/audit-and-fix.md
+/Users/danilonovais/MacOS-Use/.agents/workflows/graphify.md
+/Users/danilonovais/MacOS-Use/.agents/workflows/macos-sync-db.md
+/Users/danilonovais/MacOS-Use/.agents/workflows/notebooklm-guided-research.md
+/Users/danilonovais/MacOS-Use/.agents/workflows/workflow-orchestrator.md
+/Users/danilonovais/MacOS-Use/.agents/workflows/workflows-refresh.md
+/Users/danilonovais/MacOS-Use/.claude/README.md
+/Users/danilonovais/MacOS-Use/.claude/agents/agent-skills-spec.md
+/Users/danilonovais/MacOS-Use/.claude/agents/cli-developer.md
+/Users/danilonovais/MacOS-Use/.claude/agents/electron-pro.md
+/Users/danilonovais/MacOS-Use/.claude/agents/swift-expert.md
+/Users/danilonovais/MacOS-Use/.claude/commands/init-project.md
+/Users/danilonovais/MacOS-Use/.claude/commands/update-dependencies.md
+/Users/danilonovais/MacOS-Use/.claude/skills/1password/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/1password/references/cli-commands.md
+/Users/danilonovais/MacOS-Use/.claude/skills/1password/references/environments/README.md
+/Users/danilonovais/MacOS-Use/.claude/skills/1password/references/kubernetes-examples.md
+/Users/danilonovais/MacOS-Use/.claude/skills/1password/references/python-sdk.md
+/Users/danilonovais/MacOS-Use/.claude/skills/1password/templates/docker-compose-env.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/1password/templates/github-actions-env.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/1password/tools-python/README.md
+/Users/danilonovais/MacOS-Use/.claude/skills/alz-accelerator/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/alz-accelerator/references/accelerator-interactive-flow.md
+/Users/danilonovais/MacOS-Use/.claude/skills/alz-accelerator/references/bicep-vs-terraform.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/ArgocdClusterBootstrapping/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/ArgocdClusterBootstrapping/Workflows/CreateRootApplication.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/ArgocdClusterBootstrapping/Workflows/DiagnoseSyncFailure.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/ArgocdClusterBootstrapping/Workflows/OnboardCluster.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/ArgocdImageUpdater/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/ArgocdImageUpdater/Workflows/ConfigureImageUpdater.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/ArgocdImageUpdater/Workflows/CreateImageUpdaterCrds.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/ArgocdImageUpdater/Workflows/ResolveDrift.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/application-install.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/applicationset.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/applicationset/generators/cluster-generator.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/applicationset/generators/git-generator.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/applicationset/generators/list-generator.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/applicationset/generators/matrix-merge-generators.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/applicationset/generators/scm-pullrequest-generators.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/applicationset/patterns/app-of-apps-pattern.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/applicationset/patterns/monorepo-pattern.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/applicationset/patterns/multi-cluster-pattern.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/applicationset/patterns/pr-preview-pattern.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/applicationset/templates/basic-templates.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/applicationset/templates/go-templates.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/applicationset/templates/multi-source-templates.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/applicationset/troubleshooting/troubleshooting.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/cluster-bootstrapping.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/cluster-bootstrapping/architecture.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/cluster-bootstrapping/guidance.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/cluster-bootstrapping/project-structure.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/cluster-bootstrapping/summary.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/cluster-bootstrapping/templates/README.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/cluster-bootstrapping/templates/applicationset-cluster-generator.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/cluster-bootstrapping/templates/applicationset-matrix-generator.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/cluster-bootstrapping/templates/argocd-project.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/cluster-bootstrapping/templates/values-base.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/cluster-bootstrapping/templates/values-dev.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/cluster-bootstrapping/templates/values-prd.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/cluster-bootstrapping/tools.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/cluster-bootstrapping/workflow.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/image-updater.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/image-updater/authentication.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/image-updater/git-write-back.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/image-updater/installation.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/image-updater/troubleshooting.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/References/image-updater/update-strategies.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/Samples/image-updater/argocd-api-writeback.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/Samples/image-updater/basic-imageupdater.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/Samples/image-updater/git-writeback.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/Samples/image-updater/multi-image-app.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/Samples/image-updater/semver-strategy.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/Workflows/application-install/CreateApplicationSet.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd-advanced/Workflows/application-install/ValidateApplicationSet.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd/References/api-reference.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd/References/cli-reference.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd/References/command-workflows/AppManage.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd/References/command-workflows/AppSetManage.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd/References/command-workflows/ClusterManage.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd/References/command-workflows/Login.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd/References/command-workflows/ProjectManage.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd/References/command-workflows/RepoManage.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd/References/command-workflows/Troubleshoot.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd/References/review-workflows/DiffManifests.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd/References/review-workflows/ReviewApplication.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd/References/review-workflows/ReviewResources.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd/References/review-workflows/RollbackApp.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd/References/review-workflows/TroubleshootSync.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd/References/review.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd/References/troubleshooting.md
+/Users/danilonovais/MacOS-Use/.claude/skills/argocd/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/atuin/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/atuin/references/commands.md
+/Users/danilonovais/MacOS-Use/.claude/skills/atuin/references/configuration.md
+/Users/danilonovais/MacOS-Use/.claude/skills/atuin/references/search-reference.md
+/Users/danilonovais/MacOS-Use/.claude/skills/atuin/references/sync-setup.md
+/Users/danilonovais/MacOS-Use/.claude/skills/atuin/references/tips-and-tricks.md
+/Users/danilonovais/MacOS-Use/.claude/skills/atuin/references/troubleshooting.md
+/Users/danilonovais/MacOS-Use/.claude/skills/atuin/references/workflows.md
+/Users/danilonovais/MacOS-Use/.claude/skills/az-aks-agent/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/az-aks-agent/references/api-server-etcd.md
+/Users/danilonovais/MacOS-Use/.claude/skills/az-aks-agent/references/cli-commands.md
+/Users/danilonovais/MacOS-Use/.claude/skills/az-aks-agent/references/control-plane-metrics.md
+/Users/danilonovais/MacOS-Use/.claude/skills/az-aks-agent/references/diagnostics.md
+/Users/danilonovais/MacOS-Use/.claude/skills/az-aks-agent/references/examples.md
+/Users/danilonovais/MacOS-Use/.claude/skills/az-aks-agent/references/kubelet-logs.md
+/Users/danilonovais/MacOS-Use/.claude/skills/az-aks-agent/references/memory-saturation.md
+/Users/danilonovais/MacOS-Use/.claude/skills/az-aks-agent/references/monitoring.md
+/Users/danilonovais/MacOS-Use/.claude/skills/az-aks-agent/references/node-auto-repair.md
+/Users/danilonovais/MacOS-Use/.claude/skills/az-aks-agent/references/troubleshooting.md
+/Users/danilonovais/MacOS-Use/.claude/skills/aztfexport/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/aztfexport/references/RESOURCE-DISCOVERY.md
+/Users/danilonovais/MacOS-Use/.claude/skills/azure-ad-sso/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/azure-ad-sso/references/app-configs.md
+/Users/danilonovais/MacOS-Use/.claude/skills/azure-ad-sso/references/azure-ad-sso-guide.md
+/Users/danilonovais/MacOS-Use/.claude/skills/azure-ad-sso/references/troubleshooting.md
+/Users/danilonovais/MacOS-Use/.claude/skills/azure-cost-management-app/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/azure-devops-wiki/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/azure-devops-wiki/references/best-practices.md
+/Users/danilonovais/MacOS-Use/.claude/skills/azure-devops-wiki/references/markdown-syntax.md
+/Users/danilonovais/MacOS-Use/.claude/skills/azure-devops/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/azure-devops/references/git-repos-reference.md
+/Users/danilonovais/MacOS-Use/.claude/skills/azure-devops/references/pipelines-reference.md
+/Users/danilonovais/MacOS-Use/.claude/skills/azure-devops/references/test-plans-reference.md
+/Users/danilonovais/MacOS-Use/.claude/skills/azure-devops/references/wiki-search-reference.md
+/Users/danilonovais/MacOS-Use/.claude/skills/azure-devops/references/work-items-reference.md
+/Users/danilonovais/MacOS-Use/.claude/skills/azure-finops/AzureToolReference.md
+/Users/danilonovais/MacOS-Use/.claude/skills/azure-finops/PricingComparison.md
+/Users/danilonovais/MacOS-Use/.claude/skills/azure-finops/ReservationInventory.md
+/Users/danilonovais/MacOS-Use/.claude/skills/azure-finops/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/azure-finops/Workflows/CoverageAnalysis.md
+/Users/danilonovais/MacOS-Use/.claude/skills/azure-finops/Workflows/DraftResponse.md
+/Users/danilonovais/MacOS-Use/.claude/skills/azure-finops/Workflows/FindWaste.md
+/Users/danilonovais/MacOS-Use/.claude/skills/azure-finops/Workflows/ValidateCosts.md
+/Users/danilonovais/MacOS-Use/.claude/skills/azure-landing-zone-checklist/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/azure-landing-zone-checklist/references/alz-best-practices.md
+/Users/danilonovais/MacOS-Use/.claude/skills/azure-network-calculator/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/azure-network-calculator/SubnetTemplates.md
+/Users/danilonovais/MacOS-Use/.claude/skills/azure-network-calculator/TerraformSnippets.md
+/Users/danilonovais/MacOS-Use/.claude/skills/azure-network-calculator/Workflows/CalculateCapacity.md
+/Users/danilonovais/MacOS-Use/.claude/skills/azure-network-calculator/Workflows/PlanNetwork.md
+/Users/danilonovais/MacOS-Use/.claude/skills/azure-network-calculator/Workflows/ValidateCidr.md
+/Users/danilonovais/MacOS-Use/.claude/skills/bmad-orchestrate/DependencyPatterns.md
+/Users/danilonovais/MacOS-Use/.claude/skills/bmad-orchestrate/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/bmad-orchestrate/Workflows/Analyze.md
+/Users/danilonovais/MacOS-Use/.claude/skills/bmad-orchestrate/Workflows/Execute.md
+/Users/danilonovais/MacOS-Use/.claude/skills/bmad-orchestrate/Workflows/Merge.md
+/Users/danilonovais/MacOS-Use/.claude/skills/cloudflare-dns/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/cloudflare-dns/references/api-reference.md
+/Users/danilonovais/MacOS-Use/.claude/skills/cloudflare-dns/references/azure-integration.md
+/Users/danilonovais/MacOS-Use/.claude/skills/commit/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/consulting-design/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/container-security/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/content-curator/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/context7/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/context7/Workflows/FullLookup.md
+/Users/danilonovais/MacOS-Use/.claude/skills/context7/Workflows/QueryDocs.md
+/Users/danilonovais/MacOS-Use/.claude/skills/context7/Workflows/ResolveLibrary.md
+/Users/danilonovais/MacOS-Use/.claude/skills/daily/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/daily/references/templates.md
+/Users/danilonovais/MacOS-Use/.claude/skills/deep-research/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/deep-research/agents/openai.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/defectdojo/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/defectdojo/references/api-v2-reference.md
+/Users/danilonovais/MacOS-Use/.claude/skills/defectdojo/references/azure-ad-sso.md
+/Users/danilonovais/MacOS-Use/.claude/skills/defectdojo/references/cicd-integration.md
+/Users/danilonovais/MacOS-Use/.claude/skills/defectdojo/references/helm-values.md
+/Users/danilonovais/MacOS-Use/.claude/skills/defectdojo/references/troubleshooting.md
+/Users/danilonovais/MacOS-Use/.claude/skills/dependency-track/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/dependency-track/references/azure-ad-validation.md
+/Users/danilonovais/MacOS-Use/.claude/skills/dependency-track/references/cicd/azure-pipeline.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/dependency-track/references/cicd/github-action.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/dependency-track/references/cicd/gitlab-ci.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/dependency-track/references/deployment/docker-compose-production.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/dependency-track/references/deployment/helm-values-hyades.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/dependency-track/references/deployment/helm-values.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/dependency-track/references/troubleshooting.md
+/Users/danilonovais/MacOS-Use/.claude/skills/devops-network-calculator-for-azure/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/devops-network-calculator-for-azure/references/aks-networking-guide.md
+/Users/danilonovais/MacOS-Use/.claude/skills/devops-network-calculator-for-azure/references/azure-constraints.md
+/Users/danilonovais/MacOS-Use/.claude/skills/devops-network-calculator-for-azure/references/cidr-calculation-guide.md
+/Users/danilonovais/MacOS-Use/.claude/skills/devops-network-calculator-for-azure/references/segmentation-patterns.md
+/Users/danilonovais/MacOS-Use/.claude/skills/devops-network-calculator-for-azure/workflow.md
+/Users/danilonovais/MacOS-Use/.claude/skills/direnv/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/direnv/references/installation.md
+/Users/danilonovais/MacOS-Use/.claude/skills/direnv/references/stdlib-functions.md
+/Users/danilonovais/MacOS-Use/.claude/skills/direnv/references/troubleshooting.md
+/Users/danilonovais/MacOS-Use/.claude/skills/external-dns/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/external-dns/references/azure-dns.md
+/Users/danilonovais/MacOS-Use/.claude/skills/external-dns/references/cloudflare.md
+/Users/danilonovais/MacOS-Use/.claude/skills/external-dns/references/troubleshooting.md
+/Users/danilonovais/MacOS-Use/.claude/skills/file-intel/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/git-worktree/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/git-worktree/references/iterm2-config.md
+/Users/danilonovais/MacOS-Use/.claude/skills/git-worktree/references/tmux-config.md
+/Users/danilonovais/MacOS-Use/.claude/skills/git/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/git/git/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/git/references/ConventionalCommits.md
+/Users/danilonovais/MacOS-Use/.claude/skills/git/references/GitBestPractices.md
+/Users/danilonovais/MacOS-Use/.claude/skills/git/references/GitWorktree.md
+/Users/danilonovais/MacOS-Use/.claude/skills/git/references/SecurityChecklist.md
+/Users/danilonovais/MacOS-Use/.claude/skills/git/workflows/Branch.md
+/Users/danilonovais/MacOS-Use/.claude/skills/git/workflows/Commit.md
+/Users/danilonovais/MacOS-Use/.claude/skills/git/workflows/CommitPush.md
+/Users/danilonovais/MacOS-Use/.claude/skills/git/workflows/Diff.md
+/Users/danilonovais/MacOS-Use/.claude/skills/git/workflows/Log.md
+/Users/danilonovais/MacOS-Use/.claude/skills/git/workflows/Merge.md
+/Users/danilonovais/MacOS-Use/.claude/skills/git/workflows/PullRequest.md
+/Users/danilonovais/MacOS-Use/.claude/skills/git/workflows/Rebase.md
+/Users/danilonovais/MacOS-Use/.claude/skills/git/workflows/Stash.md
+/Users/danilonovais/MacOS-Use/.claude/skills/git/workflows/Status.md
+/Users/danilonovais/MacOS-Use/.claude/skills/git/workflows/Sync.md
+/Users/danilonovais/MacOS-Use/.claude/skills/git/workflows/Undo.md
+/Users/danilonovais/MacOS-Use/.claude/skills/git/workflows/Worktree.md
+/Users/danilonovais/MacOS-Use/.claude/skills/github-pages/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/github-pages/references/ActionsWorkflows.md
+/Users/danilonovais/MacOS-Use/.claude/skills/github-pages/references/BestPractices.md
+/Users/danilonovais/MacOS-Use/.claude/skills/github-pages/references/DnsConfiguration.md
+/Users/danilonovais/MacOS-Use/.claude/skills/github-pages/references/JekyllConfiguration.md
+/Users/danilonovais/MacOS-Use/.claude/skills/github-pages/references/Troubleshooting.md
+/Users/danilonovais/MacOS-Use/.claude/skills/github-pages/workflows/ActionsWorkflow.md
+/Users/danilonovais/MacOS-Use/.claude/skills/github-pages/workflows/CustomDomain.md
+/Users/danilonovais/MacOS-Use/.claude/skills/github-pages/workflows/Deploy.md
+/Users/danilonovais/MacOS-Use/.claude/skills/github-pages/workflows/JekyllSetup.md
+/Users/danilonovais/MacOS-Use/.claude/skills/github-pages/workflows/QuickStart.md
+/Users/danilonovais/MacOS-Use/.claude/skills/github-pages/workflows/Troubleshoot.md
+/Users/danilonovais/MacOS-Use/.claude/skills/gitops-principles/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/gitops-principles/references/anti-patterns.md
+/Users/danilonovais/MacOS-Use/.claude/skills/gitops-principles/references/azure-arc-integration.md
+/Users/danilonovais/MacOS-Use/.claude/skills/gitops-principles/references/core-principles.md
+/Users/danilonovais/MacOS-Use/.claude/skills/gitops-principles/references/patterns-and-practices.md
+/Users/danilonovais/MacOS-Use/.claude/skills/gitops-principles/references/tooling-ecosystem.md
+/Users/danilonovais/MacOS-Use/.claude/skills/gitops-principles/references/troubleshooting.md
+/Users/danilonovais/MacOS-Use/.claude/skills/gitops-principles/templates/application.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/gitops-principles/templates/applicationset.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/gitops-principles/templates/kustomization.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/grafana/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/grafana/Workflows/DashboardOperations.md
+/Users/danilonovais/MacOS-Use/.claude/skills/grafana/references/CommonPatterns.md
+/Users/danilonovais/MacOS-Use/.claude/skills/grafana/references/UsersTeams.md
+/Users/danilonovais/MacOS-Use/.claude/skills/grafana/references/alerting.md
+/Users/danilonovais/MacOS-Use/.claude/skills/grafana/references/annotations.md
+/Users/danilonovais/MacOS-Use/.claude/skills/grafana/references/dashboards.md
+/Users/danilonovais/MacOS-Use/.claude/skills/grafana/references/datasources.md
+/Users/danilonovais/MacOS-Use/.claude/skills/grafana/references/folders.md
+/Users/danilonovais/MacOS-Use/.claude/skills/graphify/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/graphify/references/add-watch.md
+/Users/danilonovais/MacOS-Use/.claude/skills/graphify/references/exports.md
+/Users/danilonovais/MacOS-Use/.claude/skills/graphify/references/extraction-spec.md
+/Users/danilonovais/MacOS-Use/.claude/skills/graphify/references/github-and-merge.md
+/Users/danilonovais/MacOS-Use/.claude/skills/graphify/references/hooks.md
+/Users/danilonovais/MacOS-Use/.claude/skills/graphify/references/query.md
+/Users/danilonovais/MacOS-Use/.claude/skills/graphify/references/transcribe.md
+/Users/danilonovais/MacOS-Use/.claude/skills/graphify/references/update.md
+/Users/danilonovais/MacOS-Use/.claude/skills/grill-me/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/holmesgpt/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/holmesgpt/references/commands.md
+/Users/danilonovais/MacOS-Use/.claude/skills/holmesgpt/references/configuration.md
+/Users/danilonovais/MacOS-Use/.claude/skills/holmesgpt/references/data-sources.md
+/Users/danilonovais/MacOS-Use/.claude/skills/holmesgpt/references/http-api.md
+/Users/danilonovais/MacOS-Use/.claude/skills/holmesgpt/references/installation.md
+/Users/danilonovais/MacOS-Use/.claude/skills/holmesgpt/references/integrations.md
+/Users/danilonovais/MacOS-Use/.claude/skills/holmesgpt/references/troubleshooting.md
+/Users/danilonovais/MacOS-Use/.claude/skills/iterm2/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/iterm2/Shortcuts.md
+/Users/danilonovais/MacOS-Use/.claude/skills/iterm2/TmuxCommands.md
+/Users/danilonovais/MacOS-Use/.claude/skills/iterm2/TmuxConfig.md
+/Users/danilonovais/MacOS-Use/.claude/skills/iterm2/workflows/SetupTmux.md
+/Users/danilonovais/MacOS-Use/.claude/skills/iterm2/workflows/TmuxSession.md
+/Users/danilonovais/MacOS-Use/.claude/skills/iterm2/workflows/TroubleshootTmux.md
+/Users/danilonovais/MacOS-Use/.claude/skills/json-canvas/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/justfile/References/MakeMigration.md
+/Users/danilonovais/MacOS-Use/.claude/skills/justfile/References/Patterns.md
+/Users/danilonovais/MacOS-Use/.claude/skills/justfile/References/Syntax.md
+/Users/danilonovais/MacOS-Use/.claude/skills/justfile/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/justfile/Templates.md
+/Users/danilonovais/MacOS-Use/.claude/skills/justfile/Workflows/CheckJustfile.md
+/Users/danilonovais/MacOS-Use/.claude/skills/justfile/Workflows/CreateJustfile.md
+/Users/danilonovais/MacOS-Use/.claude/skills/justfile/Workflows/MigrateFromMake.md
+/Users/danilonovais/MacOS-Use/.claude/skills/k8s-timezone-config/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/keyvault-csi-driver/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/keyvault-csi-driver/references/architecture.md
+/Users/danilonovais/MacOS-Use/.claude/skills/keyvault-csi-driver/references/examples.md
+/Users/danilonovais/MacOS-Use/.claude/skills/keyvault-csi-driver/references/troubleshooting.md
+/Users/danilonovais/MacOS-Use/.claude/skills/knative/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/knative/references/knative-detail.md
+/Users/danilonovais/MacOS-Use/.claude/skills/knowledge-base-health-check/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/kql/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/kql/references/operators.md
+/Users/danilonovais/MacOS-Use/.claude/skills/kql/references/patterns.md
+/Users/danilonovais/MacOS-Use/.claude/skills/kql/references/service-tables.md
+/Users/danilonovais/MacOS-Use/.claude/skills/kql/references/sql-to-kql.md
+/Users/danilonovais/MacOS-Use/.claude/skills/kql/workflows/DebugOptimize.md
+/Users/danilonovais/MacOS-Use/.claude/skills/kql/workflows/Tooling.md
+/Users/danilonovais/MacOS-Use/.claude/skills/kql/workflows/Translate.md
+/Users/danilonovais/MacOS-Use/.claude/skills/kql/workflows/WriteQuery.md
+/Users/danilonovais/MacOS-Use/.claude/skills/loki/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/loki/references/logql.md
+/Users/danilonovais/MacOS-Use/.claude/skills/loki/references/opentelemetry.md
+/Users/danilonovais/MacOS-Use/.claude/skills/loki/references/storage.md
+/Users/danilonovais/MacOS-Use/.claude/skills/looking-up-docs/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/macos-cleaner/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/macos-cleaner/references/cleanup_targets.md
+/Users/danilonovais/MacOS-Use/.claude/skills/macos-cleaner/references/mole_integration.md
+/Users/danilonovais/MacOS-Use/.claude/skills/macos-cleaner/references/safety_rules.md
+/Users/danilonovais/MacOS-Use/.claude/skills/macos-setup/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/macos-setup/packages.md
+/Users/danilonovais/MacOS-Use/.claude/skills/macos-setup/presets.md
+/Users/danilonovais/MacOS-Use/.claude/skills/managing-infra/DOCKERFILE.md
+/Users/danilonovais/MacOS-Use/.claude/skills/managing-infra/GITHUB-ACTIONS.md
+/Users/danilonovais/MacOS-Use/.claude/skills/managing-infra/KUBERNETES.md
+/Users/danilonovais/MacOS-Use/.claude/skills/managing-infra/MAKEFILE.md
+/Users/danilonovais/MacOS-Use/.claude/skills/managing-infra/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/managing-infra/TERRAFORM.md
+/Users/danilonovais/MacOS-Use/.claude/skills/managing-infra/templates/ci.yml
+/Users/danilonovais/MacOS-Use/.claude/skills/managing-infra/templates/deployment.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/managing-infra/templates/release.yml
+/Users/danilonovais/MacOS-Use/.claude/skills/markitdown/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/markitdown/references/advanced-features.md
+/Users/danilonovais/MacOS-Use/.claude/skills/markitdown/references/api-reference.md
+/Users/danilonovais/MacOS-Use/.claude/skills/markitdown/references/cli-reference.md
+/Users/danilonovais/MacOS-Use/.claude/skills/markitdown/references/examples.md
+/Users/danilonovais/MacOS-Use/.claude/skills/merge/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/mimir/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/mise/References/CliReference.md
+/Users/danilonovais/MacOS-Use/.claude/skills/mise/References/Configuration.md
+/Users/danilonovais/MacOS-Use/.claude/skills/mise/References/Environments.md
+/Users/danilonovais/MacOS-Use/.claude/skills/mise/References/Tasks.md
+/Users/danilonovais/MacOS-Use/.claude/skills/mise/References/Tools.md
+/Users/danilonovais/MacOS-Use/.claude/skills/mise/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/mise/Templates.md
+/Users/danilonovais/MacOS-Use/.claude/skills/mise/Workflows/AddTool.md
+/Users/danilonovais/MacOS-Use/.claude/skills/mise/Workflows/CreateTasks.md
+/Users/danilonovais/MacOS-Use/.claude/skills/mise/Workflows/MigrateToMise.md
+/Users/danilonovais/MacOS-Use/.claude/skills/mise/Workflows/SetupProject.md
+/Users/danilonovais/MacOS-Use/.claude/skills/mise/Workflows/Troubleshoot.md
+/Users/danilonovais/MacOS-Use/.claude/skills/mkdocs/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/mkdocs/references/api-docs.md
+/Users/danilonovais/MacOS-Use/.claude/skills/mkdocs/references/best-practices.md
+/Users/danilonovais/MacOS-Use/.claude/skills/mkdocs/references/configuration.md
+/Users/danilonovais/MacOS-Use/.claude/skills/mkdocs/references/deployment.md
+/Users/danilonovais/MacOS-Use/.claude/skills/mkdocs/references/diagrams.md
+/Users/danilonovais/MacOS-Use/.claude/skills/mkdocs/references/plugins.md
+/Users/danilonovais/MacOS-Use/.claude/skills/mkdocs/references/themes.md
+/Users/danilonovais/MacOS-Use/.claude/skills/mkdocs/references/versioning.md
+/Users/danilonovais/MacOS-Use/.claude/skills/neovim/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/neovim/references/configuration.md
+/Users/danilonovais/MacOS-Use/.claude/skills/neovim/references/debugging.md
+/Users/danilonovais/MacOS-Use/.claude/skills/neovim/references/keybindings.md
+/Users/danilonovais/MacOS-Use/.claude/skills/neovim/references/lsp.md
+/Users/danilonovais/MacOS-Use/.claude/skills/neovim/references/migration-0.11.md
+/Users/danilonovais/MacOS-Use/.claude/skills/neovim/references/performance.md
+/Users/danilonovais/MacOS-Use/.claude/skills/neovim/references/plugin-deepdives.md
+/Users/danilonovais/MacOS-Use/.claude/skills/neovim/references/plugins.md
+/Users/danilonovais/MacOS-Use/.claude/skills/neovim/references/tools.md
+/Users/danilonovais/MacOS-Use/.claude/skills/neovim/references/troubleshooting.md
+/Users/danilonovais/MacOS-Use/.claude/skills/notebooklm-create/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/notebooklm-create/assets/community_content_template.md
+/Users/danilonovais/MacOS-Use/.claude/skills/notebooklm-create/assets/research_synthesis_template.md
+/Users/danilonovais/MacOS-Use/.claude/skills/notebooklm-create/assets/workflow_checklist.md
+/Users/danilonovais/MacOS-Use/.claude/skills/notebooklm-create/references/mcp-tool-map.md
+/Users/danilonovais/MacOS-Use/.claude/skills/notebooklm-create/references/prompt-library.md
+/Users/danilonovais/MacOS-Use/.claude/skills/notebooklm-create/references/studio-quirks.md
+/Users/danilonovais/MacOS-Use/.claude/skills/notebooklm-create/references/url-gotchas.md
+/Users/danilonovais/MacOS-Use/.claude/skills/notebooklm-create/samples/cmux_docs_walkthrough.md
+/Users/danilonovais/MacOS-Use/.claude/skills/notebooklm/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/obsidian-bases/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/obsidian-claude-integration/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/obsidian-claude-integration/references/cog-pattern.md
+/Users/danilonovais/MacOS-Use/.claude/skills/obsidian-claude-integration/references/mcp-integration.md
+/Users/danilonovais/MacOS-Use/.claude/skills/obsidian-claude-integration/references/workflows.md
+/Users/danilonovais/MacOS-Use/.claude/skills/obsidian-claude-integration/templates/CLAUDE.md
+/Users/danilonovais/MacOS-Use/.claude/skills/obsidian-claude-integration/templates/daily-note.md
+/Users/danilonovais/MacOS-Use/.claude/skills/obsidian-claude-integration/templates/project-note.md
+/Users/danilonovais/MacOS-Use/.claude/skills/obsidian-markdown/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/obsidian-nvim/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/obsidian-nvim/references/commands.md
+/Users/danilonovais/MacOS-Use/.claude/skills/obsidian-nvim/references/configuration.md
+/Users/danilonovais/MacOS-Use/.claude/skills/obsidian-nvim/references/examples.md
+/Users/danilonovais/MacOS-Use/.claude/skills/obsidian-nvim/references/troubleshooting.md
+/Users/danilonovais/MacOS-Use/.claude/skills/obsidian-vault-management/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/obsidian-vault-management/references/canvas.md
+/Users/danilonovais/MacOS-Use/.claude/skills/obsidian-vault-management/references/dataview.md
+/Users/danilonovais/MacOS-Use/.claude/skills/obsidian-vault-management/references/plugins.md
+/Users/danilonovais/MacOS-Use/.claude/skills/obsidian-vault-management/references/templater.md
+/Users/danilonovais/MacOS-Use/.claude/skills/obsidian/References/api-reference.md
+/Users/danilonovais/MacOS-Use/.claude/skills/obsidian/References/markdown-extensions.md
+/Users/danilonovais/MacOS-Use/.claude/skills/obsidian/References/master-reference/bases.md
+/Users/danilonovais/MacOS-Use/.claude/skills/obsidian/References/master-reference/integration-patterns.md
+/Users/danilonovais/MacOS-Use/.claude/skills/obsidian/References/master-reference/knowledge-capture.md
+/Users/danilonovais/MacOS-Use/.claude/skills/obsidian/References/master-reference/markdown.md
+/Users/danilonovais/MacOS-Use/.claude/skills/obsidian/References/master-reference/rest-api.md
+/Users/danilonovais/MacOS-Use/.claude/skills/obsidian/References/master-reference/vault-organization.md
+/Users/danilonovais/MacOS-Use/.claude/skills/obsidian/References/master-workflows/CaptureKnowledge.md
+/Users/danilonovais/MacOS-Use/.claude/skills/obsidian/References/master-workflows/CreateBase.md
+/Users/danilonovais/MacOS-Use/.claude/skills/obsidian/References/master-workflows/CreateNote.md
+/Users/danilonovais/MacOS-Use/.claude/skills/obsidian/References/master-workflows/DailyNote.md
+/Users/danilonovais/MacOS-Use/.claude/skills/obsidian/References/master-workflows/ManageVault.md
+/Users/danilonovais/MacOS-Use/.claude/skills/obsidian/References/master-workflows/ProcessInbox.md
+/Users/danilonovais/MacOS-Use/.claude/skills/obsidian/References/master-workflows/SearchVault.md
+/Users/danilonovais/MacOS-Use/.claude/skills/obsidian/References/master-workflows/SyncDocs.md
+/Users/danilonovais/MacOS-Use/.claude/skills/obsidian/References/master.md
+/Users/danilonovais/MacOS-Use/.claude/skills/obsidian/References/plugin-development.md
+/Users/danilonovais/MacOS-Use/.claude/skills/obsidian/References/uri-scheme.md
+/Users/danilonovais/MacOS-Use/.claude/skills/obsidian/References/vault-structure.md
+/Users/danilonovais/MacOS-Use/.claude/skills/obsidian/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/opentelemetry/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/opentelemetry/examples/values-daemonset.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/opentelemetry/examples/values-deployment.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/opentelemetry/references/COLLECTOR.md
+/Users/danilonovais/MacOS-Use/.claude/skills/opentelemetry/references/INSTRUMENTATION.md
+/Users/danilonovais/MacOS-Use/.claude/skills/opentelemetry/references/KUBERNETES.md
+/Users/danilonovais/MacOS-Use/.claude/skills/opentelemetry/references/TROUBLESHOOTING.md
+/Users/danilonovais/MacOS-Use/.claude/skills/playwright/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/power-bi-dax/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/power-bi-deployment/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/power-bi-diagnostics/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/power-bi-docs/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/power-bi-filters/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/power-bi-modeling/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/power-bi-pages/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/power-bi-partitions/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/power-bi-report/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/power-bi-security/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/power-bi-themes/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/power-bi-visuals/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/power-bi/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/power-bi/powerbi-skill-workspace/iteration-1/eval-3-connector-auth/with_skill/outputs/troubleshooting-response.md
+/Users/danilonovais/MacOS-Use/.claude/skills/power-bi/powerbi-skill-workspace/iteration-1/eval-3-connector-auth/without_skill/outputs/troubleshooting-response.md
+/Users/danilonovais/MacOS-Use/.claude/skills/power-bi/references/dax-patterns.md
+/Users/danilonovais/MacOS-Use/.claude/skills/power-bi/references/pbi-service-gateway.md
+/Users/danilonovais/MacOS-Use/.claude/skills/power-bi/references/power-query-patterns.md
+/Users/danilonovais/MacOS-Use/.claude/skills/power-bi/references/star-schema-guide.md
+/Users/danilonovais/MacOS-Use/.claude/skills/power-bi/references/tmdl-syntax.md
+/Users/danilonovais/MacOS-Use/.claude/skills/power-bi/workflows/add-measure.md
+/Users/danilonovais/MacOS-Use/.claude/skills/power-bi/workflows/add-table.md
+/Users/danilonovais/MacOS-Use/.claude/skills/power-bi/workflows/connector-auth.md
+/Users/danilonovais/MacOS-Use/.claude/skills/power-bi/workflows/data-modeling.md
+/Users/danilonovais/MacOS-Use/.claude/skills/power-bi/workflows/new-project.md
+/Users/danilonovais/MacOS-Use/.claude/skills/power-bi/workflows/publish-refresh.md
+/Users/danilonovais/MacOS-Use/.claude/skills/power-bi/workflows/troubleshooting.md
+/Users/danilonovais/MacOS-Use/.claude/skills/pre-commit/ConfigurationGuide.md
+/Users/danilonovais/MacOS-Use/.claude/skills/pre-commit/HooksReference.md
+/Users/danilonovais/MacOS-Use/.claude/skills/pre-commit/QuickStartGuide.md
+/Users/danilonovais/MacOS-Use/.claude/skills/pre-commit/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/pre-commit/SecurityHooks.md
+/Users/danilonovais/MacOS-Use/.claude/skills/pre-commit/Workflows/AddHooks.md
+/Users/danilonovais/MacOS-Use/.claude/skills/pre-commit/Workflows/CIIntegration.md
+/Users/danilonovais/MacOS-Use/.claude/skills/pre-commit/Workflows/CustomHook.md
+/Users/danilonovais/MacOS-Use/.claude/skills/pre-commit/Workflows/Setup.md
+/Users/danilonovais/MacOS-Use/.claude/skills/pre-commit/Workflows/Troubleshoot.md
+/Users/danilonovais/MacOS-Use/.claude/skills/premortem/References/Templates.md
+/Users/danilonovais/MacOS-Use/.claude/skills/premortem/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/premortem/Tools/GenerateReport.help.md
+/Users/danilonovais/MacOS-Use/.claude/skills/premortem/Workflows/QuickPremortem.md
+/Users/danilonovais/MacOS-Use/.claude/skills/premortem/Workflows/RunPremortem.md
+/Users/danilonovais/MacOS-Use/.claude/skills/premortem/Workflows/Update.md
+/Users/danilonovais/MacOS-Use/.claude/skills/progressive-delivery/References/argo-rollouts.md
+/Users/danilonovais/MacOS-Use/.claude/skills/progressive-delivery/References/argo-rollouts/analysis-metrics.md
+/Users/danilonovais/MacOS-Use/.claude/skills/progressive-delivery/References/argo-rollouts/cli-commands.md
+/Users/danilonovais/MacOS-Use/.claude/skills/progressive-delivery/References/argo-rollouts/deployment-strategies.md
+/Users/danilonovais/MacOS-Use/.claude/skills/progressive-delivery/References/argo-rollouts/examples.md
+/Users/danilonovais/MacOS-Use/.claude/skills/progressive-delivery/References/argo-rollouts/summary.md
+/Users/danilonovais/MacOS-Use/.claude/skills/progressive-delivery/References/kargo.md
+/Users/danilonovais/MacOS-Use/.claude/skills/progressive-delivery/References/kargo/expressions.md
+/Users/danilonovais/MacOS-Use/.claude/skills/progressive-delivery/References/kargo/patterns.md
+/Users/danilonovais/MacOS-Use/.claude/skills/progressive-delivery/References/kargo/promotion-steps.md
+/Users/danilonovais/MacOS-Use/.claude/skills/progressive-delivery/References/kargo/security.md
+/Users/danilonovais/MacOS-Use/.claude/skills/progressive-delivery/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/prometheus/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/prometheus/references/api_reference.md
+/Users/danilonovais/MacOS-Use/.claude/skills/prometheus/references/promql_functions.md
+/Users/danilonovais/MacOS-Use/.claude/skills/pyroscope/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/pyroscope/references/architecture.md
+/Users/danilonovais/MacOS-Use/.claude/skills/pyroscope/references/helm-deployment.md
+/Users/danilonovais/MacOS-Use/.claude/skills/pyroscope/references/sdk-instrumentation.md
+/Users/danilonovais/MacOS-Use/.claude/skills/pyroscope/references/troubleshooting.md
+/Users/danilonovais/MacOS-Use/.claude/skills/python-anti-patterns/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/python-configuration/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/python-design-patterns/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/python-error-handling/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/python-infrastructure/References/background-jobs.md
+/Users/danilonovais/MacOS-Use/.claude/skills/python-infrastructure/References/observability.md
+/Users/danilonovais/MacOS-Use/.claude/skills/python-infrastructure/References/resilience.md
+/Users/danilonovais/MacOS-Use/.claude/skills/python-infrastructure/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/python-resource-management/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/repomix/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/research-add-fields/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/research-add-items/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/research-deep/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/research-outline/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/research-report/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/research-report/references/report-generation-spec.md
+/Users/danilonovais/MacOS-Use/.claude/skills/researching-web/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/reviewing-code/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/robusta-dev/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/robusta-dev/Workflows/ConfigurePlaybooks.md
+/Users/danilonovais/MacOS-Use/.claude/skills/robusta-dev/Workflows/ConfigureSinks.md
+/Users/danilonovais/MacOS-Use/.claude/skills/robusta-dev/Workflows/Install.md
+/Users/danilonovais/MacOS-Use/.claude/skills/robusta-dev/Workflows/Troubleshoot.md
+/Users/danilonovais/MacOS-Use/.claude/skills/robusta-dev/references/Actions.md
+/Users/danilonovais/MacOS-Use/.claude/skills/robusta-dev/references/Installation.md
+/Users/danilonovais/MacOS-Use/.claude/skills/robusta-dev/references/Playbooks.md
+/Users/danilonovais/MacOS-Use/.claude/skills/robusta-dev/references/Sinks.md
+/Users/danilonovais/MacOS-Use/.claude/skills/robusta-dev/references/Triggers.md
+/Users/danilonovais/MacOS-Use/.claude/skills/robusta-dev/references/Troubleshooting.md
+/Users/danilonovais/MacOS-Use/.claude/skills/runbook/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/senhasegura/Authentication.md
+/Users/danilonovais/MacOS-Use/.claude/skills/senhasegura/Dsm.md
+/Users/danilonovais/MacOS-Use/.claude/skills/senhasegura/Integrations.md
+/Users/danilonovais/MacOS-Use/.claude/skills/senhasegura/PamApi.md
+/Users/danilonovais/MacOS-Use/.claude/skills/senhasegura/References/AzurePipelinesExample.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/senhasegura/References/DsmConfigExample.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/senhasegura/References/ExternalSecretExample.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/senhasegura/References/GithubActionsExample.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/senhasegura/References/GitlabCiExample.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/senhasegura/References/McpIntegration.md
+/Users/danilonovais/MacOS-Use/.claude/skills/senhasegura/References/OAuth1Legacy.md
+/Users/danilonovais/MacOS-Use/.claude/skills/senhasegura/References/PythonSdk.md
+/Users/danilonovais/MacOS-Use/.claude/skills/senhasegura/References/SecretStoreExample.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/senhasegura/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/senhasegura/Troubleshooting.md
+/Users/danilonovais/MacOS-Use/.claude/skills/senhasegura/Workflows/InjectCiCdSecrets.md
+/Users/danilonovais/MacOS-Use/.claude/skills/senhasegura/Workflows/RegisterSshKey.md
+/Users/danilonovais/MacOS-Use/.claude/skills/senhasegura/Workflows/RotatePasswords.md
+/Users/danilonovais/MacOS-Use/.claude/skills/senhasegura/Workflows/SetupA2A.md
+/Users/danilonovais/MacOS-Use/.claude/skills/senhasegura/Workflows/SyncKubernetesSecrets.md
+/Users/danilonovais/MacOS-Use/.claude/skills/sentry/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/shell-prompt/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/shell-prompt/references/performance-tuning.md
+/Users/danilonovais/MacOS-Use/.claude/skills/shell-prompt/references/powerlevel10k-config.md
+/Users/danilonovais/MacOS-Use/.claude/skills/shell-prompt/references/starship-config.md
+/Users/danilonovais/MacOS-Use/.claude/skills/shell-prompt/references/troubleshooting.md
+/Users/danilonovais/MacOS-Use/.claude/skills/shell-prompt/references/zsh-vim-mode.md
+/Users/danilonovais/MacOS-Use/.claude/skills/shellcheck/BestPractices.md
+/Users/danilonovais/MacOS-Use/.claude/skills/shellcheck/Configuration.md
+/Users/danilonovais/MacOS-Use/.claude/skills/shellcheck/ErrorCodes.md
+/Users/danilonovais/MacOS-Use/.claude/skills/shellcheck/Integration.md
+/Users/danilonovais/MacOS-Use/.claude/skills/shellcheck/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/shellcheck/Workflows/Analyze.md
+/Users/danilonovais/MacOS-Use/.claude/skills/shellcheck/Workflows/Explain.md
+/Users/danilonovais/MacOS-Use/.claude/skills/shellcheck/Workflows/Fix.md
+/Users/danilonovais/MacOS-Use/.claude/skills/shellcheck/Workflows/Setup.md
+/Users/danilonovais/MacOS-Use/.claude/skills/ship/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/ship/assets/pr-template.md
+/Users/danilonovais/MacOS-Use/.claude/skills/ship/references/azure-devops.md
+/Users/danilonovais/MacOS-Use/.claude/skills/ship/references/github.md
+/Users/danilonovais/MacOS-Use/.claude/skills/systematic-debugging/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/teams-migration/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/teams-migration/Workflows/ExportChat.md
+/Users/danilonovais/MacOS-Use/.claude/skills/teams-migration/Workflows/MigrateChat.md
+/Users/danilonovais/MacOS-Use/.claude/skills/tempo/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/tempo/references/configuration.md
+/Users/danilonovais/MacOS-Use/.claude/skills/tempo/references/storage.md
+/Users/danilonovais/MacOS-Use/.claude/skills/tempo/references/traceql.md
+/Users/danilonovais/MacOS-Use/.claude/skills/tldr/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/tmux/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/tmux/references/BEST-PRACTICES.md
+/Users/danilonovais/MacOS-Use/.claude/skills/tmux/references/WORKFLOWS.md
+/Users/danilonovais/MacOS-Use/.claude/skills/tmux/templates/ai-dev-workspace.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/tmux/templates/dev-workspace.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/tmux/templates/infra-workspace.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/tmux/templates/monitoring-dashboard.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/using-cloud-cli/AWS.md
+/Users/danilonovais/MacOS-Use/.claude/skills/using-cloud-cli/GCP.md
+/Users/danilonovais/MacOS-Use/.claude/skills/using-cloud-cli/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/using-git-worktrees/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/using-git-worktrees/WORKFLOW.md
+/Users/danilonovais/MacOS-Use/.claude/skills/using-git-worktrees/references/bmad-orchestration.md
+/Users/danilonovais/MacOS-Use/.claude/skills/using-git-worktrees/references/tmux-integration.md
+/Users/danilonovais/MacOS-Use/.claude/skills/uv/References/cli-commands.md
+/Users/danilonovais/MacOS-Use/.claude/skills/uv/References/integrations.md
+/Users/danilonovais/MacOS-Use/.claude/skills/uv/References/project-management.md
+/Users/danilonovais/MacOS-Use/.claude/skills/uv/References/python-project-references/flask-patterns.md
+/Users/danilonovais/MacOS-Use/.claude/skills/uv/References/python-project-references/uv-commands.md
+/Users/danilonovais/MacOS-Use/.claude/skills/uv/References/python-project.md
+/Users/danilonovais/MacOS-Use/.claude/skills/uv/References/python-versions.md
+/Users/danilonovais/MacOS-Use/.claude/skills/uv/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/vault-setup/PluginRecommendations.md
+/Users/danilonovais/MacOS-Use/.claude/skills/vault-setup/RoleTemplates.md
+/Users/danilonovais/MacOS-Use/.claude/skills/vault-setup/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/vault-setup/Tools/VaultBuilder.help.md
+/Users/danilonovais/MacOS-Use/.claude/skills/vault-setup/Workflows/ImportFiles.md
+/Users/danilonovais/MacOS-Use/.claude/skills/vault-setup/Workflows/Setup.md
+/Users/danilonovais/MacOS-Use/.claude/skills/vault-setup/Workflows/Verify.md
+/Users/danilonovais/MacOS-Use/.claude/skills/verification-before-completion/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/verification-loop/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/verification-loop/agents/openai.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/wiki-brain/README.md
+/Users/danilonovais/MacOS-Use/.claude/skills/wiki-brain/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/wiki-brain/templates/claude-md-patch.md
+/Users/danilonovais/MacOS-Use/.claude/skills/wiki-brain/templates/index.md
+/Users/danilonovais/MacOS-Use/.claude/skills/wiki-brain/templates/log.md
+/Users/danilonovais/MacOS-Use/.claude/skills/writing-go/CLI.md
+/Users/danilonovais/MacOS-Use/.claude/skills/writing-go/PATTERNS.md
+/Users/danilonovais/MacOS-Use/.claude/skills/writing-go/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/writing-go/TESTING.md
+/Users/danilonovais/MacOS-Use/.claude/skills/writing-python/CLI.md
+/Users/danilonovais/MacOS-Use/.claude/skills/writing-python/PATTERNS.md
+/Users/danilonovais/MacOS-Use/.claude/skills/writing-python/References/code-style.md
+/Users/danilonovais/MacOS-Use/.claude/skills/writing-python/References/type-safety.md
+/Users/danilonovais/MacOS-Use/.claude/skills/writing-python/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/writing-python/TESTING.md
+/Users/danilonovais/MacOS-Use/.claude/skills/writing-typescript/PATTERNS.md
+/Users/danilonovais/MacOS-Use/.claude/skills/writing-typescript/REACT.md
+/Users/danilonovais/MacOS-Use/.claude/skills/writing-typescript/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/writing-typescript/TESTING.md
+/Users/danilonovais/MacOS-Use/.claude/skills/youtube-search/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/yt-music/README.md
+/Users/danilonovais/MacOS-Use/.claude/skills/yt-music/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/yt-music/Workflows/BuildPlaylist.md
+/Users/danilonovais/MacOS-Use/.claude/skills/yt-music/Workflows/DiagnoseAuth.md
+/Users/danilonovais/MacOS-Use/.claude/skills/yt-music/Workflows/PlayDiscover.md
+/Users/danilonovais/MacOS-Use/.claude/skills/yt-music/Workflows/RunTests.md
+/Users/danilonovais/MacOS-Use/.claude/skills/yt-music/Workflows/Setup.md
+/Users/danilonovais/MacOS-Use/.claude/skills/yt-music/references/commands.md
+/Users/danilonovais/MacOS-Use/.claude/skills/zabbix-api/LICENSE.txt
+/Users/danilonovais/MacOS-Use/.claude/skills/zabbix-api/SKILL.md
+/Users/danilonovais/MacOS-Use/.claude/skills/zabbix-api/references/api-reference.md
+/Users/danilonovais/MacOS-Use/.claude/skills/zabbix-api/references/trigger-expressions.md
+/Users/danilonovais/MacOS-Use/.claude/skills/zsh-path/SKILL.md
+/Users/danilonovais/MacOS-Use/.codex/Skills/agent-skills-spec.md
+/Users/danilonovais/MacOS-Use/.codex/Skills/deep-research/SKILL.md
+/Users/danilonovais/MacOS-Use/.codex/Skills/deep-research/agents/openai.yaml
+/Users/danilonovais/MacOS-Use/.codex/Skills/graphify/SKILL.md
+/Users/danilonovais/MacOS-Use/.codex/Skills/graphify/references/add-watch.md
+/Users/danilonovais/MacOS-Use/.codex/Skills/graphify/references/exports.md
+/Users/danilonovais/MacOS-Use/.codex/Skills/graphify/references/extraction-spec.md
+/Users/danilonovais/MacOS-Use/.codex/Skills/graphify/references/github-and-merge.md
+/Users/danilonovais/MacOS-Use/.codex/Skills/graphify/references/hooks.md
+/Users/danilonovais/MacOS-Use/.codex/Skills/graphify/references/query.md
+/Users/danilonovais/MacOS-Use/.codex/Skills/graphify/references/transcribe.md
+/Users/danilonovais/MacOS-Use/.codex/Skills/graphify/references/update.md
+/Users/danilonovais/MacOS-Use/.codex/Skills/systematic-debugging/SKILL.md
+/Users/danilonovais/MacOS-Use/.codex/Skills/verification-before-completion/SKILL.md
+/Users/danilonovais/MacOS-Use/.codex/Skills/verification-loop/SKILL.md
+/Users/danilonovais/MacOS-Use/.codex/Skills/verification-loop/agents/openai.yaml
+/Users/danilonovais/MacOS-Use/.codex/Skills/wiki-brain/README.md
+/Users/danilonovais/MacOS-Use/.codex/Skills/wiki-brain/SKILL.md
+/Users/danilonovais/MacOS-Use/.codex/Skills/wiki-brain/templates/claude-md-patch.md
+/Users/danilonovais/MacOS-Use/.codex/Skills/wiki-brain/templates/index.md
+/Users/danilonovais/MacOS-Use/.codex/Skills/wiki-brain/templates/log.md
+/Users/danilonovais/MacOS-Use/.context/architecture.md
+/Users/danilonovais/MacOS-Use/.github/workflows/ci.yml
+/Users/danilonovais/MacOS-Use/.github/workflows/pypi.yml
+/Users/danilonovais/MacOS-Use/.github/workflows/release.yml
+/Users/danilonovais/MacOS-Use/AGENTS.md
+/Users/danilonovais/MacOS-Use/CLAUDE.md
+/Users/danilonovais/MacOS-Use/MACBOOK_SPECIALIST_AGENT_PLAN.md
+/Users/danilonovais/MacOS-Use/Plans/memoized-snuggling-lark.md
+/Users/danilonovais/MacOS-Use/Plans/skills-context7-we-need-your-compiled-blum.md
+/Users/danilonovais/MacOS-Use/Plans/we-need-your-assistance-eager-catmull.md
+/Users/danilonovais/MacOS-Use/README.md
+/Users/danilonovais/MacOS-Use/docs/Guia Completo para Organização e Automação de E-mails no Mail do MacBook/Guia Completo para Organização e Automação de E-mails no Mail do MacBook.md
+/Users/danilonovais/MacOS-Use/docs/Guia Completo para Organização e Automação de E-mails no Mail do MacBook/execucao-mail/findings.md
+/Users/danilonovais/MacOS-Use/docs/Guia Completo para Organização e Automação de E-mails no Mail do MacBook/execucao-mail/progress.md
+/Users/danilonovais/MacOS-Use/docs/Guia Completo para Organização e Automação de E-mails no Mail do MacBook/execucao-mail/reports/metadata-summary-2026-08-07.md
+/Users/danilonovais/MacOS-Use/docs/Guia Completo para Organização e Automação de E-mails no Mail do MacBook/execucao-mail/reports/pilot-execution-2026-08-07.md
+/Users/danilonovais/MacOS-Use/docs/Guia Completo para Organização e Automação de E-mails no Mail do MacBook/execucao-mail/reports/unsubscribe-candidates-2026-08-07.md
+/Users/danilonovais/MacOS-Use/docs/Guia Completo para Organização e Automação de E-mails no Mail do MacBook/execucao-mail/reports/vip-review-2026-08-07.md
+/Users/danilonovais/MacOS-Use/docs/Guia Completo para Organização e Automação de E-mails no Mail do MacBook/execucao-mail/task_plan.md
+/Users/danilonovais/MacOS-Use/docs/OBSIDIAN TRANSCRIPTS.md
+/Users/danilonovais/MacOS-Use/docs/references.md
+/Users/danilonovais/MacOS-Use/macos_use/agent/prompt/human.md
+/Users/danilonovais/MacOS-Use/macos_use/agent/prompt/system.md
+/Users/danilonovais/MacOS-Use/macos_use/agent/prompt/system_flash.md
+/Users/danilonovais/MacOS-Use/mail-automation-staging/DEPLOYMENT_GUIDE.md
+/Users/danilonovais/MacOS-Use/mail_automation/GUA-AVANÇÃO-MAIL.md
+/Users/danilonovais/MacOS-Use/mail_automation/GUIA-INSTALACAO.md
+/Users/danilonovais/MacOS-Use/mail_automation/findings.md
+/Users/danilonovais/MacOS-Use/mail_automation/progress.md
+/Users/danilonovais/MacOS-Use/mail_automation/task_plan.md
+/Users/danilonovais/MacOS-Use/reports/wifi_pos_correcao_20260810_181117.txt
+/Users/danilonovais/MacOS-Use/reports/wifi_pos_correcao_20260810_182429.txt
+/Users/danilonovais/MacOS-Use/reports/wifi_pos_correcao_20260810_183407.txt
+/Users/danilonovais/MacOS-Use/templates/skill-template/SKILL.md
+/Users/danilonovais/MacOS-Use/tools/azure-pim/README.md
+/Users/danilonovais/MacOS-Use/tools/azure-pim/examples/workflow_automation.yaml
+/Users/danilonovais/MacOS-Use/.claude/skills/premortem/References/Methodology.md
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/128.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/192.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/256.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/32.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/48.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/64.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/96.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Trusted Icons/Icons/128.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Trusted Icons/Icons/192.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Trusted Icons/Icons/256.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Trusted Icons/Icons/32.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Trusted Icons/Icons/48.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Trusted Icons/Icons/64.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Trusted Icons/Icons/96.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/128.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/192.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/256.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/32.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/48.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/64.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/96.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Trusted Icons/Icons/128.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Trusted Icons/Icons/192.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Trusted Icons/Icons/256.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Trusted Icons/Icons/32.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Trusted Icons/Icons/48.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Trusted Icons/Icons/64.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Trusted Icons/Icons/96.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/128.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/192.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/256.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/32.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/48.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/64.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/96.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Trusted Icons/Icons/128.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Trusted Icons/Icons/192.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Trusted Icons/Icons/256.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Trusted Icons/Icons/32.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Trusted Icons/Icons/48.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Trusted Icons/Icons/64.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Trusted Icons/Icons/96.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/128.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/192.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/256.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/32.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/48.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/64.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/96.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Trusted Icons/Icons/128.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Trusted Icons/Icons/192.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Trusted Icons/Icons/256.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Trusted Icons/Icons/32.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Trusted Icons/Icons/48.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Trusted Icons/Icons/64.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Trusted Icons/Icons/96.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/128.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/192.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/256.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/32.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/48.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/64.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/96.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Trusted Icons/Icons/128.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Trusted Icons/Icons/192.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Trusted Icons/Icons/256.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Trusted Icons/Icons/32.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Trusted Icons/Icons/48.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Trusted Icons/Icons/64.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Trusted Icons/Icons/96.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/128.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/192.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/256.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/32.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/48.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/64.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/96.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Trusted Icons/Icons/128.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Trusted Icons/Icons/192.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Trusted Icons/Icons/256.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Trusted Icons/Icons/32.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Trusted Icons/Icons/48.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Trusted Icons/Icons/64.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Trusted Icons/Icons/96.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/128.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/192.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/256.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/32.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/48.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/64.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/96.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Trusted Icons/Icons/128.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Trusted Icons/Icons/192.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Trusted Icons/Icons/256.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Trusted Icons/Icons/32.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Trusted Icons/Icons/48.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Trusted Icons/Icons/64.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Trusted Icons/Icons/96.png
+/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/images/example_notebookchat.png
+/Users/danilonovais/MacOS-Use/docs/Guia Completo para Organização e Automação de E-mails no Mail do MacBook/execucao-mail/backups/2026-08-07-pre-pilot/rule-all-set-importante-before.png
+/Users/danilonovais/MacOS-Use/docs/Guia Completo para Organização e Automação de E-mails no Mail do MacBook/execucao-mail/backups/2026-08-07-pre-pilot/rule-archive-br-nestle-com-before.png
+/Users/danilonovais/MacOS-Use/docs/Guia Completo para Organização e Automação de E-mails no Mail do MacBook/execucao-mail/backups/2026-08-07-pre-pilot/rule-auto-spam-cleanup-before.png
+/Users/danilonovais/MacOS-Use/docs/Guia Completo para Organização e Automação de E-mails no Mail do MacBook/execucao-mail/backups/2026-08-07-pre-pilot/rule-claro-before.png
+/Users/danilonovais/MacOS-Use/docs/Guia Completo para Organização e Automação de E-mails no Mail do MacBook/execucao-mail/backups/2026-08-07-pre-pilot/rule-cobranca-google-before.png
+/Users/danilonovais/MacOS-Use/docs/Guia Completo para Organização e Automação de E-mails no Mail do MacBook/execucao-mail/backups/2026-08-07-pre-pilot/rule-contas-incloud-before.png
+/Users/danilonovais/MacOS-Use/docs/Guia Completo para Organização e Automação de E-mails no Mail do MacBook/execucao-mail/backups/2026-08-07-pre-pilot/rule-linkedin-job-alerts-before.png
+/Users/danilonovais/MacOS-Use/docs/Guia Completo para Organização e Automação de E-mails no Mail do MacBook/execucao-mail/backups/2026-08-07-pre-pilot/rule-noticias-da-apple-before.png
+/Users/danilonovais/MacOS-Use/docs/Guia Completo para Organização e Automação de E-mails no Mail do MacBook/execucao-mail/backups/2026-08-07-pre-pilot/rule-portfolio-danilo-before.png
+/Users/danilonovais/MacOS-Use/docs/Guia Completo para Organização e Automação de E-mails no Mail do MacBook/execucao-mail/backups/2026-08-07-pre-pilot/rule-quinto-andar-before.png
+/Users/danilonovais/MacOS-Use/docs/Guia Completo para Organização e Automação de E-mails no Mail do MacBook/execucao-mail/backups/2026-08-07-pre-pilot/rule-teste-spam-before.png
+/Users/danilonovais/MacOS-Use/docs/Guia Completo para Organização e Automação de E-mails no Mail do MacBook/execucao-mail/backups/2026-08-07-pre-pilot/rule-vip-senders-before.png
+/Users/danilonovais/MacOS-Use/docs/Guia Completo para Organização e Automação de E-mails no Mail do MacBook/execucao-mail/backups/2026-08-07-pre-pilot/rules-order-before.png

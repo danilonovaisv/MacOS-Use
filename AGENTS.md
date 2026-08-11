@@ -20,3 +20,74 @@ Este repositório gerencia o estado e a governança de um ambiente macOS (Apple 
 | `/agents-orquestrator` | `.agents/workflows/agents-orquestrator.md` | Alinha e coordena o Swarm de Agentes no ecossistema NANO-VEO3-API. |
 | `/workflow-orchestrator` | `.agents/workflows/workflow-orchestrator.md` | Orquestração avançada de workflows complexos, agendamentos e dependências de tarefas. |
 | `/workflows-refresh` | `.agents/workflows/workflows-refresh.md` | Auditoria, sincronização e alinhamento de todos os workflows do diretório `.agents/workflows/`. |
+
+## graphify
+
+This project has a knowledge graph at graphify-out/ with god nodes, community structure, and cross-file relationships.
+
+When the user types `/graphify`, invoke the `skill` tool with `skill: "graphify"` before doing anything else.
+
+Rules:
+- For codebase questions, first run `graphify query "<question>"` when graphify-out/graph.json exists. Use `graphify path "<A>" "<B>"` for relationships and `graphify explain "<concept>"` for focused concepts. These return a scoped subgraph, usually much smaller than GRAPH_REPORT.md or raw grep output.
+- Dirty graphify-out/ files are expected after hooks or incremental updates; dirty graph files are not a reason to skip graphify. Only skip graphify if the task is about stale or incorrect graph output, or the user explicitly says not to use it.
+- If graphify-out/wiki/index.md exists, use it for broad navigation instead of raw source browsing.
+- Read graphify-out/GRAPH_REPORT.md only for broad architecture review or when query/path/explain do not surface enough context.
+- After modifying code, run `graphify update .` to keep the graph current (AST-only, no API cost).
+
+
+## Context Navigation (Wiki-Brain)
+
+You have access to a personal wiki at `/Users/danilonovais/Obsidian/Wiki`. This is the user's
+compounding knowledge base. Use it as your primary context source.
+
+When you need to understand the codebase, docs, past work, or any stored
+knowledge:
+
+1. **ALWAYS query the knowledge graph first:** `graphify query "your question"`
+   (run from `/Users/danilonovais/Obsidian/Wiki`).
+2. **Use `/Users/danilonovais/Obsidian/Wiki/wiki/index.md`** as your navigation entrypoint for
+   browsing the wiki structure.
+3. **Use `/Users/danilonovais/Obsidian/Wiki/graphify-out/wiki/index.md`** if it exists — it's
+   the auto-generated Graphify wiki index.
+4. **Only read raw files in `/Users/danilonovais/Obsidian/Wiki/raw/`** if the user explicitly
+   says "read the raw file" or the graph query doesn't have the answer.
+
+## Wiki-Brain Session Rules
+
+**Ingesting sources.** When the user drops a file into `/Users/danilonovais/Obsidian/Wiki/raw/`
+and asks you to ingest it, follow `/wiki-brain ingest` — read the source,
+summarize, create/update wiki pages, cross-link aggressively, update
+`wiki/index.md`, append to `log.md`.
+
+**Every session must end with a log entry.** Before ending a session, append
+one line to `/Users/danilonovais/Obsidian/Wiki/log.md` in this exact format:
+
+```
+## [YYYY-MM-DD HH:MM] session | <3-8 word session title>
+Touched: <comma-separated wiki pages, or "none">
+```
+
+**If the session produced durable knowledge** (decisions made, things learned,
+project state changed, problems solved) — update or create relevant wiki
+pages with that knowledge before ending. Cross-link with `[[Page Name]]`.
+Update `wiki/index.md`.
+
+**If the session was trivial** (one-off fix, routine task, exploratory
+chatter) — skip the wiki update. Just append the log line.
+
+**Never modify files in `raw/`.** Sources are immutable.
+**Claude owns `wiki/` entirely.** Update it, don't ask permission for each
+page — just report what changed.
+**Always update `wiki/index.md`** when you create or rename a wiki page.
+**Cross-link aggressively.** `[[Page Name]]` Obsidian syntax. A page with
+no inbound links is a dead-end.
+
+## Wiki-Brain Commands Available
+
+- `/wiki-brain` — status menu
+- `/wiki-brain ingest <file>` — ingest a source
+- `/wiki-brain query "<q>"` — query the graph + wiki
+- `/wiki-brain lint` — health-check the wiki
+- `/wiki-brain rebuild` — force a Graphify rebuild
+- `/wiki-brain doctor` — verify install
+- `/recall` — show last 5 activities + read linked pages

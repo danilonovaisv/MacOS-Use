@@ -11,30 +11,30 @@ Rules:
 
 ## Context Navigation (Wiki-Brain)
 
-You have access to a personal wiki at `/Users/danilonovais/Obsidian/Wiki`. This is the user's
+You have access to a personal wiki at `/Users/danilonovais/OBSIDIAN/DevMemory`. This is the user's
 compounding knowledge base. Use it as your primary context source.
 
 When you need to understand the codebase, docs, past work, or any stored
 knowledge:
 
 1. **ALWAYS query the knowledge graph first:** `graphify query "your question"`
-   (run from `/Users/danilonovais/Obsidian/Wiki`).
-2. **Use `/Users/danilonovais/Obsidian/Wiki/wiki/index.md`** as your navigation entrypoint for
+   (run from `/Users/danilonovais/OBSIDIAN/DevMemory`).
+2. **Use `/Users/danilonovais/OBSIDIAN/DevMemory/wiki/index.md`** as your navigation entrypoint for
    browsing the wiki structure.
-3. **Use `/Users/danilonovais/Obsidian/Wiki/graphify-out/wiki/index.md`** if it exists — it's
+3. **Use `/Users/danilonovais/OBSIDIAN/DevMemory/graphify-out/wiki/index.md`** if it exists — it's
    the auto-generated Graphify wiki index.
-4. **Only read raw files in `/Users/danilonovais/Obsidian/Wiki/raw/`** if the user explicitly
+4. **Only read raw files in `/Users/danilonovais/OBSIDIAN/DevMemory/raw/`** if the user explicitly
    says "read the raw file" or the graph query doesn't have the answer.
 
 ## Wiki-Brain Session Rules
 
-**Ingesting sources.** When the user drops a file into `/Users/danilonovais/Obsidian/Wiki/raw/`
+**Ingesting sources.** When the user drops a file into `/Users/danilonovais/OBSIDIAN/DevMemory/raw/`
 and asks you to ingest it, follow `/wiki-brain ingest` — read the source,
 summarize, create/update wiki pages, cross-link aggressively, update
 `wiki/index.md`, append to `log.md`.
 
 **Every session must end with a log entry.** Before ending a session, append
-one line to `/Users/danilonovais/Obsidian/Wiki/log.md` in this exact format:
+one line to `/Users/danilonovais/OBSIDIAN/DevMemory/log.md` in this exact format:
 
 ```
 ## [YYYY-MM-DD HH:MM] session | <3-8 word session title>

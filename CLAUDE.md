@@ -1,3 +1,31 @@
+# Mail Automation Agent Contract
+
+## Goal
+Evolve the existing macOS Apple Mail automation safely.
+
+## Sources of truth
+1. Existing repository code
+2. docs/TECHNICAL-SPEC.md
+3. context/REPOSITORY_CONTEXT.md
+4. context/VIDEO_CONTEXT.md
+
+## Safety
+Default to read-only behavior.
+
+Never send email, delete email, move messages, unsubscribe,
+modify flags, install LaunchAgents or change TCC permissions
+without explicit human approval.
+
+Work in mail-automation-staging before production promotion.
+
+## Required workflow
+Inspect -> plan -> implement -> test -> security review -> human approval.
+
+Never infer a Mail API capability without validating it against
+the existing code or platform documentation.
+
+---
+
 ## graphify
 
 This project has a knowledge graph at graphify-out/ with god nodes, community structure, and cross-file relationships.

@@ -885,8 +885,8 @@
     "semantic_hash": ""
   },
   "/Users/danilonovais/MacOS-Use/macos_use/agent/service.py": {
-    "mtime": 1786450817.9211135,
-    "ast_hash": "e1f8dfbdf04744299d297758e6b4e5a6",
+    "mtime": 1786451083.5294805,
+    "ast_hash": "30eacc25c10b5b5805c7fb1b35cfb429",
     "semantic_hash": ""
   },
   "/Users/danilonovais/MacOS-Use/macos_use/agent/tools/__init__.py": {
@@ -905,8 +905,8 @@
     "semantic_hash": ""
   },
   "/Users/danilonovais/MacOS-Use/macos_use/agent/tree/__init__.py": {
-    "mtime": 1786450817.921381,
-    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "mtime": 1786451083.5296333,
+    "ast_hash": "73ffc76022684dd185834ed28898c12c",
     "semantic_hash": ""
   },
   "/Users/danilonovais/MacOS-Use/macos_use/agent/tree/config.py": {
@@ -4830,8 +4830,8 @@
     "semantic_hash": ""
   },
   "/Users/danilonovais/MacOS-Use/AGENTS.md": {
-    "mtime": 1786450581.1067708,
-    "ast_hash": "a851d9371b1f414f2e698803a624dc11",
+    "mtime": 1786451087.7116287,
+    "ast_hash": "af41350fbd122f0351a3be810e1ab51f",
     "semantic_hash": ""
   },
   "/Users/danilonovais/MacOS-Use/CLAUDE.md": {
@@ -4840,8 +4840,8 @@
     "semantic_hash": ""
   },
   "/Users/danilonovais/MacOS-Use/GEMINI.md": {
-    "mtime": 1786450070.3665538,
-    "ast_hash": "289b1bf36aa162505f24a1349e14cf07",
+    "mtime": 1786451087.7118506,
+    "ast_hash": "eb67d9a8a08bd5bcabaf84ca17a03d39",
     "semantic_hash": ""
   },
   "/Users/danilonovais/MacOS-Use/MACBOOK_SPECIALIST_AGENT_PLAN.md": {
@@ -5067,6 +5067,551 @@
   "/Users/danilonovais/MacOS-Use/docs/Guia Completo para Organiza\u00e7\u00e3o e Automa\u00e7\u00e3o de E-mails no Mail do MacBook/execucao-mail/backups/2026-08-07-pre-pilot/rules-order-before.png": {
     "mtime": 1786450070.3738797,
     "ast_hash": "4e400b5148663595eb282ecdfe278ec6",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/auth_info.json": {
+    "mtime": 1786451083.0824091,
+    "ast_hash": "5bb1609d8372e0d15cc93796f6ab1cfc",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/component_crx_cache/metadata.json": {
+    "mtime": 1786451083.2683613,
+    "ast_hash": "2aa9e263ee3796d9ce358460a2451b4c",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/extensions_crx_cache/metadata.json": {
+    "mtime": 1786451083.2685719,
+    "ast_hash": "2aa9e263ee3796d9ce358460a2451b4c",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/state.json": {
+    "mtime": 1786451083.5151205,
+    "ast_hash": "56ea407b99ab7ec2258aee477b662347",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/library.json": {
+    "mtime": 1786451083.5152435,
+    "ast_hash": "93a961957d8d73b9f8470936b309b1c3",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/optimization_guide_model_store/15/E6DC4029A1E4B4C1/0F528B994BEC0E72/VERSION.txt": {
+    "mtime": 1786451083.2736459,
+    "ast_hash": "3c82ee24c0889b89a04545abf2c38978",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/optimization_guide_model_store/24/E6DC4029A1E4B4C1/97765B8CDF9213E6/enus_denylist_encoded_241007.txt": {
+    "mtime": 1786451083.2899647,
+    "ast_hash": "63824569761add10947939fea850309b",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/optimization_guide_model_store/24/E6DC4029A1E4B4C1/97765B8CDF9213E6/vocab_en-us.txt": {
+    "mtime": 1786451083.3157823,
+    "ast_hash": "a5f6db880e69c38f63a0f96b74ed1aa1",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/CHANGELOG.md": {
+    "mtime": 1786451083.52848,
+    "ast_hash": "39009eb9d6d3d9d3c119bad9a6522a97",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/CONTRIBUTING.md": {
+    "mtime": 1786451083.5289783,
+    "ast_hash": "64c75163045a1073f43f0c8f9189f4c3",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/SECURITY.md": {
+    "mtime": 1786451083.5291967,
+    "ast_hash": "bef1182cf4eec9e31364c0dacba85b43",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/128.png": {
+    "mtime": 1786451083.2338963,
+    "ast_hash": "4d6718d1d2454b28eb57e77a0b453f03",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/192.png": {
+    "mtime": 1786451083.2344375,
+    "ast_hash": "b9a97c31f96686dadf876b063fcb9371",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/256.png": {
+    "mtime": 1786451083.2346401,
+    "ast_hash": "d2695f49e72d99213761bf869e97e895",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/32.png": {
+    "mtime": 1786451083.2347374,
+    "ast_hash": "c50a16207e11eac0a53a115fcf3b051f",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/48.png": {
+    "mtime": 1786451083.2348292,
+    "ast_hash": "db7d1fef456b4f5602fd843e804ea04a",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/64.png": {
+    "mtime": 1786451083.2349198,
+    "ast_hash": "2d4e8b7ba69ba8a6801b7139cb7facd3",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/96.png": {
+    "mtime": 1786451083.2350078,
+    "ast_hash": "c7a07ac785598ddf0873b82f02fa0391",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Trusted Icons/Icons/128.png": {
+    "mtime": 1786451083.235268,
+    "ast_hash": "4d6718d1d2454b28eb57e77a0b453f03",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Trusted Icons/Icons/192.png": {
+    "mtime": 1786451083.235505,
+    "ast_hash": "b9a97c31f96686dadf876b063fcb9371",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Trusted Icons/Icons/256.png": {
+    "mtime": 1786451083.2357652,
+    "ast_hash": "d2695f49e72d99213761bf869e97e895",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Trusted Icons/Icons/32.png": {
+    "mtime": 1786451083.2358758,
+    "ast_hash": "c50a16207e11eac0a53a115fcf3b051f",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Trusted Icons/Icons/48.png": {
+    "mtime": 1786451083.2359633,
+    "ast_hash": "db7d1fef456b4f5602fd843e804ea04a",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Trusted Icons/Icons/64.png": {
+    "mtime": 1786451083.2360516,
+    "ast_hash": "2d4e8b7ba69ba8a6801b7139cb7facd3",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Trusted Icons/Icons/96.png": {
+    "mtime": 1786451083.2361367,
+    "ast_hash": "c7a07ac785598ddf0873b82f02fa0391",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/128.png": {
+    "mtime": 1786451083.2364082,
+    "ast_hash": "8a5c8fbf7b03f3247dde95c8834abe99",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/192.png": {
+    "mtime": 1786451083.236536,
+    "ast_hash": "48db912e1656fdbc289c704fbdf1f37a",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/256.png": {
+    "mtime": 1786451083.23677,
+    "ast_hash": "42e1c8f772479e7e6d46a8420a0b5476",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/32.png": {
+    "mtime": 1786451083.236911,
+    "ast_hash": "e4847d3a4975d5ebf607098e345de0b6",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/48.png": {
+    "mtime": 1786451083.2369885,
+    "ast_hash": "f43720c23db7a78076bd96cbd8695fb5",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/64.png": {
+    "mtime": 1786451083.2371376,
+    "ast_hash": "11bd4fb05e4d3ac9d62a62e9482d3208",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/96.png": {
+    "mtime": 1786451083.2372427,
+    "ast_hash": "a582e127fc4ec2578f4b3720aa7ee6f0",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Trusted Icons/Icons/128.png": {
+    "mtime": 1786451083.2374897,
+    "ast_hash": "8a5c8fbf7b03f3247dde95c8834abe99",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Trusted Icons/Icons/192.png": {
+    "mtime": 1786451083.2376122,
+    "ast_hash": "48db912e1656fdbc289c704fbdf1f37a",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Trusted Icons/Icons/256.png": {
+    "mtime": 1786451083.2378213,
+    "ast_hash": "42e1c8f772479e7e6d46a8420a0b5476",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Trusted Icons/Icons/32.png": {
+    "mtime": 1786451083.2379541,
+    "ast_hash": "e4847d3a4975d5ebf607098e345de0b6",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Trusted Icons/Icons/48.png": {
+    "mtime": 1786451083.238173,
+    "ast_hash": "f43720c23db7a78076bd96cbd8695fb5",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Trusted Icons/Icons/64.png": {
+    "mtime": 1786451083.238265,
+    "ast_hash": "11bd4fb05e4d3ac9d62a62e9482d3208",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Trusted Icons/Icons/96.png": {
+    "mtime": 1786451083.2383676,
+    "ast_hash": "a582e127fc4ec2578f4b3720aa7ee6f0",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/128.png": {
+    "mtime": 1786451083.238589,
+    "ast_hash": "b4d3e1915751a4baace955649591e9e9",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/192.png": {
+    "mtime": 1786451083.238874,
+    "ast_hash": "c020e6448fb4e4a5fb27cf1b6253ef82",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/256.png": {
+    "mtime": 1786451083.2393758,
+    "ast_hash": "4bb4e1440bd21c3fb2b524e24cfa91d5",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/32.png": {
+    "mtime": 1786451083.2395704,
+    "ast_hash": "14e11a6083d7dc28e62941e4d357296a",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/48.png": {
+    "mtime": 1786451083.2397308,
+    "ast_hash": "0b08a30e8d8177c9eb4d29e0a7b8b2c5",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/64.png": {
+    "mtime": 1786451083.2399738,
+    "ast_hash": "eec53528b1feede3c1c5fdd61576bb71",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/96.png": {
+    "mtime": 1786451083.2401767,
+    "ast_hash": "55ff94ecef85bcda19d583cbee44e063",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Trusted Icons/Icons/128.png": {
+    "mtime": 1786451083.2404451,
+    "ast_hash": "b4d3e1915751a4baace955649591e9e9",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Trusted Icons/Icons/192.png": {
+    "mtime": 1786451083.2406476,
+    "ast_hash": "c020e6448fb4e4a5fb27cf1b6253ef82",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Trusted Icons/Icons/256.png": {
+    "mtime": 1786451083.2408562,
+    "ast_hash": "4bb4e1440bd21c3fb2b524e24cfa91d5",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Trusted Icons/Icons/32.png": {
+    "mtime": 1786451083.2411609,
+    "ast_hash": "14e11a6083d7dc28e62941e4d357296a",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Trusted Icons/Icons/48.png": {
+    "mtime": 1786451083.241248,
+    "ast_hash": "0b08a30e8d8177c9eb4d29e0a7b8b2c5",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Trusted Icons/Icons/64.png": {
+    "mtime": 1786451083.2413847,
+    "ast_hash": "eec53528b1feede3c1c5fdd61576bb71",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Trusted Icons/Icons/96.png": {
+    "mtime": 1786451083.2414923,
+    "ast_hash": "55ff94ecef85bcda19d583cbee44e063",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/128.png": {
+    "mtime": 1786451083.2417524,
+    "ast_hash": "0b21559ca3747caea5341359e605fbfa",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/192.png": {
+    "mtime": 1786451083.2421298,
+    "ast_hash": "9daabb9829c620d1ced3823c9b07eefd",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/256.png": {
+    "mtime": 1786451083.2423177,
+    "ast_hash": "10c383e1344517c2894e2510e579f588",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/32.png": {
+    "mtime": 1786451083.242427,
+    "ast_hash": "5b31d7ccd2804182dc992921f773b426",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/48.png": {
+    "mtime": 1786451083.2425103,
+    "ast_hash": "e76bdb13919d0feb56b3d39175123285",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/64.png": {
+    "mtime": 1786451083.2425966,
+    "ast_hash": "fbefdebb9ca26f364f6e6ddf21ab5ff8",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/96.png": {
+    "mtime": 1786451083.2426755,
+    "ast_hash": "2f03f586a232e6b7be57f550da5a9ee7",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Trusted Icons/Icons/128.png": {
+    "mtime": 1786451083.243042,
+    "ast_hash": "0b21559ca3747caea5341359e605fbfa",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Trusted Icons/Icons/192.png": {
+    "mtime": 1786451083.2432528,
+    "ast_hash": "9daabb9829c620d1ced3823c9b07eefd",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Trusted Icons/Icons/256.png": {
+    "mtime": 1786451083.2434807,
+    "ast_hash": "10c383e1344517c2894e2510e579f588",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Trusted Icons/Icons/32.png": {
+    "mtime": 1786451083.2437005,
+    "ast_hash": "5b31d7ccd2804182dc992921f773b426",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Trusted Icons/Icons/48.png": {
+    "mtime": 1786451083.2439413,
+    "ast_hash": "e76bdb13919d0feb56b3d39175123285",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Trusted Icons/Icons/64.png": {
+    "mtime": 1786451083.2440488,
+    "ast_hash": "fbefdebb9ca26f364f6e6ddf21ab5ff8",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Trusted Icons/Icons/96.png": {
+    "mtime": 1786451083.2441545,
+    "ast_hash": "2f03f586a232e6b7be57f550da5a9ee7",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/128.png": {
+    "mtime": 1786451083.2444074,
+    "ast_hash": "f2c27ef66940b4d73cc837bafe3f67b6",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/192.png": {
+    "mtime": 1786451083.2447014,
+    "ast_hash": "81bcef6b5161393cb5507ab50c8b1c4b",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/256.png": {
+    "mtime": 1786451083.245008,
+    "ast_hash": "c295411d013831918e5d19fda4d3e952",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/32.png": {
+    "mtime": 1786451083.2451305,
+    "ast_hash": "c3c0e9226bbafa8b88331e2cdc6db002",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/48.png": {
+    "mtime": 1786451083.245223,
+    "ast_hash": "ce64def504a75b4539bcc58bed7b6809",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/64.png": {
+    "mtime": 1786451083.245347,
+    "ast_hash": "45ab13054ed283fd4889a126a8b6d4d8",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/96.png": {
+    "mtime": 1786451083.2454388,
+    "ast_hash": "dda841f0e1fcb4ab18aabc62c5bd1a20",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Trusted Icons/Icons/128.png": {
+    "mtime": 1786451083.2457097,
+    "ast_hash": "f2c27ef66940b4d73cc837bafe3f67b6",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Trusted Icons/Icons/192.png": {
+    "mtime": 1786451083.246057,
+    "ast_hash": "81bcef6b5161393cb5507ab50c8b1c4b",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Trusted Icons/Icons/256.png": {
+    "mtime": 1786451083.246533,
+    "ast_hash": "c295411d013831918e5d19fda4d3e952",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Trusted Icons/Icons/32.png": {
+    "mtime": 1786451083.2466812,
+    "ast_hash": "c3c0e9226bbafa8b88331e2cdc6db002",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Trusted Icons/Icons/48.png": {
+    "mtime": 1786451083.2467675,
+    "ast_hash": "ce64def504a75b4539bcc58bed7b6809",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Trusted Icons/Icons/64.png": {
+    "mtime": 1786451083.246854,
+    "ast_hash": "45ab13054ed283fd4889a126a8b6d4d8",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Trusted Icons/Icons/96.png": {
+    "mtime": 1786451083.2471108,
+    "ast_hash": "dda841f0e1fcb4ab18aabc62c5bd1a20",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/128.png": {
+    "mtime": 1786451083.2473805,
+    "ast_hash": "45ab3b1c9bbf2721e1069ac8ba4f37a9",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/192.png": {
+    "mtime": 1786451083.2475429,
+    "ast_hash": "ee998f313ad58825e9768d077bc802ba",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/256.png": {
+    "mtime": 1786451083.2477212,
+    "ast_hash": "98a1ab521b60f0039a818f186855fadd",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/32.png": {
+    "mtime": 1786451083.2479067,
+    "ast_hash": "b1f7b1594a50ffdf2af90b916818c3c0",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/48.png": {
+    "mtime": 1786451083.248034,
+    "ast_hash": "db566e2b44a2c1422ddf8cd7e1ac09b5",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/64.png": {
+    "mtime": 1786451083.2490966,
+    "ast_hash": "418ed11baaff1f12b0316c5c6b9c92af",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/96.png": {
+    "mtime": 1786451083.2492201,
+    "ast_hash": "a35361ac5f677ed4d47efbbee2ce6d60",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Trusted Icons/Icons/128.png": {
+    "mtime": 1786451083.2493575,
+    "ast_hash": "45ab3b1c9bbf2721e1069ac8ba4f37a9",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Trusted Icons/Icons/192.png": {
+    "mtime": 1786451083.2494595,
+    "ast_hash": "ee998f313ad58825e9768d077bc802ba",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Trusted Icons/Icons/256.png": {
+    "mtime": 1786451083.249597,
+    "ast_hash": "98a1ab521b60f0039a818f186855fadd",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Trusted Icons/Icons/32.png": {
+    "mtime": 1786451083.249704,
+    "ast_hash": "b1f7b1594a50ffdf2af90b916818c3c0",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Trusted Icons/Icons/48.png": {
+    "mtime": 1786451083.249877,
+    "ast_hash": "db566e2b44a2c1422ddf8cd7e1ac09b5",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Trusted Icons/Icons/64.png": {
+    "mtime": 1786451083.2500682,
+    "ast_hash": "418ed11baaff1f12b0316c5c6b9c92af",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Trusted Icons/Icons/96.png": {
+    "mtime": 1786451083.2501595,
+    "ast_hash": "a35361ac5f677ed4d47efbbee2ce6d60",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/128.png": {
+    "mtime": 1786451083.2504523,
+    "ast_hash": "442e70a4876f0efb53ca6a8a38fdf617",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/192.png": {
+    "mtime": 1786451083.250565,
+    "ast_hash": "3b9fd7fa846b9d9a5cdee0a5b975ca20",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/256.png": {
+    "mtime": 1786451083.2507107,
+    "ast_hash": "c1e5541bb448e13f31774db3cd8bace9",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/32.png": {
+    "mtime": 1786451083.2508414,
+    "ast_hash": "1b7822ea3fade00be4ebb7fa00229685",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/48.png": {
+    "mtime": 1786451083.2509289,
+    "ast_hash": "1aa8c008ec6fbf48b81eae8ac95bc127",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/64.png": {
+    "mtime": 1786451083.2511501,
+    "ast_hash": "77c1d493fe1e7d70cd12e5cf38c13ab6",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/96.png": {
+    "mtime": 1786451083.2514048,
+    "ast_hash": "75760ee744059b7640d25f2344902257",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Trusted Icons/Icons/128.png": {
+    "mtime": 1786451083.2517595,
+    "ast_hash": "442e70a4876f0efb53ca6a8a38fdf617",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Trusted Icons/Icons/192.png": {
+    "mtime": 1786451083.251873,
+    "ast_hash": "3b9fd7fa846b9d9a5cdee0a5b975ca20",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Trusted Icons/Icons/256.png": {
+    "mtime": 1786451083.2520292,
+    "ast_hash": "c1e5541bb448e13f31774db3cd8bace9",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Trusted Icons/Icons/32.png": {
+    "mtime": 1786451083.2521315,
+    "ast_hash": "1b7822ea3fade00be4ebb7fa00229685",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Trusted Icons/Icons/48.png": {
+    "mtime": 1786451083.252211,
+    "ast_hash": "1aa8c008ec6fbf48b81eae8ac95bc127",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Trusted Icons/Icons/64.png": {
+    "mtime": 1786451083.2522893,
+    "ast_hash": "77c1d493fe1e7d70cd12e5cf38c13ab6",
+    "semantic_hash": ""
+  },
+  "/Users/danilonovais/MacOS-Use/.agents/skills/notebooklm/data/browser_state/browser_profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Trusted Icons/Icons/96.png": {
+    "mtime": 1786451083.2523825,
+    "ast_hash": "75760ee744059b7640d25f2344902257",
     "semantic_hash": ""
   }
 }

@@ -30,6 +30,366 @@
       "norm_label": "system_audit.sh script"
     },
     {
+      "label": "auth_info.json",
+      "file_type": "code",
+      "source_file": ".agents/skills/notebooklm/data/auth_info.json",
+      "source_location": "L1",
+      "id": "data_auth_info",
+      "community": 1144,
+      "norm_label": "auth_info.json"
+    },
+    {
+      "label": "authenticated_at",
+      "file_type": "code",
+      "source_file": ".agents/skills/notebooklm/data/auth_info.json",
+      "source_location": "L2",
+      "id": "data_auth_info_authenticated_at",
+      "community": 1144,
+      "norm_label": "authenticated_at"
+    },
+    {
+      "label": "authenticated_at_iso",
+      "file_type": "code",
+      "source_file": ".agents/skills/notebooklm/data/auth_info.json",
+      "source_location": "L3",
+      "id": "data_auth_info_authenticated_at_iso",
+      "community": 1144,
+      "norm_label": "authenticated_at_iso"
+    },
+    {
+      "label": "metadata.json",
+      "file_type": "code",
+      "source_file": ".agents/skills/notebooklm/data/browser_state/browser_profile/component_crx_cache/metadata.json",
+      "source_location": "L1",
+      "id": "component_crx_cache_metadata",
+      "community": 1148,
+      "norm_label": "metadata.json"
+    },
+    {
+      "label": "hashes",
+      "file_type": "code",
+      "source_file": ".agents/skills/notebooklm/data/browser_state/browser_profile/component_crx_cache/metadata.json",
+      "source_location": "L1",
+      "id": "component_crx_cache_metadata_hashes",
+      "community": 1148,
+      "norm_label": "hashes"
+    },
+    {
+      "label": "metadata.json",
+      "file_type": "code",
+      "source_file": ".agents/skills/notebooklm/data/browser_state/browser_profile/extensions_crx_cache/metadata.json",
+      "source_location": "L1",
+      "id": "extensions_crx_cache_metadata",
+      "community": 1149,
+      "norm_label": "metadata.json"
+    },
+    {
+      "label": "hashes",
+      "file_type": "code",
+      "source_file": ".agents/skills/notebooklm/data/browser_state/browser_profile/extensions_crx_cache/metadata.json",
+      "source_location": "L1",
+      "id": "extensions_crx_cache_metadata_hashes",
+      "community": 1149,
+      "norm_label": "hashes"
+    },
+    {
+      "label": "state.json",
+      "file_type": "code",
+      "source_file": ".agents/skills/notebooklm/data/browser_state/state.json",
+      "source_location": "L1",
+      "id": "browser_state_state",
+      "community": 1143,
+      "norm_label": "state.json"
+    },
+    {
+      "label": "cookies",
+      "file_type": "code",
+      "source_file": ".agents/skills/notebooklm/data/browser_state/state.json",
+      "source_location": "L1",
+      "id": "browser_state_state_cookies",
+      "community": 1143,
+      "norm_label": "cookies"
+    },
+    {
+      "label": "origins",
+      "file_type": "code",
+      "source_file": ".agents/skills/notebooklm/data/browser_state/state.json",
+      "source_location": "L1",
+      "id": "browser_state_state_origins",
+      "community": 1143,
+      "norm_label": "origins"
+    },
+    {
+      "label": "library.json",
+      "file_type": "code",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L1",
+      "id": "data_library",
+      "community": 177,
+      "norm_label": "library.json"
+    },
+    {
+      "label": "notebooks",
+      "file_type": "code",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L2",
+      "id": "data_library_notebooks",
+      "community": 177,
+      "norm_label": "notebooks"
+    },
+    {
+      "label": "mac-especialista",
+      "file_type": "code",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L3",
+      "id": "data_library_notebooks_mac_especialista",
+      "community": 177,
+      "norm_label": "mac-especialista"
+    },
+    {
+      "label": "id",
+      "file_type": "code",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L4",
+      "id": "data_library_mac_especialista_id",
+      "community": 177,
+      "norm_label": "id"
+    },
+    {
+      "label": "url",
+      "file_type": "code",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L5",
+      "id": "data_library_mac_especialista_url",
+      "community": 177,
+      "norm_label": "url"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L6",
+      "id": "data_library_mac_especialista_name",
+      "community": 177,
+      "norm_label": "name"
+    },
+    {
+      "label": "description",
+      "file_type": "code",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L7",
+      "id": "data_library_mac_especialista_description",
+      "community": 177,
+      "norm_label": "description"
+    },
+    {
+      "label": "topics",
+      "file_type": "code",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L8",
+      "id": "data_library_mac_especialista_topics",
+      "community": 177,
+      "norm_label": "topics"
+    },
+    {
+      "label": "content_types",
+      "file_type": "code",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L15",
+      "id": "data_library_mac_especialista_content_types",
+      "community": 177,
+      "norm_label": "content_types"
+    },
+    {
+      "label": "use_cases",
+      "file_type": "code",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L16",
+      "id": "data_library_mac_especialista_use_cases",
+      "community": 177,
+      "norm_label": "use_cases"
+    },
+    {
+      "label": "tags",
+      "file_type": "code",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L17",
+      "id": "data_library_mac_especialista_tags",
+      "community": 177,
+      "norm_label": "tags"
+    },
+    {
+      "label": "created_at",
+      "file_type": "code",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L18",
+      "id": "data_library_mac_especialista_created_at",
+      "community": 177,
+      "norm_label": "created_at"
+    },
+    {
+      "label": "updated_at",
+      "file_type": "code",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L19",
+      "id": "data_library_mac_especialista_updated_at",
+      "community": 177,
+      "norm_label": "updated_at"
+    },
+    {
+      "label": "use_count",
+      "file_type": "code",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L20",
+      "id": "data_library_mac_especialista_use_count",
+      "community": 177,
+      "norm_label": "use_count"
+    },
+    {
+      "label": "last_used",
+      "file_type": "code",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L21",
+      "id": "data_library_mac_especialista_last_used",
+      "community": 177,
+      "norm_label": "last_used"
+    },
+    {
+      "label": "agents-ide",
+      "file_type": "code",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L23",
+      "id": "data_library_notebooks_agents_ide",
+      "community": 177,
+      "norm_label": "agents-ide"
+    },
+    {
+      "label": "id",
+      "file_type": "code",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L24",
+      "id": "data_library_agents_ide_id",
+      "community": 177,
+      "norm_label": "id"
+    },
+    {
+      "label": "url",
+      "file_type": "code",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L25",
+      "id": "data_library_agents_ide_url",
+      "community": 177,
+      "norm_label": "url"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L26",
+      "id": "data_library_agents_ide_name",
+      "community": 177,
+      "norm_label": "name"
+    },
+    {
+      "label": "description",
+      "file_type": "code",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L27",
+      "id": "data_library_agents_ide_description",
+      "community": 177,
+      "norm_label": "description"
+    },
+    {
+      "label": "topics",
+      "file_type": "code",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L28",
+      "id": "data_library_agents_ide_topics",
+      "community": 177,
+      "norm_label": "topics"
+    },
+    {
+      "label": "content_types",
+      "file_type": "code",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L34",
+      "id": "data_library_agents_ide_content_types",
+      "community": 177,
+      "norm_label": "content_types"
+    },
+    {
+      "label": "use_cases",
+      "file_type": "code",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L35",
+      "id": "data_library_agents_ide_use_cases",
+      "community": 177,
+      "norm_label": "use_cases"
+    },
+    {
+      "label": "tags",
+      "file_type": "code",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L36",
+      "id": "data_library_agents_ide_tags",
+      "community": 177,
+      "norm_label": "tags"
+    },
+    {
+      "label": "created_at",
+      "file_type": "code",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L37",
+      "id": "data_library_agents_ide_created_at",
+      "community": 177,
+      "norm_label": "created_at"
+    },
+    {
+      "label": "updated_at",
+      "file_type": "code",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L38",
+      "id": "data_library_agents_ide_updated_at",
+      "community": 177,
+      "norm_label": "updated_at"
+    },
+    {
+      "label": "use_count",
+      "file_type": "code",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L39",
+      "id": "data_library_agents_ide_use_count",
+      "community": 177,
+      "norm_label": "use_count"
+    },
+    {
+      "label": "last_used",
+      "file_type": "code",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L40",
+      "id": "data_library_agents_ide_last_used",
+      "community": 177,
+      "norm_label": "last_used"
+    },
+    {
+      "label": "active_notebook_id",
+      "file_type": "code",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L43",
+      "id": "data_library_active_notebook_id",
+      "community": 177,
+      "norm_label": "active_notebook_id"
+    },
+    {
+      "label": "updated_at",
+      "file_type": "code",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L44",
+      "id": "data_library_updated_at",
+      "community": 177,
+      "norm_label": "updated_at"
+    },
+    {
       "label": "__init__.py",
       "file_type": "code",
       "source_file": ".agents/skills/notebooklm/scripts/__init__.py",
@@ -5087,7 +5447,7 @@
       "source_file": ".claude/skills/context7/Tools/src/cli/lookup.ts",
       "source_location": "L1",
       "id": "cli_lookup",
-      "community": 361,
+      "community": 316,
       "norm_label": "lookup.ts"
     },
     {
@@ -5096,7 +5456,7 @@
       "source_file": ".claude/skills/context7/Tools/src/cli/lookup.ts",
       "source_location": "L29",
       "id": "cli_lookup_printusage",
-      "community": 361,
+      "community": 316,
       "norm_label": "printusage()"
     },
     {
@@ -5105,7 +5465,7 @@
       "source_file": ".claude/skills/context7/Tools/src/cli/lookup.ts",
       "source_location": "L64",
       "id": "cli_lookup_main",
-      "community": 361,
+      "community": 316,
       "norm_label": "main()"
     },
     {
@@ -5141,7 +5501,7 @@
       "source_file": ".claude/skills/context7/Tools/src/cli/resolve.ts",
       "source_location": "L1",
       "id": "cli_resolve",
-      "community": 361,
+      "community": 316,
       "norm_label": "resolve.ts"
     },
     {
@@ -5150,7 +5510,7 @@
       "source_file": ".claude/skills/context7/Tools/src/cli/resolve.ts",
       "source_location": "L29",
       "id": "cli_resolve_printusage",
-      "community": 361,
+      "community": 316,
       "norm_label": "printusage()"
     },
     {
@@ -5159,7 +5519,7 @@
       "source_file": ".claude/skills/context7/Tools/src/cli/resolve.ts",
       "source_location": "L61",
       "id": "cli_resolve_main",
-      "community": 361,
+      "community": 316,
       "norm_label": "main()"
     },
     {
@@ -5249,7 +5609,7 @@
       "source_file": ".claude/skills/context7/Tools/src/lib/cache.ts",
       "source_location": "L77",
       "id": "lib_cache_clearcache",
-      "community": 361,
+      "community": 316,
       "norm_label": "clearcache()"
     },
     {
@@ -5384,7 +5744,7 @@
       "source_file": ".claude/skills/context7/Tools/src/lib/context7.ts",
       "source_location": "L110",
       "id": "lib_context7_log",
-      "community": 361,
+      "community": 527,
       "norm_label": "log()"
     },
     {
@@ -5483,7 +5843,7 @@
       "source_file": ".claude/skills/context7/Tools/src/lib/context7.ts",
       "source_location": "L313",
       "id": "lib_context7_context7error",
-      "community": 316,
+      "community": 497,
       "norm_label": "context7error"
     },
     {
@@ -5492,7 +5852,7 @@
       "source_file": ".claude/skills/context7/Tools/src/lib/context7.ts",
       "source_location": "L314",
       "id": "lib_context7_context7error_constructor",
-      "community": 316,
+      "community": 497,
       "norm_label": ".constructor()"
     },
     {
@@ -5510,7 +5870,7 @@
       "source_file": ".claude/skills/context7/Tools/src/lib/context7.ts",
       "source_location": "L358",
       "id": "lib_context7_getknownlibraryid",
-      "community": 361,
+      "community": 316,
       "norm_label": "getknownlibraryid()"
     },
     {
@@ -5528,7 +5888,7 @@
       "source_file": ".claude/skills/context7/Tools/src/lib/errors.ts",
       "source_location": "L1",
       "id": "lib_errors",
-      "community": 316,
+      "community": 497,
       "norm_label": "errors.ts"
     },
     {
@@ -5537,7 +5897,7 @@
       "source_file": ".claude/skills/context7/Tools/src/lib/errors.ts",
       "source_location": "L16",
       "id": "lib_errors_formattederror",
-      "community": 316,
+      "community": 497,
       "norm_label": "formattederror"
     },
     {
@@ -5582,7 +5942,7 @@
       "source_file": ".claude/skills/context7/Tools/src/lib/flags.ts",
       "source_location": "L25",
       "id": "lib_flags_argparseerror",
-      "community": 316,
+      "community": 497,
       "norm_label": "argparseerror"
     },
     {
@@ -5591,7 +5951,7 @@
       "source_file": ".claude/skills/context7/Tools/src/lib/flags.ts",
       "source_location": "L26",
       "id": "lib_flags_argparseerror_constructor",
-      "community": 316,
+      "community": 497,
       "norm_label": ".constructor()"
     },
     {
@@ -5663,7 +6023,7 @@
       "source_file": ".claude/skills/context7/Tools/tests/errors.test.ts",
       "source_location": "L1",
       "id": "tests_errors_test",
-      "community": 316,
+      "community": 497,
       "norm_label": "errors.test.ts"
     },
     {
@@ -21088,7 +21448,7 @@
       "source_file": "macos_use/agent/__init__.py",
       "source_location": "L1",
       "id": "agent_init",
-      "community": 228,
+      "community": 37,
       "norm_label": "__init__.py"
     },
     {
@@ -21097,7 +21457,7 @@
       "source_file": "macos_use/agent/base.py",
       "source_location": "L1",
       "id": "agent_base",
-      "community": 413,
+      "community": 37,
       "norm_label": "base.py"
     },
     {
@@ -21115,7 +21475,7 @@
       "source_file": "",
       "source_location": "",
       "id": "abc",
-      "community": 413,
+      "community": 37,
       "norm_label": "abc"
     },
     {
@@ -21169,7 +21529,7 @@
       "source_file": "macos_use/agent/context/__init__.py",
       "source_location": "L1",
       "id": "context_init",
-      "community": 228,
+      "community": 37,
       "norm_label": "__init__.py"
     },
     {
@@ -21178,7 +21538,7 @@
       "source_file": "macos_use/agent/context/service.py",
       "source_location": "L1",
       "id": "context_service",
-      "community": 228,
+      "community": 37,
       "norm_label": "service.py"
     },
     {
@@ -21187,7 +21547,7 @@
       "source_file": "macos_use/agent/context/service.py",
       "source_location": "L15",
       "id": "context_service_load_template",
-      "community": 228,
+      "community": 37,
       "norm_label": "_load_template()"
     },
     {
@@ -21196,7 +21556,7 @@
       "source_file": "macos_use/agent/context/service.py",
       "source_location": "L15",
       "id": "macos_use_agent_context_service_py_str",
-      "community": 228,
+      "community": 37,
       "norm_label": "str"
     },
     {
@@ -21205,7 +21565,7 @@
       "source_file": "macos_use/agent/context/service.py",
       "source_location": "L24",
       "id": "context_service_context",
-      "community": 228,
+      "community": 37,
       "norm_label": "context"
     },
     {
@@ -21214,7 +21574,7 @@
       "source_file": "macos_use/agent/context/service.py",
       "source_location": "L25",
       "id": "context_service_context_build_system_prompt",
-      "community": 228,
+      "community": 37,
       "norm_label": "._build_system_prompt()"
     },
     {
@@ -21223,7 +21583,7 @@
       "source_file": "macos_use/agent/context/service.py",
       "source_location": "L25",
       "id": "macos_use_agent_context_service_py_desktop",
-      "community": 228,
+      "community": 37,
       "norm_label": "desktop"
     },
     {
@@ -21232,7 +21592,7 @@
       "source_file": "macos_use/agent/context/service.py",
       "source_location": "L25",
       "id": "macos_use_agent_context_service_py_browser",
-      "community": 228,
+      "community": 37,
       "norm_label": "browser"
     },
     {
@@ -21241,7 +21601,7 @@
       "source_file": "macos_use/agent/context/service.py",
       "source_location": "L25",
       "id": "macos_use_agent_context_service_py_int",
-      "community": 228,
+      "community": 37,
       "norm_label": "int"
     },
     {
@@ -21250,7 +21610,7 @@
       "source_file": "macos_use/agent/context/service.py",
       "source_location": "L67",
       "id": "context_service_context_system",
-      "community": 228,
+      "community": 37,
       "norm_label": ".system()"
     },
     {
@@ -21259,7 +21619,7 @@
       "source_file": "macos_use/agent/context/service.py",
       "source_location": "L67",
       "id": "macos_use_agent_context_service_py_systemmessage",
-      "community": 228,
+      "community": 37,
       "norm_label": "systemmessage"
     },
     {
@@ -21268,7 +21628,7 @@
       "source_file": "macos_use/agent/context/service.py",
       "source_location": "L84",
       "id": "context_service_context_state",
-      "community": 228,
+      "community": 37,
       "norm_label": ".state()"
     },
     {
@@ -21277,7 +21637,7 @@
       "source_file": "macos_use/agent/context/service.py",
       "source_location": "L84",
       "id": "macos_use_agent_context_service_py_humanmessage",
-      "community": 228,
+      "community": 37,
       "norm_label": "humanmessage"
     },
     {
@@ -21286,7 +21646,7 @@
       "source_file": "macos_use/agent/context/service.py",
       "source_location": "L84",
       "id": "imagemessage",
-      "community": 228,
+      "community": 37,
       "norm_label": "imagemessage"
     },
     {
@@ -21295,7 +21655,7 @@
       "source_file": "macos_use/agent/context/service.py",
       "source_location": "L104",
       "id": "context_service_context_build_state_prompt",
-      "community": 228,
+      "community": 37,
       "norm_label": "._build_state_prompt()"
     },
     {
@@ -21304,7 +21664,7 @@
       "source_file": "macos_use/agent/context/service.py",
       "source_location": "L136",
       "id": "context_service_context_task",
-      "community": 228,
+      "community": 37,
       "norm_label": ".task()"
     },
     {
@@ -21313,7 +21673,7 @@
       "source_file": "macos_use/agent/context/service.py",
       "source_location": "L16",
       "id": "context_service_rationale_16",
-      "community": 228,
+      "community": 37,
       "norm_label": "load a prompt template from disk, caching after first read."
     },
     {
@@ -21367,7 +21727,7 @@
       "source_file": "macos_use/agent/desktop/service.py",
       "source_location": "L20",
       "id": "macos_use_agent_desktop_service_py_bool",
-      "community": 12,
+      "community": 462,
       "norm_label": "bool"
     },
     {
@@ -21385,7 +21745,7 @@
       "source_file": "macos_use/agent/desktop/service.py",
       "source_location": "L32",
       "id": "macos_use_agent_desktop_service_py_size",
-      "community": 12,
+      "community": 462,
       "norm_label": "size"
     },
     {
@@ -21394,7 +21754,7 @@
       "source_file": "macos_use/agent/desktop/service.py",
       "source_location": "L37",
       "id": "desktop_service_desktop_get_state",
-      "community": 12,
+      "community": 462,
       "norm_label": ".get_state()"
     },
     {
@@ -21403,7 +21763,7 @@
       "source_file": "macos_use/agent/desktop/service.py",
       "source_location": "L37",
       "id": "macos_use_agent_desktop_service_py_float",
-      "community": 12,
+      "community": 462,
       "norm_label": "float"
     },
     {
@@ -21574,7 +21934,7 @@
       "source_file": "macos_use/agent/desktop/service.py",
       "source_location": "L295",
       "id": "desktop_service_desktop_get_foreground_window",
-      "community": 12,
+      "community": 462,
       "norm_label": ".get_foreground_window()"
     },
     {
@@ -21583,7 +21943,7 @@
       "source_file": "macos_use/agent/desktop/service.py",
       "source_location": "L295",
       "id": "macos_use_agent_desktop_service_py_window",
-      "community": 12,
+      "community": 462,
       "norm_label": "window"
     },
     {
@@ -21592,7 +21952,7 @@
       "source_file": "macos_use/agent/desktop/service.py",
       "source_location": "L377",
       "id": "desktop_service_desktop_get_windows",
-      "community": 12,
+      "community": 462,
       "norm_label": ".get_windows()"
     },
     {
@@ -21601,7 +21961,7 @@
       "source_file": "macos_use/agent/desktop/service.py",
       "source_location": "L437",
       "id": "desktop_service_desktop_get_screenshot",
-      "community": 12,
+      "community": 462,
       "norm_label": ".get_screenshot()"
     },
     {
@@ -21610,7 +21970,7 @@
       "source_file": "macos_use/agent/desktop/service.py",
       "source_location": "L437",
       "id": "image",
-      "community": 12,
+      "community": 462,
       "norm_label": "image"
     },
     {
@@ -21619,7 +21979,7 @@
       "source_file": "macos_use/agent/desktop/service.py",
       "source_location": "L437",
       "id": "macos_use_agent_desktop_service_py_bytes",
-      "community": 12,
+      "community": 462,
       "norm_label": "bytes"
     },
     {
@@ -21628,7 +21988,7 @@
       "source_file": "macos_use/agent/desktop/service.py",
       "source_location": "L457",
       "id": "desktop_service_desktop_get_annotated_screenshot",
-      "community": 12,
+      "community": 462,
       "norm_label": ".get_annotated_screenshot()"
     },
     {
@@ -21637,7 +21997,7 @@
       "source_file": "macos_use/agent/desktop/service.py",
       "source_location": "L457",
       "id": "macos_use_agent_desktop_service_py_treeelementnode",
-      "community": 12,
+      "community": 462,
       "norm_label": "treeelementnode"
     },
     {
@@ -21799,7 +22159,7 @@
       "source_file": "macos_use/agent/desktop/service.py",
       "source_location": "L378",
       "id": "desktop_service_rationale_378",
-      "community": 12,
+      "community": 462,
       "norm_label": "get list of user-facing application windows on the desktop.         uses the ax"
     },
     {
@@ -21808,7 +22168,7 @@
       "source_file": "macos_use/agent/desktop/service.py",
       "source_location": "L441",
       "id": "desktop_service_rationale_441",
-      "community": 12,
+      "community": 462,
       "norm_label": "capture a screenshot of the screen using pillow imagegrab.          args:"
     },
     {
@@ -21817,7 +22177,7 @@
       "source_file": "macos_use/agent/desktop/service.py",
       "source_location": "L463",
       "id": "desktop_service_rationale_463",
-      "community": 12,
+      "community": 462,
       "norm_label": "take a screenshot and annotate it with numbered bounding boxes for each"
     },
     {
@@ -21826,7 +22186,7 @@
       "source_file": "macos_use/agent/desktop/views.py",
       "source_location": "L1",
       "id": "desktop_views",
-      "community": 228,
+      "community": 462,
       "norm_label": "views.py"
     },
     {
@@ -21835,7 +22195,7 @@
       "source_file": "macos_use/agent/desktop/views.py",
       "source_location": "L8",
       "id": "desktop_views_browser",
-      "community": 228,
+      "community": 37,
       "norm_label": "browser"
     },
     {
@@ -21880,7 +22240,7 @@
       "source_file": "macos_use/agent/desktop/views.py",
       "source_location": "L24",
       "id": "desktop_views_status",
-      "community": 12,
+      "community": 462,
       "norm_label": "status"
     },
     {
@@ -21889,7 +22249,7 @@
       "source_file": "macos_use/agent/desktop/views.py",
       "source_location": "L34",
       "id": "desktop_views_size",
-      "community": 12,
+      "community": 462,
       "norm_label": "size"
     },
     {
@@ -21898,7 +22258,7 @@
       "source_file": "macos_use/agent/desktop/views.py",
       "source_location": "L38",
       "id": "desktop_views_size_to_string",
-      "community": 12,
+      "community": 462,
       "norm_label": ".to_string()"
     },
     {
@@ -21916,7 +22276,7 @@
       "source_file": "macos_use/agent/desktop/views.py",
       "source_location": "L52",
       "id": "desktop_views_desktopstate",
-      "community": 228,
+      "community": 462,
       "norm_label": "desktopstate"
     },
     {
@@ -21943,7 +22303,7 @@
       "source_file": "macos_use/agent/desktop/views.py",
       "source_location": "L9",
       "id": "desktop_views_rationale_9",
-      "community": 228,
+      "community": 37,
       "norm_label": "supported browser applications kept for backwards compatibility."
     },
     {
@@ -22339,7 +22699,7 @@
       "source_file": "macos_use/agent/loop.py",
       "source_location": "L1",
       "id": "agent_loop",
-      "community": 228,
+      "community": 37,
       "norm_label": "loop.py"
     },
     {
@@ -22375,7 +22735,7 @@
       "source_file": "macos_use/agent/loop.py",
       "source_location": "L37",
       "id": "agent_loop_loopguard_record_action",
-      "community": 37,
+      "community": 1060,
       "norm_label": ".record_action()"
     },
     {
@@ -22384,7 +22744,7 @@
       "source_file": "macos_use/agent/loop.py",
       "source_location": "L37",
       "id": "macos_use_agent_loop_py_str",
-      "community": 37,
+      "community": 1060,
       "norm_label": "str"
     },
     {
@@ -22393,7 +22753,7 @@
       "source_file": "macos_use/agent/loop.py",
       "source_location": "L37",
       "id": "macos_use_agent_loop_py_bool",
-      "community": 37,
+      "community": 1060,
       "norm_label": "bool"
     },
     {
@@ -22402,7 +22762,7 @@
       "source_file": "macos_use/agent/loop.py",
       "source_location": "L61",
       "id": "agent_loop_loopguard_record_state",
-      "community": 37,
+      "community": 1108,
       "norm_label": ".record_state()"
     },
     {
@@ -22411,7 +22771,7 @@
       "source_file": "macos_use/agent/loop.py",
       "source_location": "L61",
       "id": "desktopstate",
-      "community": 37,
+      "community": 1108,
       "norm_label": "desktopstate"
     },
     {
@@ -22420,7 +22780,7 @@
       "source_file": "macos_use/agent/loop.py",
       "source_location": "L104",
       "id": "agent_loop_loopguard_check",
-      "community": 37,
+      "community": 1060,
       "norm_label": ".check()"
     },
     {
@@ -22447,7 +22807,7 @@
       "source_file": "macos_use/agent/loop.py",
       "source_location": "L62",
       "id": "agent_loop_rationale_62",
-      "community": 37,
+      "community": 1108,
       "norm_label": "record the current desktop state as a fingerprint."
     },
     {
@@ -22456,7 +22816,7 @@
       "source_file": "macos_use/agent/prompt/service.py",
       "source_location": "L1",
       "id": "prompt_service",
-      "community": 228,
+      "community": 12,
       "norm_label": "service.py"
     },
     {
@@ -22465,7 +22825,7 @@
       "source_file": "macos_use/agent/prompt/service.py",
       "source_location": "L11",
       "id": "prompt_service_prompt",
-      "community": 228,
+      "community": 37,
       "norm_label": "prompt"
     },
     {
@@ -22474,7 +22834,7 @@
       "source_file": "macos_use/agent/prompt/service.py",
       "source_location": "L13",
       "id": "prompt_service_prompt_system",
-      "community": 228,
+      "community": 37,
       "norm_label": ".system()"
     },
     {
@@ -22483,7 +22843,7 @@
       "source_file": "macos_use/agent/prompt/service.py",
       "source_location": "L13",
       "id": "macos_use_agent_prompt_service_py_desktop",
-      "community": 228,
+      "community": 37,
       "norm_label": "desktop"
     },
     {
@@ -22492,7 +22852,7 @@
       "source_file": "macos_use/agent/prompt/service.py",
       "source_location": "L13",
       "id": "macos_use_agent_prompt_service_py_browser",
-      "community": 228,
+      "community": 37,
       "norm_label": "browser"
     },
     {
@@ -22501,7 +22861,7 @@
       "source_file": "macos_use/agent/prompt/service.py",
       "source_location": "L13",
       "id": "macos_use_agent_prompt_service_py_int",
-      "community": 228,
+      "community": 37,
       "norm_label": "int"
     },
     {
@@ -22510,7 +22870,7 @@
       "source_file": "macos_use/agent/prompt/service.py",
       "source_location": "L13",
       "id": "macos_use_agent_prompt_service_py_str",
-      "community": 228,
+      "community": 37,
       "norm_label": "str"
     },
     {
@@ -22519,7 +22879,7 @@
       "source_file": "macos_use/agent/prompt/service.py",
       "source_location": "L42",
       "id": "prompt_service_prompt_human",
-      "community": 228,
+      "community": 37,
       "norm_label": ".human()"
     },
     {
@@ -22528,7 +22888,7 @@
       "source_file": "macos_use/agent/registry/service.py",
       "source_location": "L1",
       "id": "registry_service",
-      "community": 422,
+      "community": 12,
       "norm_label": "service.py"
     },
     {
@@ -22645,7 +23005,7 @@
       "source_file": "macos_use/agent/registry/views.py",
       "source_location": "L1",
       "id": "registry_views",
-      "community": 422,
+      "community": 12,
       "norm_label": "views.py"
     },
     {
@@ -22654,7 +23014,7 @@
       "source_file": "macos_use/agent/registry/views.py",
       "source_location": "L3",
       "id": "registry_views_toolresult",
-      "community": 422,
+      "community": 12,
       "norm_label": "toolresult"
     },
     {
@@ -22672,7 +23032,7 @@
       "source_file": "macos_use/agent/service.py",
       "source_location": "L1",
       "id": "agent_service",
-      "community": 13,
+      "community": 37,
       "norm_label": "service.py"
     },
     {
@@ -22814,7 +23174,7 @@
       "label": ".aloop()",
       "file_type": "code",
       "source_file": "macos_use/agent/service.py",
-      "source_location": "L333",
+      "source_location": "L340",
       "id": "agent_service_agent_aloop",
       "community": 37,
       "norm_label": ".aloop()"
@@ -22823,7 +23183,7 @@
       "label": ".ainvoke()",
       "file_type": "code",
       "source_file": "macos_use/agent/service.py",
-      "source_location": "L490",
+      "source_location": "L497",
       "id": "agent_service_agent_ainvoke",
       "community": 37,
       "norm_label": ".ainvoke()"
@@ -22850,8 +23210,8 @@
       "label": "Run the main agent loop asynchronously.",
       "file_type": "rationale",
       "source_file": "macos_use/agent/service.py",
-      "source_location": "L334",
-      "id": "agent_service_rationale_334",
+      "source_location": "L341",
+      "id": "agent_service_rationale_341",
       "community": 37,
       "norm_label": "run the main agent loop asynchronously."
     },
@@ -23356,7 +23716,7 @@
       "source_file": "macos_use/agent/tree/service.py",
       "source_location": "L1",
       "id": "tree_service",
-      "community": 294,
+      "community": 284,
       "norm_label": "service.py"
     },
     {
@@ -23761,7 +24121,7 @@
       "source_file": "macos_use/agent/views.py",
       "source_location": "L1",
       "id": "agent_views",
-      "community": 413,
+      "community": 37,
       "norm_label": "views.py"
     },
     {
@@ -23770,7 +24130,7 @@
       "source_file": "macos_use/agent/views.py",
       "source_location": "L6",
       "id": "agent_views_agentresult",
-      "community": 413,
+      "community": 37,
       "norm_label": "agentresult"
     },
     {
@@ -23779,7 +24139,7 @@
       "source_file": "macos_use/agent/views.py",
       "source_location": "L13",
       "id": "agent_views_agentstate",
-      "community": 413,
+      "community": 37,
       "norm_label": "agentstate"
     },
     {
@@ -23788,7 +24148,7 @@
       "source_file": "macos_use/agent/views.py",
       "source_location": "L21",
       "id": "agent_views_agentstate_reset",
-      "community": 413,
+      "community": 37,
       "norm_label": ".reset()"
     },
     {
@@ -23824,7 +24184,7 @@
       "source_file": "macos_use/agent/watchdog/service.py",
       "source_location": "L38",
       "id": "watchdog_service_watchdog_init",
-      "community": 333,
+      "community": 1146,
       "norm_label": ".__init__()"
     },
     {
@@ -23833,7 +24193,7 @@
       "source_file": "macos_use/agent/watchdog/service.py",
       "source_location": "L38",
       "id": "macos_use_agent_watchdog_service_py_float",
-      "community": 333,
+      "community": 1146,
       "norm_label": "float"
     },
     {
@@ -23860,7 +24220,7 @@
       "source_file": "macos_use/agent/watchdog/service.py",
       "source_location": "L53",
       "id": "watchdog_service_watchdog_is_running",
-      "community": 333,
+      "community": 1145,
       "norm_label": ".is_running()"
     },
     {
@@ -23869,7 +24229,7 @@
       "source_file": "macos_use/agent/watchdog/service.py",
       "source_location": "L53",
       "id": "macos_use_agent_watchdog_service_py_bool",
-      "community": 333,
+      "community": 1145,
       "norm_label": "bool"
     },
     {
@@ -23941,7 +24301,7 @@
       "source_file": "macos_use/agent/watchdog/service.py",
       "source_location": "L39",
       "id": "watchdog_service_rationale_39",
-      "community": 333,
+      "community": 1146,
       "norm_label": "args:             debounce_interval: minimum time between events in seconds (def"
     },
     {
@@ -23950,7 +24310,7 @@
       "source_file": "macos_use/agent/watchdog/service.py",
       "source_location": "L54",
       "id": "watchdog_service_rationale_54",
-      "community": 333,
+      "community": 1145,
       "norm_label": "check if the watchdog is currently running."
     },
     {
@@ -24049,7 +24409,7 @@
       "source_file": "macos_use/ax/controls.py",
       "source_location": "L95",
       "id": "macos_use_ax_controls_py_int",
-      "community": 177,
+      "community": 4,
       "norm_label": "int"
     },
     {
@@ -24409,7 +24769,7 @@
       "source_file": "macos_use/ax/controls.py",
       "source_location": "L455",
       "id": "ax_controls_control_childcount",
-      "community": 177,
+      "community": 4,
       "norm_label": ".childcount()"
     },
     {
@@ -24742,7 +25102,7 @@
       "source_file": "macos_use/ax/controls.py",
       "source_location": "L732",
       "id": "ax_controls_control_press",
-      "community": 4,
+      "community": 5,
       "norm_label": ".press()"
     },
     {
@@ -24895,7 +25255,7 @@
       "source_file": "macos_use/ax/controls.py",
       "source_location": "L862",
       "id": "ax_controls_control_wheeldown",
-      "community": 177,
+      "community": 0,
       "norm_label": ".wheeldown()"
     },
     {
@@ -24904,7 +25264,7 @@
       "source_file": "macos_use/ax/controls.py",
       "source_location": "L867",
       "id": "ax_controls_control_wheelup",
-      "community": 177,
+      "community": 0,
       "norm_label": ".wheelup()"
     },
     {
@@ -24913,7 +25273,7 @@
       "source_file": "macos_use/ax/controls.py",
       "source_location": "L872",
       "id": "ax_controls_control_dragto",
-      "community": 19,
+      "community": 4,
       "norm_label": ".dragto()"
     },
     {
@@ -24922,7 +25282,7 @@
       "source_file": "macos_use/ax/controls.py",
       "source_location": "L904",
       "id": "ax_controls_control_movecursortocenter",
-      "community": 177,
+      "community": 0,
       "norm_label": ".movecursortocenter()"
     },
     {
@@ -25363,7 +25723,7 @@
       "source_file": "macos_use/ax/controls.py",
       "source_location": "L1230",
       "id": "ax_controls_applicationcontrol_pid",
-      "community": 177,
+      "community": 5,
       "norm_label": ".pid()"
     },
     {
@@ -25471,7 +25831,7 @@
       "source_file": "macos_use/ax/controls.py",
       "source_location": "L1368",
       "id": "ax_controls_applicationcontrol_executablearchitecture",
-      "community": 177,
+      "community": 4,
       "norm_label": ".executablearchitecture()"
     },
     {
@@ -25714,7 +26074,7 @@
       "source_file": "macos_use/ax/controls.py",
       "source_location": "L1592",
       "id": "ax_controls_radiobuttoncontrol_select",
-      "community": 4,
+      "community": 5,
       "norm_label": ".select()"
     },
     {
@@ -25750,7 +26110,7 @@
       "source_file": "macos_use/ax/controls.py",
       "source_location": "L1609",
       "id": "ax_controls_textfieldcontrol_insertionpoint",
-      "community": 177,
+      "community": 4,
       "norm_label": ".insertionpoint()"
     },
     {
@@ -25795,7 +26155,7 @@
       "source_file": "macos_use/ax/controls.py",
       "source_location": "L1631",
       "id": "ax_controls_comboboxcontrol_expand",
-      "community": 4,
+      "community": 5,
       "norm_label": ".expand()"
     },
     {
@@ -25813,7 +26173,7 @@
       "source_file": "macos_use/ax/controls.py",
       "source_location": "L1639",
       "id": "ax_controls_popupbuttoncontrol_open",
-      "community": 4,
+      "community": 5,
       "norm_label": ".open()"
     },
     {
@@ -25876,7 +26236,7 @@
       "source_file": "macos_use/ax/controls.py",
       "source_location": "L1682",
       "id": "ax_controls_menuitemcontrol_select",
-      "community": 4,
+      "community": 5,
       "norm_label": ".select()"
     },
     {
@@ -25894,7 +26254,7 @@
       "source_file": "macos_use/ax/controls.py",
       "source_location": "L1690",
       "id": "ax_controls_menubaritemcontrol_open",
-      "community": 4,
+      "community": 5,
       "norm_label": ".open()"
     },
     {
@@ -25948,7 +26308,7 @@
       "source_file": "macos_use/ax/controls.py",
       "source_location": "L1719",
       "id": "ax_controls_tablecontrol_rowcount",
-      "community": 177,
+      "community": 4,
       "norm_label": ".rowcount()"
     },
     {
@@ -25957,7 +26317,7 @@
       "source_file": "macos_use/ax/controls.py",
       "source_location": "L1725",
       "id": "ax_controls_tablecontrol_columncount",
-      "community": 177,
+      "community": 4,
       "norm_label": ".columncount()"
     },
     {
@@ -26146,7 +26506,7 @@
       "source_file": "macos_use/ax/controls.py",
       "source_location": "L1860",
       "id": "ax_controls_disclosuretrianglecontrol_toggle",
-      "community": 4,
+      "community": 5,
       "norm_label": ".toggle()"
     },
     {
@@ -26173,7 +26533,7 @@
       "source_file": "macos_use/ax/controls.py",
       "source_location": "L1874",
       "id": "ax_controls_cellcontrol_rowindex",
-      "community": 177,
+      "community": 4,
       "norm_label": ".rowindex()"
     },
     {
@@ -26200,7 +26560,7 @@
       "source_file": "macos_use/ax/controls.py",
       "source_location": "L1890",
       "id": "ax_controls_rowcontrol_disclosurelevel",
-      "community": 177,
+      "community": 4,
       "norm_label": ".disclosurelevel()"
     },
     {
@@ -26569,7 +26929,7 @@
       "source_file": "macos_use/ax/controls.py",
       "source_location": "L456",
       "id": "ax_controls_rationale_456",
-      "community": 177,
+      "community": 4,
       "norm_label": "get the number of child elements."
     },
     {
@@ -26866,7 +27226,7 @@
       "source_file": "macos_use/ax/controls.py",
       "source_location": "L733",
       "id": "ax_controls_rationale_733",
-      "community": 4,
+      "community": 5,
       "norm_label": "perform axpress action (click/activate)."
     },
     {
@@ -27010,7 +27370,7 @@
       "source_file": "macos_use/ax/controls.py",
       "source_location": "L863",
       "id": "ax_controls_rationale_863",
-      "community": 177,
+      "community": 0,
       "norm_label": "scroll down on this control."
     },
     {
@@ -27019,7 +27379,7 @@
       "source_file": "macos_use/ax/controls.py",
       "source_location": "L868",
       "id": "ax_controls_rationale_868",
-      "community": 177,
+      "community": 0,
       "norm_label": "scroll up on this control."
     },
     {
@@ -27028,7 +27388,7 @@
       "source_file": "macos_use/ax/controls.py",
       "source_location": "L878",
       "id": "ax_controls_rationale_878",
-      "community": 19,
+      "community": 4,
       "norm_label": "drag from this control's center to a target.          args:             target:"
     },
     {
@@ -27037,7 +27397,7 @@
       "source_file": "macos_use/ax/controls.py",
       "source_location": "L905",
       "id": "ax_controls_rationale_905",
-      "community": 177,
+      "community": 0,
       "norm_label": "move the mouse cursor to the center of this control."
     },
     {
@@ -27424,7 +27784,7 @@
       "source_file": "macos_use/ax/controls.py",
       "source_location": "L1231",
       "id": "ax_controls_rationale_1231",
-      "community": 177,
+      "community": 5,
       "norm_label": "get the process identifier (pid) of this application."
     },
     {
@@ -27532,7 +27892,7 @@
       "source_file": "macos_use/ax/controls.py",
       "source_location": "L1369",
       "id": "ax_controls_rationale_1369",
-      "community": 177,
+      "community": 4,
       "norm_label": "get the executing processor architecture of the application.          common val"
     },
     {
@@ -27766,7 +28126,7 @@
       "source_file": "macos_use/ax/controls.py",
       "source_location": "L1593",
       "id": "ax_controls_rationale_1593",
-      "community": 4,
+      "community": 5,
       "norm_label": "select this radio button."
     },
     {
@@ -27802,7 +28162,7 @@
       "source_file": "macos_use/ax/controls.py",
       "source_location": "L1610",
       "id": "ax_controls_rationale_1610",
-      "community": 177,
+      "community": 4,
       "norm_label": "get the insertion point line number."
     },
     {
@@ -27847,7 +28207,7 @@
       "source_file": "macos_use/ax/controls.py",
       "source_location": "L1640",
       "id": "ax_controls_rationale_1640",
-      "community": 4,
+      "community": 5,
       "norm_label": "open the pop-up menu."
     },
     {
@@ -27919,7 +28279,7 @@
       "source_file": "macos_use/ax/controls.py",
       "source_location": "L1683",
       "id": "ax_controls_rationale_1683",
-      "community": 4,
+      "community": 5,
       "norm_label": "select this menu item."
     },
     {
@@ -27937,7 +28297,7 @@
       "source_file": "macos_use/ax/controls.py",
       "source_location": "L1691",
       "id": "ax_controls_rationale_1691",
-      "community": 4,
+      "community": 5,
       "norm_label": "open this menu bar item."
     },
     {
@@ -27982,7 +28342,7 @@
       "source_file": "macos_use/ax/controls.py",
       "source_location": "L1720",
       "id": "ax_controls_rationale_1720",
-      "community": 177,
+      "community": 4,
       "norm_label": "get the number of rows."
     },
     {
@@ -27991,7 +28351,7 @@
       "source_file": "macos_use/ax/controls.py",
       "source_location": "L1726",
       "id": "ax_controls_rationale_1726",
-      "community": 177,
+      "community": 4,
       "norm_label": "get the number of columns."
     },
     {
@@ -28171,7 +28531,7 @@
       "source_file": "macos_use/ax/controls.py",
       "source_location": "L1861",
       "id": "ax_controls_rationale_1861",
-      "community": 4,
+      "community": 5,
       "norm_label": "toggle the disclosure state."
     },
     {
@@ -28198,7 +28558,7 @@
       "source_file": "macos_use/ax/controls.py",
       "source_location": "L1875",
       "id": "ax_controls_rationale_1875",
-      "community": 177,
+      "community": 4,
       "norm_label": "get the row index of this cell."
     },
     {
@@ -28216,7 +28576,7 @@
       "source_file": "macos_use/ax/controls.py",
       "source_location": "L1891",
       "id": "ax_controls_rationale_1891",
-      "community": 177,
+      "community": 4,
       "norm_label": "get the outline disclosure level."
     },
     {
@@ -28540,7 +28900,7 @@
       "source_file": "macos_use/ax/core.py",
       "source_location": "L342",
       "id": "ax_core_getactionnames",
-      "community": 2,
+      "community": 1,
       "norm_label": "getactionnames()"
     },
     {
@@ -29404,7 +29764,7 @@
       "source_file": "macos_use/ax/core.py",
       "source_location": "L343",
       "id": "ax_core_rationale_343",
-      "community": 2,
+      "community": 1,
       "norm_label": "get all action names supported by an element."
     },
     {
@@ -30169,7 +30529,7 @@
       "source_file": "macos_use/ax/enums.py",
       "source_location": "L393",
       "id": "ax_enums_notification",
-      "community": 198,
+      "community": 1057,
       "norm_label": "notification"
     },
     {
@@ -30331,7 +30691,7 @@
       "source_file": "macos_use/ax/enums.py",
       "source_location": "L394",
       "id": "ax_enums_rationale_394",
-      "community": 198,
+      "community": 1057,
       "norm_label": "accessibility notifications (events) that can be observed.     equivalent to win"
     },
     {
@@ -30448,7 +30808,7 @@
       "source_file": "macos_use/ax/events.py",
       "source_location": "L51",
       "id": "ax_events_global_observer_callback",
-      "community": 198,
+      "community": 1043,
       "norm_label": "_global_observer_callback()"
     },
     {
@@ -30457,7 +30817,7 @@
       "source_file": "macos_use/ax/events.py",
       "source_location": "L69",
       "id": "ax_events_appobserver",
-      "community": 198,
+      "community": 1057,
       "norm_label": "appobserver"
     },
     {
@@ -30466,7 +30826,7 @@
       "source_file": "macos_use/ax/events.py",
       "source_location": "L77",
       "id": "ax_events_appobserver_init",
-      "community": 198,
+      "community": 1057,
       "norm_label": ".__init__()"
     },
     {
@@ -30475,7 +30835,7 @@
       "source_file": "macos_use/ax/events.py",
       "source_location": "L77",
       "id": "macos_use_ax_events_py_int",
-      "community": 198,
+      "community": 1057,
       "norm_label": "int"
     },
     {
@@ -30484,7 +30844,7 @@
       "source_file": "macos_use/ax/events.py",
       "source_location": "L85",
       "id": "ax_events_appobserver_start",
-      "community": 198,
+      "community": 1057,
       "norm_label": ".start()"
     },
     {
@@ -30493,7 +30853,7 @@
       "source_file": "macos_use/ax/events.py",
       "source_location": "L85",
       "id": "macos_use_ax_events_py_str",
-      "community": 198,
+      "community": 1057,
       "norm_label": "str"
     },
     {
@@ -30502,7 +30862,7 @@
       "source_file": "macos_use/ax/events.py",
       "source_location": "L85",
       "id": "macos_use_ax_events_py_bool",
-      "community": 198,
+      "community": 1043,
       "norm_label": "bool"
     },
     {
@@ -30511,7 +30871,7 @@
       "source_file": "macos_use/ax/events.py",
       "source_location": "L134",
       "id": "ax_events_appobserver_stop",
-      "community": 198,
+      "community": 1057,
       "norm_label": ".stop()"
     },
     {
@@ -30520,7 +30880,7 @@
       "source_file": "macos_use/ax/events.py",
       "source_location": "L166",
       "id": "ax_events_appobserver_matches_observer",
-      "community": 198,
+      "community": 1043,
       "norm_label": ".matches_observer()"
     },
     {
@@ -30529,7 +30889,7 @@
       "source_file": "macos_use/ax/events.py",
       "source_location": "L166",
       "id": "macos_use_ax_events_py_any",
-      "community": 198,
+      "community": 1043,
       "norm_label": "any"
     },
     {
@@ -30538,7 +30898,7 @@
       "source_file": "macos_use/ax/events.py",
       "source_location": "L175",
       "id": "ax_events_eventobserver",
-      "community": 333,
+      "community": 983,
       "norm_label": "eventobserver"
     },
     {
@@ -30547,7 +30907,7 @@
       "source_file": "macos_use/ax/events.py",
       "source_location": "L198",
       "id": "ax_events_eventobserver_init",
-      "community": 333,
+      "community": 1142,
       "norm_label": ".__init__()"
     },
     {
@@ -30556,7 +30916,7 @@
       "source_file": "macos_use/ax/events.py",
       "source_location": "L198",
       "id": "macos_use_ax_events_py_float",
-      "community": 333,
+      "community": 1142,
       "norm_label": "float"
     },
     {
@@ -30565,7 +30925,7 @@
       "source_file": "macos_use/ax/events.py",
       "source_location": "L223",
       "id": "ax_events_eventobserver_enter",
-      "community": 333,
+      "community": 983,
       "norm_label": ".__enter__()"
     },
     {
@@ -30574,7 +30934,7 @@
       "source_file": "macos_use/ax/events.py",
       "source_location": "L227",
       "id": "ax_events_eventobserver_exit",
-      "community": 333,
+      "community": 983,
       "norm_label": ".__exit__()"
     },
     {
@@ -30583,7 +30943,7 @@
       "source_file": "macos_use/ax/events.py",
       "source_location": "L231",
       "id": "ax_events_eventobserver_is_running",
-      "community": 333,
+      "community": 1043,
       "norm_label": ".is_running()"
     },
     {
@@ -30592,7 +30952,7 @@
       "source_file": "macos_use/ax/events.py",
       "source_location": "L235",
       "id": "ax_events_eventobserver_start",
-      "community": 333,
+      "community": 983,
       "norm_label": ".start()"
     },
     {
@@ -30601,7 +30961,7 @@
       "source_file": "macos_use/ax/events.py",
       "source_location": "L250",
       "id": "ax_events_eventobserver_stop",
-      "community": 333,
+      "community": 983,
       "norm_label": ".stop()"
     },
     {
@@ -30610,7 +30970,7 @@
       "source_file": "macos_use/ax/events.py",
       "source_location": "L263",
       "id": "ax_events_eventobserver_has_observer",
-      "community": 198,
+      "community": 1043,
       "norm_label": "._has_observer()"
     },
     {
@@ -30619,7 +30979,7 @@
       "source_file": "macos_use/ax/events.py",
       "source_location": "L271",
       "id": "ax_events_eventobserver_dispatch",
-      "community": 198,
+      "community": 1043,
       "norm_label": "._dispatch()"
     },
     {
@@ -30628,7 +30988,7 @@
       "source_file": "macos_use/ax/events.py",
       "source_location": "L288",
       "id": "ax_events_eventobserver_get_running_app_pids",
-      "community": 333,
+      "community": 983,
       "norm_label": "._get_running_app_pids()"
     },
     {
@@ -30637,7 +30997,7 @@
       "source_file": "macos_use/ax/events.py",
       "source_location": "L300",
       "id": "ax_events_eventobserver_get_notifications_to_register",
-      "community": 333,
+      "community": 983,
       "norm_label": "._get_notifications_to_register()"
     },
     {
@@ -30646,7 +31006,7 @@
       "source_file": "macos_use/ax/events.py",
       "source_location": "L338",
       "id": "ax_events_eventobserver_update_observers",
-      "community": 333,
+      "community": 983,
       "norm_label": "._update_observers()"
     },
     {
@@ -30655,7 +31015,7 @@
       "source_file": "macos_use/ax/events.py",
       "source_location": "L367",
       "id": "ax_events_eventobserver_run",
-      "community": 333,
+      "community": 983,
       "norm_label": "._run()"
     },
     {
@@ -30673,7 +31033,7 @@
       "source_file": "macos_use/ax/events.py",
       "source_location": "L52",
       "id": "ax_events_rationale_52",
-      "community": 198,
+      "community": 1043,
       "norm_label": "global callback function for axobserver notifications.     routes notifications"
     },
     {
@@ -30682,7 +31042,7 @@
       "source_file": "macos_use/ax/events.py",
       "source_location": "L70",
       "id": "ax_events_rationale_70",
-      "community": 198,
+      "community": 1057,
       "norm_label": "observer for a single application's accessibility events.     each application r"
     },
     {
@@ -30691,7 +31051,7 @@
       "source_file": "macos_use/ax/events.py",
       "source_location": "L86",
       "id": "ax_events_rationale_86",
-      "community": 198,
+      "community": 1057,
       "norm_label": "create the observer and register for notifications.          args:             n"
     },
     {
@@ -30700,7 +31060,7 @@
       "source_file": "macos_use/ax/events.py",
       "source_location": "L135",
       "id": "ax_events_rationale_135",
-      "community": 198,
+      "community": 1057,
       "norm_label": "stop the observer and clean up resources."
     },
     {
@@ -30709,7 +31069,7 @@
       "source_file": "macos_use/ax/events.py",
       "source_location": "L167",
       "id": "ax_events_rationale_167",
-      "community": 198,
+      "community": 1043,
       "norm_label": "check if this appobserver owns the given axobserver."
     },
     {
@@ -30718,7 +31078,7 @@
       "source_file": "macos_use/ax/events.py",
       "source_location": "L176",
       "id": "ax_events_rationale_176",
-      "community": 333,
+      "community": 983,
       "norm_label": "high-level event observation service for macos accessibility.     manages multip"
     },
     {
@@ -30727,7 +31087,7 @@
       "source_file": "macos_use/ax/events.py",
       "source_location": "L199",
       "id": "ax_events_rationale_199",
-      "community": 333,
+      "community": 1142,
       "norm_label": "args:             debounce_interval: minimum time between events (seconds)."
     },
     {
@@ -30736,7 +31096,7 @@
       "source_file": "macos_use/ax/events.py",
       "source_location": "L232",
       "id": "ax_events_rationale_232",
-      "community": 333,
+      "community": 1043,
       "norm_label": "check if the observer is running."
     },
     {
@@ -30745,7 +31105,7 @@
       "source_file": "macos_use/ax/events.py",
       "source_location": "L236",
       "id": "ax_events_rationale_236",
-      "community": 333,
+      "community": 983,
       "norm_label": "start the event observation thread."
     },
     {
@@ -30754,7 +31114,7 @@
       "source_file": "macos_use/ax/events.py",
       "source_location": "L251",
       "id": "ax_events_rationale_251",
-      "community": 333,
+      "community": 983,
       "norm_label": "stop the event observation thread."
     },
     {
@@ -30763,7 +31123,7 @@
       "source_file": "macos_use/ax/events.py",
       "source_location": "L264",
       "id": "ax_events_rationale_264",
-      "community": 198,
+      "community": 1043,
       "norm_label": "check if this eventobserver owns the given axobserver."
     },
     {
@@ -30772,7 +31132,7 @@
       "source_file": "macos_use/ax/events.py",
       "source_location": "L272",
       "id": "ax_events_rationale_272",
-      "community": 198,
+      "community": 1043,
       "norm_label": "dispatch a notification to the appropriate callback."
     },
     {
@@ -30781,7 +31141,7 @@
       "source_file": "macos_use/ax/events.py",
       "source_location": "L289",
       "id": "ax_events_rationale_289",
-      "community": 333,
+      "community": 983,
       "norm_label": "get pids of all running user-facing applications."
     },
     {
@@ -30790,7 +31150,7 @@
       "source_file": "macos_use/ax/events.py",
       "source_location": "L301",
       "id": "ax_events_rationale_301",
-      "community": 333,
+      "community": 983,
       "norm_label": "determine which notifications to register based on set callbacks."
     },
     {
@@ -30799,7 +31159,7 @@
       "source_file": "macos_use/ax/events.py",
       "source_location": "L339",
       "id": "ax_events_rationale_339",
-      "community": 333,
+      "community": 983,
       "norm_label": "update observers to match currently running applications."
     },
     {
@@ -30808,7 +31168,7 @@
       "source_file": "macos_use/ax/events.py",
       "source_location": "L368",
       "id": "ax_events_rationale_368",
-      "community": 333,
+      "community": 983,
       "norm_label": "main event loop running in a dedicated thread."
     },
     {
@@ -35560,7 +35920,7 @@
       "source_file": "macos_use/providers/litellm/__init__.py",
       "source_location": "L1",
       "id": "litellm_init",
-      "community": 119,
+      "community": 6,
       "norm_label": "__init__.py"
     },
     {
@@ -36271,7 +36631,7 @@
       "source_file": "macos_use/providers/ollama/__init__.py",
       "source_location": "L1",
       "id": "ollama_init",
-      "community": 6,
+      "community": 85,
       "norm_label": "__init__.py"
     },
     {
@@ -37666,7 +38026,7 @@
       "source_file": "macos_use/telemetry/service.py",
       "source_location": "L1",
       "id": "telemetry_service",
-      "community": 413,
+      "community": 37,
       "norm_label": "service.py"
     },
     {
@@ -37675,7 +38035,7 @@
       "source_file": "macos_use/telemetry/service.py",
       "source_location": "L15",
       "id": "telemetry_service_producttelemetry",
-      "community": 413,
+      "community": 37,
       "norm_label": "producttelemetry"
     },
     {
@@ -37684,7 +38044,7 @@
       "source_file": "macos_use/telemetry/service.py",
       "source_location": "L19",
       "id": "telemetry_service_producttelemetry_init",
-      "community": 413,
+      "community": 37,
       "norm_label": ".__init__()"
     },
     {
@@ -37693,7 +38053,7 @@
       "source_file": "macos_use/telemetry/service.py",
       "source_location": "L25",
       "id": "telemetry_service_producttelemetry_client",
-      "community": 413,
+      "community": 37,
       "norm_label": ".client()"
     },
     {
@@ -37702,7 +38062,7 @@
       "source_file": "macos_use/telemetry/service.py",
       "source_location": "L47",
       "id": "telemetry_service_producttelemetry_user_id",
-      "community": 413,
+      "community": 37,
       "norm_label": ".user_id()"
     },
     {
@@ -37711,7 +38071,7 @@
       "source_file": "macos_use/telemetry/service.py",
       "source_location": "L70",
       "id": "telemetry_service_producttelemetry_capture",
-      "community": 413,
+      "community": 37,
       "norm_label": ".capture()"
     },
     {
@@ -37720,7 +38080,7 @@
       "source_file": "macos_use/telemetry/service.py",
       "source_location": "L70",
       "id": "basetelemetryevent",
-      "community": 413,
+      "community": 37,
       "norm_label": "basetelemetryevent"
     },
     {
@@ -37729,7 +38089,7 @@
       "source_file": "macos_use/telemetry/service.py",
       "source_location": "L83",
       "id": "telemetry_service_producttelemetry_flush",
-      "community": 413,
+      "community": 37,
       "norm_label": ".flush()"
     },
     {
@@ -37738,7 +38098,7 @@
       "source_file": "macos_use/telemetry/views.py",
       "source_location": "L1",
       "id": "telemetry_views",
-      "community": 413,
+      "community": 37,
       "norm_label": "views.py"
     },
     {
@@ -37747,7 +38107,7 @@
       "source_file": "macos_use/telemetry/views.py",
       "source_location": "L6",
       "id": "telemetry_views_basetelemetryevent",
-      "community": 413,
+      "community": 37,
       "norm_label": "basetelemetryevent"
     },
     {
@@ -37756,7 +38116,7 @@
       "source_file": "macos_use/telemetry/views.py",
       "source_location": "L9",
       "id": "telemetry_views_basetelemetryevent_event_name",
-      "community": 413,
+      "community": 37,
       "norm_label": ".event_name()"
     },
     {
@@ -37765,7 +38125,7 @@
       "source_file": "macos_use/telemetry/views.py",
       "source_location": "L9",
       "id": "macos_use_telemetry_views_py_str",
-      "community": 413,
+      "community": 37,
       "norm_label": "str"
     },
     {
@@ -37774,7 +38134,7 @@
       "source_file": "macos_use/telemetry/views.py",
       "source_location": "L13",
       "id": "telemetry_views_basetelemetryevent_properties",
-      "community": 413,
+      "community": 37,
       "norm_label": ".properties()"
     },
     {
@@ -37783,7 +38143,7 @@
       "source_file": "macos_use/telemetry/views.py",
       "source_location": "L13",
       "id": "macos_use_telemetry_views_py_any",
-      "community": 413,
+      "community": 37,
       "norm_label": "any"
     },
     {
@@ -37792,7 +38152,7 @@
       "source_file": "macos_use/telemetry/views.py",
       "source_location": "L17",
       "id": "telemetry_views_agenttelemetryevent",
-      "community": 413,
+      "community": 37,
       "norm_label": "agenttelemetryevent"
     },
     {
@@ -56179,7 +56539,7 @@
       "source_file": ".claude/skills/argocd/References/api-reference.md",
       "source_location": "L805",
       "id": "references_api_reference_certificates_api",
-      "community": 635,
+      "community": 1106,
       "norm_label": "certificates api"
     },
     {
@@ -56188,7 +56548,7 @@
       "source_file": ".claude/skills/argocd/References/api-reference.md",
       "source_location": "L807",
       "id": "references_api_reference_list_certificates",
-      "community": 635,
+      "community": 1106,
       "norm_label": "list certificates"
     },
     {
@@ -56197,7 +56557,7 @@
       "source_file": ".claude/skills/argocd/References/api-reference.md",
       "source_location": "L814",
       "id": "references_api_reference_create_certificates",
-      "community": 635,
+      "community": 1106,
       "norm_label": "create certificates"
     },
     {
@@ -56206,7 +56566,7 @@
       "source_file": ".claude/skills/argocd/References/api-reference.md",
       "source_location": "L838",
       "id": "references_api_reference_delete_certificate",
-      "community": 635,
+      "community": 1106,
       "norm_label": "delete certificate"
     },
     {
@@ -122653,7 +123013,7 @@
       "source_file": ".claude/skills/obsidian/References/markdown-extensions.md",
       "source_location": "L493",
       "id": "references_markdown_extensions_footnotes",
-      "community": 462,
+      "community": 612,
       "norm_label": "footnotes"
     },
     {
@@ -122662,7 +123022,7 @@
       "source_file": ".claude/skills/obsidian/References/markdown-extensions.md",
       "source_location": "L495",
       "id": "references_markdown_extensions_inline_footnotes",
-      "community": 462,
+      "community": 612,
       "norm_label": "inline footnotes"
     },
     {
@@ -122671,7 +123031,7 @@
       "source_file": ".claude/skills/obsidian/References/markdown-extensions.md",
       "source_location": "L503",
       "id": "references_markdown_extensions_multi_line_footnotes",
-      "community": 462,
+      "community": 612,
       "norm_label": "multi-line footnotes"
     },
     {
@@ -122779,7 +123139,7 @@
       "source_file": ".claude/skills/obsidian/References/markdown-extensions.md",
       "source_location": "L598",
       "id": "references_markdown_extensions_templater_plugin",
-      "community": 612,
+      "community": 1147,
       "norm_label": "templater (plugin)"
     },
     {
@@ -122788,7 +123148,7 @@
       "source_file": ".claude/skills/obsidian/References/markdown-extensions.md",
       "source_location": "L600",
       "id": "references_markdown_extensions_basic_template",
-      "community": 612,
+      "community": 1147,
       "norm_label": "basic template"
     },
     {
@@ -122797,7 +123157,7 @@
       "source_file": ".claude/skills/obsidian/References/markdown-extensions.md",
       "source_location": "L611",
       "id": "references_markdown_extensions_common_functions",
-      "community": 612,
+      "community": 1147,
       "norm_label": "common functions"
     },
     {
@@ -154855,7 +155215,7 @@
       "source_file": ".claude/skills/uv/References/project-management.md",
       "source_location": "L1",
       "id": "references_project_management",
-      "community": 886,
+      "community": 1079,
       "norm_label": "project-management.md"
     },
     {
@@ -154864,7 +155224,7 @@
       "source_file": ".claude/skills/uv/References/project-management.md",
       "source_location": "L1",
       "id": "references_project_management_uv_project_management_reference",
-      "community": 886,
+      "community": 1079,
       "norm_label": "uv project management reference"
     },
     {
@@ -163535,6 +163895,42 @@
       "norm_label": "wiki-brain commands available"
     },
     {
+      "label": "CHANGELOG.md",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L1",
+      "id": "changelog",
+      "community": 1070,
+      "norm_label": "changelog.md"
+    },
+    {
+      "label": "Changelog",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L1",
+      "id": "changelog_changelog",
+      "community": 1070,
+      "norm_label": "changelog"
+    },
+    {
+      "label": "[Unreleased]",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L8",
+      "id": "changelog_unreleased",
+      "community": 1070,
+      "norm_label": "[unreleased]"
+    },
+    {
+      "label": "Added",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L10",
+      "id": "changelog_added",
+      "community": 1070,
+      "norm_label": "added"
+    },
+    {
       "label": "CLAUDE.md",
       "file_type": "document",
       "source_file": "CLAUDE.md",
@@ -163578,6 +163974,177 @@
       "id": "claude_wiki_brain_commands_available",
       "community": 1100,
       "norm_label": "wiki-brain commands available"
+    },
+    {
+      "label": "CONTRIBUTING.md",
+      "file_type": "document",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L1",
+      "id": "contributing",
+      "community": 929,
+      "norm_label": "contributing.md"
+    },
+    {
+      "label": "Contributing to MacOS-Use",
+      "file_type": "document",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L1",
+      "id": "contributing_contributing_to_macos_use",
+      "community": 929,
+      "norm_label": "contributing to macos-use"
+    },
+    {
+      "label": "Table of Contents",
+      "file_type": "document",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L5",
+      "id": "contributing_table_of_contents",
+      "community": 929,
+      "norm_label": "table of contents"
+    },
+    {
+      "label": "Getting Started",
+      "file_type": "document",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L25",
+      "id": "contributing_getting_started",
+      "community": 929,
+      "norm_label": "getting started"
+    },
+    {
+      "label": "Development Environment",
+      "file_type": "document",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L27",
+      "id": "contributing_development_environment",
+      "community": 929,
+      "norm_label": "development environment"
+    },
+    {
+      "label": "Installation from Source",
+      "file_type": "document",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L33",
+      "id": "contributing_installation_from_source",
+      "community": 929,
+      "norm_label": "installation from source"
+    },
+    {
+      "label": "Development Workflow",
+      "file_type": "document",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L51",
+      "id": "contributing_development_workflow",
+      "community": 929,
+      "norm_label": "development workflow"
+    },
+    {
+      "label": "Branching Strategy",
+      "file_type": "document",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L53",
+      "id": "contributing_branching_strategy",
+      "community": 929,
+      "norm_label": "branching strategy"
+    },
+    {
+      "label": "Commit Messages",
+      "file_type": "document",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L59",
+      "id": "contributing_commit_messages",
+      "community": 929,
+      "norm_label": "commit messages"
+    },
+    {
+      "label": "Code Style",
+      "file_type": "document",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L63",
+      "id": "contributing_code_style",
+      "community": 929,
+      "norm_label": "code style"
+    },
+    {
+      "label": "Pre-commit Hooks",
+      "file_type": "document",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L73",
+      "id": "contributing_pre_commit_hooks",
+      "community": 929,
+      "norm_label": "pre-commit hooks"
+    },
+    {
+      "label": "Testing",
+      "file_type": "document",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L86",
+      "id": "contributing_testing",
+      "community": 929,
+      "norm_label": "testing"
+    },
+    {
+      "label": "Running Tests",
+      "file_type": "document",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L88",
+      "id": "contributing_running_tests",
+      "community": 929,
+      "norm_label": "running tests"
+    },
+    {
+      "label": "Adding Tests",
+      "file_type": "document",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L102",
+      "id": "contributing_adding_tests",
+      "community": 929,
+      "norm_label": "adding tests"
+    },
+    {
+      "label": "Pull Requests",
+      "file_type": "document",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L108",
+      "id": "contributing_pull_requests",
+      "community": 929,
+      "norm_label": "pull requests"
+    },
+    {
+      "label": "Creating a Pull Request",
+      "file_type": "document",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L110",
+      "id": "contributing_creating_a_pull_request",
+      "community": 929,
+      "norm_label": "creating a pull request"
+    },
+    {
+      "label": "Pull Request Template",
+      "file_type": "document",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L117",
+      "id": "contributing_pull_request_template",
+      "community": 929,
+      "norm_label": "pull request template"
+    },
+    {
+      "label": "Documentation",
+      "file_type": "document",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L133",
+      "id": "contributing_documentation",
+      "community": 929,
+      "norm_label": "documentation"
+    },
+    {
+      "label": "Getting Help",
+      "file_type": "document",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L156",
+      "id": "contributing_getting_help",
+      "community": 929,
+      "norm_label": "getting help"
     },
     {
       "label": "GEMINI.md",
@@ -164397,6 +164964,204 @@
       "id": "readme_citation",
       "community": 275,
       "norm_label": "citation"
+    },
+    {
+      "label": "SECURITY.md",
+      "file_type": "document",
+      "source_file": "SECURITY.md",
+      "source_location": "L1",
+      "id": "security",
+      "community": 413,
+      "norm_label": "security.md"
+    },
+    {
+      "label": "Security Policy",
+      "file_type": "document",
+      "source_file": "SECURITY.md",
+      "source_location": "L1",
+      "id": "security_security_policy",
+      "community": 413,
+      "norm_label": "security policy"
+    },
+    {
+      "label": "\u26a0\ufe0f Critical Security Notice",
+      "file_type": "document",
+      "source_file": "SECURITY.md",
+      "source_location": "L3",
+      "id": "security_critical_security_notice",
+      "community": 413,
+      "norm_label": "\u26a0\ufe0f critical security notice"
+    },
+    {
+      "label": "Direct OS Interaction Risks",
+      "file_type": "document",
+      "source_file": "SECURITY.md",
+      "source_location": "L7",
+      "id": "security_direct_os_interaction_risks",
+      "community": 413,
+      "norm_label": "direct os interaction risks"
+    },
+    {
+      "label": "\ud83d\udee1\ufe0f Recommended Deployment Practices",
+      "file_type": "document",
+      "source_file": "SECURITY.md",
+      "source_location": "L25",
+      "id": "security_recommended_deployment_practices",
+      "community": 413,
+      "norm_label": "\ud83d\udee1\ufe0f recommended deployment practices"
+    },
+    {
+      "label": "For Development and Testing",
+      "file_type": "document",
+      "source_file": "SECURITY.md",
+      "source_location": "L27",
+      "id": "security_for_development_and_testing",
+      "community": 413,
+      "norm_label": "for development and testing"
+    },
+    {
+      "label": "For Production Deployment",
+      "file_type": "document",
+      "source_file": "SECURITY.md",
+      "source_location": "L39",
+      "id": "security_for_production_deployment",
+      "community": 413,
+      "norm_label": "for production deployment"
+    },
+    {
+      "label": "\ud83d\udd12 Security Best Practices",
+      "file_type": "document",
+      "source_file": "SECURITY.md",
+      "source_location": "L69",
+      "id": "security_security_best_practices",
+      "community": 413,
+      "norm_label": "\ud83d\udd12 security best practices"
+    },
+    {
+      "label": "Before Running the Agent",
+      "file_type": "document",
+      "source_file": "SECURITY.md",
+      "source_location": "L71",
+      "id": "security_before_running_the_agent",
+      "community": 413,
+      "norm_label": "before running the agent"
+    },
+    {
+      "label": "While Running the Agent",
+      "file_type": "document",
+      "source_file": "SECURITY.md",
+      "source_location": "L79",
+      "id": "security_while_running_the_agent",
+      "community": 413,
+      "norm_label": "while running the agent"
+    },
+    {
+      "label": "After Running the Agent",
+      "file_type": "document",
+      "source_file": "SECURITY.md",
+      "source_location": "L86",
+      "id": "security_after_running_the_agent",
+      "community": 413,
+      "norm_label": "after running the agent"
+    },
+    {
+      "label": "\ud83d\udea8 Known Security Limitations",
+      "file_type": "document",
+      "source_file": "SECURITY.md",
+      "source_location": "L93",
+      "id": "security_known_security_limitations",
+      "community": 413,
+      "norm_label": "\ud83d\udea8 known security limitations"
+    },
+    {
+      "label": "Current Limitations",
+      "file_type": "document",
+      "source_file": "SECURITY.md",
+      "source_location": "L95",
+      "id": "security_current_limitations",
+      "community": 413,
+      "norm_label": "current limitations"
+    },
+    {
+      "label": "Planned Security Enhancements",
+      "file_type": "document",
+      "source_file": "SECURITY.md",
+      "source_location": "L103",
+      "id": "security_planned_security_enhancements",
+      "community": 413,
+      "norm_label": "planned security enhancements"
+    },
+    {
+      "label": "\ud83d\udccb Reporting Security Vulnerabilities",
+      "file_type": "document",
+      "source_file": "SECURITY.md",
+      "source_location": "L113",
+      "id": "security_reporting_security_vulnerabilities",
+      "community": 413,
+      "norm_label": "\ud83d\udccb reporting security vulnerabilities"
+    },
+    {
+      "label": "How to Report",
+      "file_type": "document",
+      "source_file": "SECURITY.md",
+      "source_location": "L117",
+      "id": "security_how_to_report",
+      "community": 413,
+      "norm_label": "how to report"
+    },
+    {
+      "label": "What to Include",
+      "file_type": "document",
+      "source_file": "SECURITY.md",
+      "source_location": "L127",
+      "id": "security_what_to_include",
+      "community": 413,
+      "norm_label": "what to include"
+    },
+    {
+      "label": "Response Timeline",
+      "file_type": "document",
+      "source_file": "SECURITY.md",
+      "source_location": "L135",
+      "id": "security_response_timeline",
+      "community": 413,
+      "norm_label": "response timeline"
+    },
+    {
+      "label": "\ud83d\udd10 Security Checklist for Contributors",
+      "file_type": "document",
+      "source_file": "SECURITY.md",
+      "source_location": "L142",
+      "id": "security_security_checklist_for_contributors",
+      "community": 413,
+      "norm_label": "\ud83d\udd10 security checklist for contributors"
+    },
+    {
+      "label": "\u2696\ufe0f Disclaimer",
+      "file_type": "document",
+      "source_file": "SECURITY.md",
+      "source_location": "L154",
+      "id": "security_disclaimer",
+      "community": 413,
+      "norm_label": "\u2696\ufe0f disclaimer"
+    },
+    {
+      "label": "\ud83d\udcda Additional Resources",
+      "file_type": "document",
+      "source_file": "SECURITY.md",
+      "source_location": "L167",
+      "id": "security_additional_resources",
+      "community": 413,
+      "norm_label": "\ud83d\udcda additional resources"
+    },
+    {
+      "label": "\ud83c\udd98 Support",
+      "file_type": "document",
+      "source_file": "SECURITY.md",
+      "source_location": "L173",
+      "id": "security_support",
+      "community": 413,
+      "norm_label": "\ud83c\udd98 support"
     },
     {
       "label": "",
@@ -165938,6 +166703,15 @@
       "norm_label": "license"
     },
     {
+      "label": "Run the main agent loop asynchronously.",
+      "file_type": "rationale",
+      "source_file": "macos_use/agent/service.py",
+      "source_location": "L334",
+      "community": 37,
+      "norm_label": "run the main agent loop asynchronously.",
+      "id": "agent_service_rationale_334"
+    },
+    {
       "label": "Methodology.md",
       "file_type": "document",
       "source_file": ".claude/skills/premortem/References/Methodology.md",
@@ -166029,6 +166803,356 @@
       "confidence_score": 1.0,
       "source": "scripts_system_audit",
       "target": "users_danilonovais_macos_use_agents_skills_macos_diagnostics_scripts_system_audit_sh__entry"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/notebooklm/data/auth_info.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "data_auth_info",
+      "target": "data_auth_info_authenticated_at",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/notebooklm/data/auth_info.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "data_auth_info",
+      "target": "data_auth_info_authenticated_at_iso",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/notebooklm/data/browser_state/browser_profile/component_crx_cache/metadata.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "component_crx_cache_metadata",
+      "target": "component_crx_cache_metadata_hashes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/notebooklm/data/browser_state/browser_profile/extensions_crx_cache/metadata.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "extensions_crx_cache_metadata",
+      "target": "extensions_crx_cache_metadata_hashes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/notebooklm/data/browser_state/state.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "browser_state_state",
+      "target": "browser_state_state_cookies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/notebooklm/data/browser_state/state.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "browser_state_state",
+      "target": "browser_state_state_origins",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "data_library",
+      "target": "data_library_active_notebook_id",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "data_library",
+      "target": "data_library_notebooks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "data_library",
+      "target": "data_library_updated_at",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "data_library_notebooks",
+      "target": "data_library_notebooks_agents_ide",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "data_library_notebooks",
+      "target": "data_library_notebooks_mac_especialista",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "data_library_notebooks_mac_especialista",
+      "target": "data_library_mac_especialista_content_types",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "data_library_notebooks_mac_especialista",
+      "target": "data_library_mac_especialista_created_at",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "data_library_notebooks_mac_especialista",
+      "target": "data_library_mac_especialista_description",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "data_library_notebooks_mac_especialista",
+      "target": "data_library_mac_especialista_id",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "data_library_notebooks_mac_especialista",
+      "target": "data_library_mac_especialista_last_used",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "data_library_notebooks_mac_especialista",
+      "target": "data_library_mac_especialista_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "data_library_notebooks_mac_especialista",
+      "target": "data_library_mac_especialista_tags",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "data_library_notebooks_mac_especialista",
+      "target": "data_library_mac_especialista_topics",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "data_library_notebooks_mac_especialista",
+      "target": "data_library_mac_especialista_updated_at",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "data_library_notebooks_mac_especialista",
+      "target": "data_library_mac_especialista_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "data_library_notebooks_mac_especialista",
+      "target": "data_library_mac_especialista_use_cases",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "data_library_notebooks_mac_especialista",
+      "target": "data_library_mac_especialista_use_count",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "data_library_notebooks_agents_ide",
+      "target": "data_library_agents_ide_content_types",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "data_library_notebooks_agents_ide",
+      "target": "data_library_agents_ide_created_at",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "data_library_notebooks_agents_ide",
+      "target": "data_library_agents_ide_description",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "data_library_notebooks_agents_ide",
+      "target": "data_library_agents_ide_id",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "data_library_notebooks_agents_ide",
+      "target": "data_library_agents_ide_last_used",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "data_library_notebooks_agents_ide",
+      "target": "data_library_agents_ide_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "data_library_notebooks_agents_ide",
+      "target": "data_library_agents_ide_tags",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "data_library_notebooks_agents_ide",
+      "target": "data_library_agents_ide_topics",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "data_library_notebooks_agents_ide",
+      "target": "data_library_agents_ide_updated_at",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "data_library_notebooks_agents_ide",
+      "target": "data_library_agents_ide_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "data_library_notebooks_agents_ide",
+      "target": "data_library_agents_ide_use_cases",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/notebooklm/data/library.json",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "data_library_notebooks_agents_ide",
+      "target": "data_library_agents_ide_use_count",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -214085,6 +215209,16 @@
       "confidence_score": 1.0,
       "source": "agent_service_rationale_334",
       "target": "agent_service_agent_aloop"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "macos_use/agent/service.py",
+      "source_location": "L341",
+      "weight": 1.0,
+      "source": "agent_service_rationale_341",
+      "target": "agent_service_agent_aloop",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -270799,9 +271933,9 @@
       "source_file": ".agents/rules/context-navegation.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_context_navegation",
-      "target": "rules_context_navegation_navega\u00e7\u00e3o_de_contexto",
-      "confidence_score": 1.0
+      "target": "rules_context_navegation_navega\u00e7\u00e3o_de_contexto"
     },
     {
       "relation": "contains",
@@ -397469,9 +398603,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agents_agents_md",
-      "target": "agents_context_navigation_wiki_brain",
-      "confidence_score": 1.0
+      "target": "agents_context_navigation_wiki_brain"
     },
     {
       "relation": "contains",
@@ -397509,9 +398643,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L85",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agents_agents_md",
-      "target": "agents_wiki_brain_commands_available",
-      "confidence_score": 1.0
+      "target": "agents_wiki_brain_commands_available"
     },
     {
       "relation": "contains",
@@ -397519,8 +398653,38 @@
       "source_file": "AGENTS.md",
       "source_location": "L55",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agents_agents_md",
-      "target": "agents_wiki_brain_session_rules",
+      "target": "agents_wiki_brain_session_rules"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "changelog",
+      "target": "changelog_changelog",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "changelog_changelog",
+      "target": "changelog_unreleased",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "changelog_unreleased",
+      "target": "changelog_added",
       "confidence_score": 1.0
     },
     {
@@ -397529,9 +398693,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude",
-      "target": "claude_context_navigation_wiki_brain",
-      "confidence_score": 1.0
+      "target": "claude_context_navigation_wiki_brain"
     },
     {
       "relation": "contains",
@@ -397549,9 +398713,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L59",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude",
-      "target": "claude_wiki_brain_commands_available",
-      "confidence_score": 1.0
+      "target": "claude_wiki_brain_commands_available"
     },
     {
       "relation": "contains",
@@ -397559,8 +398723,188 @@
       "source_file": "CLAUDE.md",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude",
-      "target": "claude_wiki_brain_session_rules",
+      "target": "claude_wiki_brain_session_rules"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "contributing",
+      "target": "contributing_contributing_to_macos_use",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "contributing_contributing_to_macos_use",
+      "target": "contributing_development_workflow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L133",
+      "weight": 1.0,
+      "source": "contributing_contributing_to_macos_use",
+      "target": "contributing_documentation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L156",
+      "weight": 1.0,
+      "source": "contributing_contributing_to_macos_use",
+      "target": "contributing_getting_help",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "contributing_contributing_to_macos_use",
+      "target": "contributing_getting_started",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L108",
+      "weight": 1.0,
+      "source": "contributing_contributing_to_macos_use",
+      "target": "contributing_pull_requests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "contributing_contributing_to_macos_use",
+      "target": "contributing_table_of_contents",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "contributing_contributing_to_macos_use",
+      "target": "contributing_testing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "contributing_getting_started",
+      "target": "contributing_development_environment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "contributing_getting_started",
+      "target": "contributing_installation_from_source",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "contributing_development_workflow",
+      "target": "contributing_branching_strategy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "contributing_development_workflow",
+      "target": "contributing_code_style",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "contributing_development_workflow",
+      "target": "contributing_commit_messages",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "contributing_development_workflow",
+      "target": "contributing_pre_commit_hooks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "contributing_testing",
+      "target": "contributing_adding_tests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "contributing_testing",
+      "target": "contributing_running_tests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L110",
+      "weight": 1.0,
+      "source": "contributing_pull_requests",
+      "target": "contributing_creating_a_pull_request",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L117",
+      "weight": 1.0,
+      "source": "contributing_pull_requests",
+      "target": "contributing_pull_request_template",
       "confidence_score": 1.0
     },
     {
@@ -397569,9 +398913,9 @@
       "source_file": "GEMINI.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gemini",
-      "target": "gemini_context_navigation_wiki_brain",
-      "confidence_score": 1.0
+      "target": "gemini_context_navigation_wiki_brain"
     },
     {
       "relation": "contains",
@@ -397579,9 +398923,9 @@
       "source_file": "GEMINI.md",
       "source_location": "L48",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gemini",
-      "target": "gemini_wiki_brain_commands_available",
-      "confidence_score": 1.0
+      "target": "gemini_wiki_brain_commands_available"
     },
     {
       "relation": "contains",
@@ -397589,9 +398933,9 @@
       "source_file": "GEMINI.md",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gemini",
-      "target": "gemini_wiki_brain_session_rules",
-      "confidence_score": 1.0
+      "target": "gemini_wiki_brain_session_rules"
     },
     {
       "relation": "contains",
@@ -398412,6 +399756,216 @@
       "confidence_score": 1.0,
       "source": "readme_tools",
       "target": "readme_experimental_tools"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SECURITY.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "security",
+      "target": "security_security_policy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SECURITY.md",
+      "source_location": "L167",
+      "weight": 1.0,
+      "source": "security_security_policy",
+      "target": "security_additional_resources",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SECURITY.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "security_security_policy",
+      "target": "security_critical_security_notice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SECURITY.md",
+      "source_location": "L154",
+      "weight": 1.0,
+      "source": "security_security_policy",
+      "target": "security_disclaimer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SECURITY.md",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "security_security_policy",
+      "target": "security_known_security_limitations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SECURITY.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "security_security_policy",
+      "target": "security_recommended_deployment_practices",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SECURITY.md",
+      "source_location": "L113",
+      "weight": 1.0,
+      "source": "security_security_policy",
+      "target": "security_reporting_security_vulnerabilities",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SECURITY.md",
+      "source_location": "L69",
+      "weight": 1.0,
+      "source": "security_security_policy",
+      "target": "security_security_best_practices",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SECURITY.md",
+      "source_location": "L142",
+      "weight": 1.0,
+      "source": "security_security_policy",
+      "target": "security_security_checklist_for_contributors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SECURITY.md",
+      "source_location": "L173",
+      "weight": 1.0,
+      "source": "security_security_policy",
+      "target": "security_support",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SECURITY.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "security_critical_security_notice",
+      "target": "security_direct_os_interaction_risks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SECURITY.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "security_recommended_deployment_practices",
+      "target": "security_for_development_and_testing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SECURITY.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "security_recommended_deployment_practices",
+      "target": "security_for_production_deployment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SECURITY.md",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "security_security_best_practices",
+      "target": "security_after_running_the_agent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SECURITY.md",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "security_security_best_practices",
+      "target": "security_before_running_the_agent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SECURITY.md",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "security_security_best_practices",
+      "target": "security_while_running_the_agent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SECURITY.md",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "security_known_security_limitations",
+      "target": "security_current_limitations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SECURITY.md",
+      "source_location": "L103",
+      "weight": 1.0,
+      "source": "security_known_security_limitations",
+      "target": "security_planned_security_enhancements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SECURITY.md",
+      "source_location": "L117",
+      "weight": 1.0,
+      "source": "security_reporting_security_vulnerabilities",
+      "target": "security_how_to_report",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SECURITY.md",
+      "source_location": "L135",
+      "weight": 1.0,
+      "source": "security_reporting_security_vulnerabilities",
+      "target": "security_response_timeline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SECURITY.md",
+      "source_location": "L127",
+      "weight": 1.0,
+      "source": "security_reporting_security_vulnerabilities",
+      "target": "security_what_to_include",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -399995,5 +401549,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "cf46d3a9b140056e03804362b39deffe485cb9bd"
+  "built_at_commit": "5ef7dd546e333a51aeaabaffc583e543ad2957ac"
 }

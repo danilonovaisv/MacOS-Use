@@ -1,0 +1,45 @@
+{
+  "notebooks": {
+    "mac-especialista": {
+      "id": "mac-especialista",
+      "url": "https://notebooklm.google.com/notebook/cc6cda6d-f174-4d8c-ade2-9861f0d60d45",
+      "name": "MAC ESPECIALISTA",
+      "description": "Especialista macOS, automacoes e integracao de apps",
+      "topics": [
+        "macos",
+        "automacao",
+        "mail",
+        "agentes",
+        "banco_de_dados"
+      ],
+      "content_types": [],
+      "use_cases": [],
+      "tags": [],
+      "created_at": "2026-08-08T21:11:14.283966",
+      "updated_at": "2026-08-08T21:11:14.283974",
+      "use_count": 0,
+      "last_used": null
+    },
+    "agents-ide": {
+      "id": "agents-ide",
+      "url": "https://notebooklm.google.com/notebook/412b3c1b-bf12-4025-ab40-1e582ea92a91",
+      "name": "AGENTS IDE",
+      "description": "Arquitetura e ecossistema de agentes IDE",
+      "topics": [
+        "agentes",
+        "ide",
+        "autocoding",
+        "arquitetura"
+      ],
+      "content_types": [],
+      "use_cases": [],
+      "tags": [],
+      "created_at": "2026-08-08T21:11:14.536582",
+      "updated_at": "2026-08-08T21:11:14.536588",
+      "use_count": 0,
+      "last_used": null
+    }
+  },
+  "active_notebook_id": "agents-ide",
+  "updated_at": "2026-08-08T21:55:00.802438"
+}

@@ -15,4 +15,27 @@
 - Primeira execução concluída com código 0 e registro `HEALTHY` no log.
 - Backup pré-instalação criado em `~/Library/Application Support/MailAutomation/Backups/20260810-210356`.
 
-Próximo passo: criar e ordenar as regras `PILOTO - ...` manualmente na interface do Mail, sem aplicar ao histórico.
+Próximo passo: concluir a configuração visual e iniciar o piloto somente leitura, sem aplicar regras ao histórico.
+
+## 2026-08-10 - configuração visual e piloto
+
+- Backup, scripts instalados e estado saudável do LaunchAgent confirmados.
+- Painel de visualização fechado antes de selecionar mensagens.
+- Estado inicial de regras, sinalizadores, Caixas Inteligentes, lixo, privacidade e notificações registrado por capturas sanitizadas.
+- `PILOTO - Prioridade` criada com `SmartNotifications.scpt`.
+- `PILOTO - Unsubscribe` criada com `AntiSpamUnsubscribe.scpt`.
+- `PILOTO - Classificação` criada com `TaxonomyAndTagging.scpt` e limitada à conta profissional explicitamente aprovada.
+- Regras ordenadas como Prioridade, Unsubscribe e Classificação, sem alterar regras preexistentes.
+- Aplicação ao histórico recusada em todas as criações e edições finais.
+- Estrutura GTD existente validada sem mudanças desnecessárias.
+- Filtro de lixo conservador e notificações para VIPs confirmados.
+- Proteção de Atividade no Mail ativada; ocultação do IP preservada.
+- VIPs e contas inventariados sem abrir mensagens; nenhuma remoção ou mudança no Foco Trabalho.
+- Dry-run final de 5 mensagens concluído nos três scripts.
+- Dry-run final de 20 mensagens concluído nos três scripts.
+- Estado de leitura e sinalizadores permaneceu inalterado nas duas amostras.
+- Nenhuma mensagem foi movida, apagada, arquivada, encaminhada, respondida ou duplicada.
+- Nenhuma permissão TCC, senha, Touch ID ou Acesso Total ao Disco foi solicitada.
+- Capturas armazenadas fora do Git em `~/Library/Application Support/MailAutomation/Captures/20260810-computer-pilot`; estado final das regras em `13-rules-final.jpg`.
+
+Próximo passo: observar por sete dias, revisar apenas logs sanitizados e manter o Foco Trabalho inalterado até nova aprovação explícita.

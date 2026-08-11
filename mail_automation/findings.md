@@ -12,3 +12,20 @@
 - O backup pré-instalação foi criado em `~/Library/Application Support/MailAutomation/Backups/20260810-210356`.
 - Os scripts foram instalados em formato compilado `.scpt`; o LaunchAgent concluiu a primeira execução com código 0.
 - O validador preexistente de `mail_automation` espera o antigo AppleScript, mas o plist atual executa `ai_mail_summarizer.py`; essa automação paralela não foi modificada.
+- O backup e os quatro artefatos implantados foram confirmados antes da configuração visual.
+- O LaunchAgent `com.user.mailautomation` permaneceu carregado como verificador de integridade e com último código de saída zero.
+- A lista de regras existentes foi registrada antes das mudanças; nenhuma regra preexistente foi editada, desativada ou removida.
+- As três regras `PILOTO - Prioridade`, `PILOTO - Unsubscribe` e `PILOTO - Classificação` foram criadas e mantidas habilitadas com os scripts instalados.
+- A ordem relativa final foi confirmada como Prioridade, Unsubscribe e Classificação; nenhuma regra preexistente foi reordenada ou modificada.
+- A regra de classificação foi limitada à conta profissional explicitamente aprovada e executa somente `TaxonomyAndTagging.scpt`.
+- As três regras usam apenas execução de AppleScript, sem ações de movimento, leitura, sinalização, som, encaminhamento ou interrupção de avaliação.
+- A aplicação ao histórico foi recusada em todas as criações e edições finais das regras do piloto.
+- Os quatro sinalizadores GTD já tinham os nomes e as cores solicitadas; os sinalizadores amarelo e verde existentes foram preservados.
+- As quatro Caixas Inteligentes GTD e a caixa `90 · Hoje` já existiam. A caixa de ação usa o sinalizador correspondente e exclui Apagadas; o comportamento padrão também mantém Lixo fora da pesquisa.
+- O filtro de lixo já estava ativo no modo conservador e mantinha as três exceções solicitadas.
+- As notificações do Mail já estavam limitadas a VIPs, com banners temporários ativos e sons de ações secundárias desativados.
+- Proteção de Atividade no Mail estava desativada e foi ativada; a ocultação do endereço IP permaneceu ativa.
+- O Foco Trabalho foi apenas inspecionado. Não havia pessoas nem apps permitidos, e havia duas contas de domínio profissional no filtro de caixas. Nenhuma alteração foi feita.
+- Quatro linhas da lista representaram cinco mensagens na primeira amostra. Dezesseis linhas representaram vinte mensagens na segunda amostra; os três scripts confirmaram exatamente 5 e 20 mensagens nas execuções finais.
+- As assinaturas dos estados de leitura e sinalizadores permaneceram idênticas antes e depois dos testes. Não houve registro de movimento, exclusão, arquivamento, encaminhamento, resposta, duplicação ou notificação não crítica.
+- Capturas sanitizadas foram armazenadas fora do repositório em `~/Library/Application Support/MailAutomation/Captures/20260810-computer-pilot`; a ordem final está registrada em `13-rules-final.jpg`.

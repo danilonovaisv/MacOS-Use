@@ -48,7 +48,7 @@ Claude Code can already read and edit your vault. No configuration needed.
 
 ```bash
 # Claude Code navigates your vault like any codebase
-cd /path/to/your/vault
+cd /Users/danilonovais/OBSIDIAN/DevMemory
 claude
 
 # Example interactions:

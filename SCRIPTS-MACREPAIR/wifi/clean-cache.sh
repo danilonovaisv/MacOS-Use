@@ -1,37 +1,55 @@
-#!/bin/bash
-# macOS Wi-Fi Optimization and Cleanup Script
-# Validated for macOS Monterey and later
+#!/bin/zsh
+# ==============================================================================
+# macOS Wi-Fi Cache Cleanup & Quick Refresh
+# Compatível com Apple Silicon (M1-M4) & macOS Monterey até Sequoia
+# ==============================================================================
 
-echo "Starting Wi-Fi optimization..."
+set -eo pipefail
 
-# 1. Clear DNS Cache
-# Flushes stale domain name data and restarts the macOS DNS responder service.
-# This resolves issues where websites load slowly or fail to resolve.
-sudo dscacheutil -flushcache
-sudo killall -HUP mDNSResponder
+GREEN="\033[0;32m"
+YELLOW="\033[1;33m"
+BLUE="\033[0;34m"
+NC="\033[0m"
 
+echo -e "${BLUE}=== Iniciando Limpeza de Cache e Otimização Wi-Fi ===${NC}"
 
+# 1. Identifica a interface Wi-Fi dinamicamente
+WIFI_DEV=$(networksetup -listallhardwareports 2>/dev/null | awk '/Hardware Port: (Wi-Fi|AirPort)/{getline; print $2}')
+WIFI_DEV="${WIFI_DEV:-en0}"
+echo -e "${BLUE}[INFO] Interface detectada: ${WIFI_DEV}${NC}"
 
-# 2. Cycle the Wi-Fi Interface
-# Soft-resets the Wi-Fi hardware to clear minor driver glitches.
-# Note: 'en0' is the default Wi-Fi interface on almost all Apple Silicon Macs.
-sudo networksetup -setairportpower en0 off
-sleep 3 # Pauses for 3 seconds to let the hardware fully power down
-sudo networksetup -setairportpower en0 on
-sleep 4 # Pauses to allow the Mac to reconnect to your preferred network
+# 2. Limpeza de Cache DNS e recarregamento do mDNSResponder
+echo -n "Limpando cache DNS (dscacheutil + mDNSResponder)... "
+if dscacheutil -flushcache && sudo killall -HUP mDNSResponder 2>/dev/null; then
+  echo -e "${GREEN}[OK]${NC}"
+else
+  echo -e "${YELLOW}[AVISO: Falha ao reiniciar mDNSResponder]${NC}"
+fi
 
-# 3. Renew DHCP Lease
-# Forces the Mac to drop its old IP address and request a fresh one from the router.
-# This eliminates IP conflict errors on busy home or office networks.
-sudo ipconfig set en0 DHCP
+# 3. Soft-cycle na interface Wi-Fi com timing seguro para Apple Silicon
+echo -n "Reinicializando rádio Wi-Fi (${WIFI_DEV})... "
+if networksetup -setairportpower "$WIFI_DEV" off && sleep 2.5 && networksetup -setairportpower "$WIFI_DEV" on; then
+  echo -e "${GREEN}[OK]${NC}"
+else
+  echo -e "${YELLOW}[AVISO: Não foi possível alternar energia]${NC}"
+fi
 
-# 4. Network Diagnostics
-# Displays your active Wi-Fi configuration (IP address, subnet, router).
-echo "Current Wi-Fi Configuration:"
-networksetup -getinfo Wi-Fi
+# 4. Renovação de concessão DHCP
+echo -n "Renovando concessão DHCP... "
+sudo ipconfig set "$WIFI_DEV" DHCP
+sleep 2
+echo -e "${GREEN}[OK]${NC}"
 
-# Pings Google's reliable public DNS server 4 times to verify internet connectivity.
-echo "Testing Internet Connectivity..."
-ping -c 4 8.8.8.8
+# 5. Verificação de Conectividade
+echo -e "\n${BLUE}--- Status da Conexão ---${NC}"
+IP_ADDR=$(ipconfig getifaddr "$WIFI_DEV" 2>/dev/null || echo "Aguardando IP...")
+echo "Endereço IP Local : $IP_ADDR"
 
-echo "Wi-Fi optimization complete!"
+echo -n "Testando conectividade de internet (1.1.1.1)... "
+if ping -c 3 -W 1500 1.1.1.1 &>/dev/null; then
+  echo -e "${GREEN}[CONECTADO]${NC}"
+else
+  echo -e "${YELLOW}[AVISO: Sem resposta externa imediata]${NC}"
+fi
+
+echo -e "${GREEN}=== Limpeza e otimização concluídas ===${NC}"

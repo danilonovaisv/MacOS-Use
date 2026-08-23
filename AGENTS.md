@@ -1,6 +1,7 @@
 # AGENTS.md
 
 ## Integração Mother Brain (Canônica)
+
 - **Mother Brain Root:** `/Users/danilonovais/OBSIDIAN`
 - **Canonical Entrypoint:** `02-projects/macos-use/project.md`
 - **Adapter Configuration:** `.agents/mother-brain/project.yaml`

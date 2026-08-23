@@ -94,7 +94,7 @@ if [[ "${CHANGE_DNS}" == "true" ]]; then
   while IFS= read -r svc; do
     [[ -z "$svc" ]] && continue
     [[ "$svc" == "*"* ]] && continue  # skip disabled services
-    if [[ "$svc" =~ Wi-?Fi|Ethernet|Thunderbolt ]]; then
+    if [[ "$svc" =~ "Wi-?Fi|Ethernet|Thunderbolt" ]]; then
       /usr/sbin/networksetup -setdnsservers "$svc" 1.1.1.1 9.9.9.9 8.8.8.8 2>/dev/null || true
       log "DNS configurado em: $svc"
     fi

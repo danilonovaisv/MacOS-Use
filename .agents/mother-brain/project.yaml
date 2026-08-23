@@ -1,0 +1,23 @@
+schema_version: 1
+project_id: macos-use
+name: macOS-Use
+mother_brain_root: /Users/danilonovais/OBSIDIAN
+canonical_entrypoint: 02-projects/macos-use/project.md
+canonical_authority:
+  project_identity: 00-system/registries/projects.yaml
+  adapter_registry: 00-system/registries/agent-adapter-projects.yaml
+  memory_protocol: 00-system/policies/agent-memory-and-context-protocol.md
+  integrity_policy: 00-system/policies/external-repository-integrity-policy.md
+integrity_mode: observed
+execution_trust: false
+graphify:
+  mode: disabled
+  authority: DERIVED_ONLY
+wiki_brain:
+  mode: disabled
+  authority: SUGGESTIONS_ONLY_FOR_V1
+session_memory:
+  mode: ephemeral
+  retention: discard_at_session_close
+durable_knowledge_write_authority: false
+automatic_promotion: false

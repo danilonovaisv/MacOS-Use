@@ -1,5 +1,12 @@
 # AGENTS.md
 
+## Integração Mother Brain (Canônica)
+- **Mother Brain Root:** `/Users/danilonovais/OBSIDIAN`
+- **Canonical Entrypoint:** `02-projects/macos-use/project.md`
+- **Adapter Configuration:** `.agents/mother-brain/project.yaml`
+- **Hierarquia:** Mother Brain = conhecimento durável; Repositório Local = código, testes e instruções locais.
+- **Fluxo de Promoção:** `OBSERVED -> CANDIDATE -> VALIDATED -> HUMAN_AUTHORIZED -> CANONICAL`.
+
 ## Regras de Engajamento para Automação macOS
 
 Este repositório gerencia o estado e a governança de um ambiente macOS (Apple Silicon - M1 Max).

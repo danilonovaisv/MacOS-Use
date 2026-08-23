@@ -93,8 +93,6 @@ no inbound links is a dead-end.
 - `/wiki-brain doctor` — verify install
 - `/recall` — show last 5 activities + read linked pages
 
-
-
 # Mac Performance Diagnostics
 
 ## Your Role

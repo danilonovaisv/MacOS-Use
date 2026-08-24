@@ -48,7 +48,7 @@ Claude Code can already read and edit your vault. No configuration needed.
 
 ```bash
 # Claude Code navigates your vault like any codebase
-cd /path/to/your/vault
+cd /Users/danilonovais/OBSIDIAN/DevMemory
 claude
 
 # Example interactions:
@@ -66,7 +66,7 @@ claude
 ### Use Cases
 
 | Task | Claude Code Capability |
-|------|------------------------|
+| ------ | ------------------------ |
 | Read notes | Direct file access |
 | Edit notes | Surgical markdown edits |
 | Add backlinks | Find references, insert wikilinks |
@@ -142,7 +142,7 @@ Real-time bidirectional communication via Model Context Protocol.
 ### MCP Capabilities
 
 | Capability | Description |
-|------------|-------------|
+| ------------ | ------------- |
 | `read_note` | Read note content with metadata |
 | `write_note` | Create or update notes |
 | `search` | Semantic search across vault |
@@ -356,7 +356,7 @@ grep -r "\[\[" --include="*.md" | grep -v "\.obsidian"
 ## Integration Comparison
 
 | Feature | Direct | Manifest | MCP | COG | Claudesidian |
-|---------|--------|----------|-----|-----|--------------|
+| --------- | -------- | ---------- | ----- | ----- | -------------- |
 | Setup Required | None | Minimal | Plugin | Git + hooks | Structure |
 | Real-time Sync | No | No | Yes | No | No |
 | Semantic Search | Basic | Basic | Yes | Basic | Basic |

@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "timezone": "America/Sao_Paulo",
+  "schedule": "0 10 * * *",
+  "mode": "audit",
+  "notebooklm": {
+    "enabled": false,
+    "notebook_title": "notebookLM",
+    "allow_sanitized_history_write": false
+  },
+  "safe_maintenance": {
+    "dns_cache_flush": false,
+    "own_expired_temp_files": true,
+    "external_cache_cleanup": false
+  },
+  "privacy": {
+    "redact_hostname": true,
+    "redact_username": true,
+    "redact_ip": true,
+    "include_personal_filenames": false
+  }
+}

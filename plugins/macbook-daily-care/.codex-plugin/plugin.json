@@ -1,0 +1,23 @@
+{
+  "name": "macbook-daily-care",
+  "version": "0.1.0",
+  "description": "Auditoria diaria e manutencao preventiva segura para MacBook Apple Silicon.",
+  "author": {
+    "name": "Danilo Novais"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "MacBook Daily Care",
+    "shortDescription": "Auditoria preventiva e segura do seu MacBook.",
+    "longDescription": "Audita sistema, armazenamento, rede, atualizacoes e seguranca; consulta o NotebookLM e gera relatorios claros com aprovacoes para qualquer acao sensivel.",
+    "developerName": "Danilo Novais",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write", "Interactive"],
+    "defaultPrompt": [
+      "Execute a auditoria diaria do meu MacBook.",
+      "Mostre a saude do Mac sem fazer alteracoes.",
+      "Revise as pendencias que precisam de aprovacao."
+    ],
+    "brandColor": "#167D68"
+  }
+}

@@ -1,12 +1,18 @@
-# Graph Report - .  (2026-08-11)
+# Graph Report - MacOS-Use  (2026-08-11)
 
 ## Corpus Check
-- Large corpus: 1120 files · ~854,688 words. Semantic extraction will be expensive (many Claude tokens). Consider running on a subfolder.
+- 945 files · ~857,303 words
+- Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 18323 nodes · 22929 edges · 1142 communities (1077 shown, 65 thin omitted)
+- 18381 nodes · 22982 edges · 1150 communities (1082 shown, 68 thin omitted)
 - Extraction: 96% EXTRACTED · 4% INFERRED · 0% AMBIGUOUS · INFERRED: 1025 edges (avg confidence: 0.52)
 - Token cost: 0 input · 0 output
+
+## Graph Freshness
+- Built from commit: `5ef7dd54`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - [[_COMMUNITY_Control|Control]]
@@ -938,7 +944,7 @@
 - [[_COMMUNITY_Daily Development Workflow & Multi Machine Workflow|Daily Development Workflow & Multi Machine Workflow]]
 - [[_COMMUNITY_Encryption & Key Backup|Encryption & Key Backup]]
 - [[_COMMUNITY_First Time Setup & Installation|First Time Setup & Installation]]
-- [[_COMMUNITY_Get Pids Of All Running User Facing Applications & Int|Get Pids Of All Running User Facing Applications & Int]]
+- [[_COMMUNITY_Community 929|Community 929]]
 - [[_COMMUNITY_Available Mcp Tools & Merge Strategies|Available Mcp Tools & Merge Strategies]]
 - [[_COMMUNITY_Available Mcp Tools & Page Path Format|Available Mcp Tools & Page Path Format]]
 - [[_COMMUNITY_Available Mcp Tools & Code Search Filters|Available Mcp Tools & Code Search Filters]]
@@ -992,7 +998,7 @@
 - [[_COMMUNITY_Biome (Fast Linter + Formatter) & Eslint (Linter)|Biome (Fast Linter + Formatter) & Eslint (Linter)]]
 - [[_COMMUNITY_Check Jsonschema & Json Hooks|Check Jsonschema & Json Hooks]]
 - [[_COMMUNITY_Codespell (Typos) & Documentation Hooks|Codespell (Typos) & Documentation Hooks]]
-- [[_COMMUNITY_Certificates Api & Create Certificates|Certificates Api & Create Certificates]]
+- [[_COMMUNITY_Community 983|Community 983]]
 - [[_COMMUNITY_Create Session (Login) & Delete Session (Logout)|Create Session (Login) & Delete Session (Logout)]]
 - [[_COMMUNITY_List Notification Services & List Notification Templates|List Notification Services & List Notification Templates]]
 - [[_COMMUNITY_Cache Commands & Uv Cache Clean|Cache Commands & Uv Cache Clean]]
@@ -1052,7 +1058,7 @@
 - [[_COMMUNITY_Authentication Methods & Oauth 2|Authentication Methods & Oauth 2]]
 - [[_COMMUNITY_Common Field Reference & Scheduling Fields|Common Field Reference & Scheduling Fields]]
 - [[_COMMUNITY_Error Handling & Error Response Format|Error Handling & Error Response Format]]
-- [[_COMMUNITY_State & Cookies|State & Cookies]]
+- [[_COMMUNITY_Community 1043|Community 1043]]
 - [[_COMMUNITY_Evals & Skill Name|Evals & Skill Name]]
 - [[_COMMUNITY_Github And Merge & Graphify Reference Github Clone And Cross Repo Merge|Github And Merge & Graphify Reference: Github Clone And Cross Repo Merge]]
 - [[_COMMUNITY_Transcribe & Graphify Reference Transcribe Video And Audio|Transcribe & Graphify Reference: Transcribe Video And Audio]]
@@ -1066,10 +1072,10 @@
 - [[_COMMUNITY_Transcribe & Graphify Reference Transcribe Video And Audio|Transcribe & Graphify Reference: Transcribe Video And Audio]]
 - [[_COMMUNITY_Init Project & Initialize New Project|Init Project & Initialize New Project]]
 - [[_COMMUNITY_Skill & Commit And Push Skill|Skill & Commit And Push Skill]]
-- [[_COMMUNITY_Auth Info & Authenticated At|Auth Info & Authenticated At]]
+- [[_COMMUNITY_Community 1057|Community 1057]]
 - [[_COMMUNITY_Azure Ad App Registration & Environment Configuration|Azure Ad App Registration & Environment Configuration]]
 - [[_COMMUNITY_Azure Ad Sso Configuration & Group Synchronization|Azure Ad Sso Configuration & Group Synchronization]]
-- [[_COMMUNITY_Float & Args             Debounce Interval Minimum Time Between Events In Seconds (Def|Float & Args:             Debounce Interval: Minimum Time Between Events In Seconds (Def]]
+- [[_COMMUNITY_Community 1060|Community 1060]]
 - [[_COMMUNITY_Basemodel & Str|Basemodel & Str]]
 - [[_COMMUNITY_Alignment & Tables|Alignment & Tables]]
 - [[_COMMUNITY_Default Properties & Properties (Frontmatter)|Default Properties & Properties (Frontmatter)]]
@@ -1079,7 +1085,7 @@
 - [[_COMMUNITY_Build And Publish Commands & Uv Build|Build And Publish Commands & Uv Build]]
 - [[_COMMUNITY_Basic  & Custom Layout Function|Basic  & Custom Layout Function]]
 - [[_COMMUNITY_Auto Linking & Basic|Auto Linking & Basic]]
-- [[_COMMUNITY_Basic Template & Common Functions|Basic Template & Common Functions]]
+- [[_COMMUNITY_Community 1070|Community 1070]]
 - [[_COMMUNITY_Block Comments & Comments|Block Comments & Comments]]
 - [[_COMMUNITY_Css Styling & Register Styles|Css Styling & Register Styles]]
 - [[_COMMUNITY_Editor Methods & Editor Operations|Editor Methods & Editor Operations]]
@@ -1115,9 +1121,9 @@
 - [[_COMMUNITY_Init   & Api Clients For Azure Pim Operations|  Init   & Api Clients For Azure Pim Operations]]
 - [[_COMMUNITY_Extraction Spec & Graphify Reference Extraction Subagent Prompt|Extraction Spec & Graphify Reference: Extraction Subagent Prompt]]
 - [[_COMMUNITY_Log & Wiki Log|Log & Wiki Log]]
-- [[_COMMUNITY_Metadata & Hashes|Metadata & Hashes]]
+- [[_COMMUNITY_Community 1106|Community 1106]]
 - [[_COMMUNITY_Obsidian Transcripts|Obsidian Transcripts]]
-- [[_COMMUNITY_Metadata & Hashes|Metadata & Hashes]]
+- [[_COMMUNITY_Community 1108|Community 1108]]
 - [[_COMMUNITY_Findings & Constatações Da Implantação|Findings & Constatações Da Implantação]]
 - [[_COMMUNITY_Task Plan & Plano De Execução|Task Plan & Plano De Execução]]
 - [[_COMMUNITY_Init   & Pydantic Models For Azure Pim Data Structures|  Init   & Pydantic Models For Azure Pim Data Structures]]
@@ -1143,6 +1149,14 @@
 - [[_COMMUNITY_Wiki Publish|Wiki Publish]]
 - [[_COMMUNITY_Tests For Azure Pim Package &   Init|Tests For Azure Pim Package &   Init  ]]
 - [[_COMMUNITY_Graphify & Workflow Graphify|Graphify & Workflow: Graphify]]
+- [[_COMMUNITY_Community 1142|Community 1142]]
+- [[_COMMUNITY_Community 1143|Community 1143]]
+- [[_COMMUNITY_Community 1144|Community 1144]]
+- [[_COMMUNITY_Community 1145|Community 1145]]
+- [[_COMMUNITY_Community 1146|Community 1146]]
+- [[_COMMUNITY_Community 1147|Community 1147]]
+- [[_COMMUNITY_Community 1148|Community 1148]]
+- [[_COMMUNITY_Community 1149|Community 1149]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `Control` - 190 edges
@@ -1161,43 +1175,43 @@
   macos_use/agent/tools/service.py → macos_use/agent/context/service.py
 - `Path` --uses--> `Desktop`  [INFERRED]
   macos_use/agent/tools/service.py → macos_use/agent/context/service.py
-- `Control` --uses--> `Window`  [INFERRED]
-  macos_use/agent/tree/service.py → macos_use/agent/desktop/views.py
-- `int` --uses--> `Window`  [INFERRED]
-  macos_use/agent/tree/service.py → macos_use/agent/desktop/views.py
-- `Window` --uses--> `Window`  [INFERRED]
-  macos_use/agent/tree/service.py → macos_use/agent/desktop/views.py
+- `DesktopState` --uses--> `DesktopState`  [INFERRED]
+  macos_use/agent/loop.py → macos_use/agent/desktop/views.py
+- `bool` --uses--> `DesktopState`  [INFERRED]
+  macos_use/agent/loop.py → macos_use/agent/desktop/views.py
+- `int` --uses--> `DesktopState`  [INFERRED]
+  macos_use/agent/loop.py → macos_use/agent/desktop/views.py
 
 ## Import Cycles
 - 1-file cycle: `.claude/skills/markitdown/scripts/batch-convert.py -> .claude/skills/markitdown/scripts/batch-convert.py`
 - 1-file cycle: `.claude/skills/obsidian/References/master-tools/NoteCreator.py -> .claude/skills/obsidian/References/master-tools/NoteCreator.py`
 - 1-file cycle: `tools/azure-pim/src/azure_pim/models/azure_rbac.py -> tools/azure-pim/src/azure_pim/models/azure_rbac.py`
 
-## Communities (1142 total, 65 thin omitted)
+## Communities (1150 total, 68 thin omitted)
 
 ### Community 0 - "Control"
 Cohesion: 0.02
-Nodes (111): Control, CreateControl(), _find_recursive_raw(), Find the first AXScrollArea child control., Find the first AXGroup child control., Find the first AXImage child control., Find the first AXLink child control., Find the first AXStaticText child control. (+103 more)
+Nodes (97): Control, CreateControl(), _find_recursive_raw(), Find the first AXScrollArea child control., Find the first AXGroup child control., Find the first AXImage child control., Find the first AXLink child control., Find the first AXStaticText child control. (+89 more)
 
 ### Community 1 - "Controls & Control Classes Wrapping Macos Axuielementref"
 Cohesion: 0.03
-Nodes (185): Control classes wrapping macOS AXUIElementRef. Provides a Pythonic, object-orien, ActivateApplication(), CaptureScreen(), CGImageToPIL(), Click(), ControlFromPID(), DoubleClick(), DragTo() (+177 more)
+Nodes (183): Control classes wrapping macOS AXUIElementRef. Provides a Pythonic, object-orien, ActivateApplication(), CaptureScreen(), CGImageToPIL(), Click(), ControlFromPID(), DoubleClick(), DragTo() (+175 more)
 
 ### Community 2 - "Patterns & Expandcollapsepattern"
 Cohesion: 0.03
-Nodes (63): ExpandCollapsePattern, GetPattern(), InvokePattern, RangeValuePattern, macOS Accessibility action-based patterns. Wraps AXUIElement actions and attribu, Get the current value., Get the minimum value., Get the maximum value. (+55 more)
+Nodes (69): GetAttributeNames(), Get all attribute names supported by an element., Action, Attribute, Accessibility attributes for querying element properties.     Equivalent to Wind, Accessibility actions that can be performed on elements.     Equivalent to Windo, ExpandCollapsePattern, GetPattern() (+61 more)
 
 ### Community 3 - "Armclient & Assignmenttype"
 Cohesion: 0.06
 Nodes (73): ARMClient, AssignmentType, ActivationError, Role activation failed., AzureRole, AzureRoleAssignment, BaseModel, EntraRole (+65 more)
 
 ### Community 4 - "Buttoncontrol & Cellcontrol"
-Cohesion: 0.07
-Nodes (76): ButtonControl, CellControl, CheckBoxControl, ComboBoxControl, DisclosureTriangleControl, DockItemControl, GroupControl, ImageControl (+68 more)
+Cohesion: 0.05
+Nodes (79): ButtonControl, CellControl, CheckBoxControl, ComboBoxControl, DisclosureTriangleControl, DockItemControl, GroupControl, ImageControl (+71 more)
 
 ### Community 5 - "Community 5"
-Cohesion: 0.03
-Nodes (49): Check if this application's windows are all minimized.         Returns True only, Check if any of this application's windows are in fullscreen mode.         Retur, Check if the application is running (AX attribute)., Get the enhanced user interface flag., Set the enhanced user interface flag (enables deeper tree access in some apps)., Check if this application is the currently active (frontmost) application., Control for AXWindow elements.     Provides window management methods similar to, Close this window via the close button. (+41 more)
+Cohesion: 0.02
+Nodes (69): ApplicationControl, Control for AXApplication elements.      Wraps both the AXUIElementRef (for acce, Lazily resolve the NSRunningApplication for this application's PID., Create a Control from an AXUIElement, application PID, or search parameters., Get the display name of this application.         Tries AX Title, Check if this application's windows are all minimized.         Returns True only, Check if any of this application's windows are in fullscreen mode.         Retur, Get a human-readable status summarizing the application's current state. (+61 more)
 
 ### Community 6 - "  Init   & Stt"
 Cohesion: 0.03
@@ -1224,8 +1238,8 @@ Cohesion: 0.07
 Nodes (39): Any, bool, int, Response, str, Exception, main(), ObsidianAPI (+31 more)
 
 ### Community 12 - "  Init   & Service"
-Cohesion: 0.07
-Nodes (34): Desktop, Manage applications: launch, resize, move, or switch focus., Execute a shell or AppleScript command., Send a macOS notification banner., Perform mouse click at coordinates., Type text at coordinates. Clicks to focus first., Scroll at coordinates or current mouse position., Move mouse cursor to coordinates. (+26 more)
+Cohesion: 0.06
+Nodes (21): Desktop, Manage applications: launch, resize, move, or switch focus., Execute a shell or AppleScript command., Send a macOS notification banner., Perform mouse click at coordinates., Type text at coordinates. Clicks to focus first., Scroll at coordinates or current mouse position., Move mouse cursor to coordinates. (+13 more)
 
 ### Community 13 - "Llm & Service"
 Cohesion: 0.15
@@ -1240,20 +1254,20 @@ Cohesion: 0.09
 Nodes (50): bool, int, Path, str, app_tool(), click_tool(), desktop_tool(), done_tool() (+42 more)
 
 ### Community 16 - "Applicationcontrol"
-Cohesion: 0.05
-Nodes (26): ApplicationControl, Control for AXApplication elements.      Wraps both the AXUIElementRef (for acce, Lazily resolve the NSRunningApplication for this application's PID., Get the display name of this application.         Tries AX Title, Get a human-readable status summarizing the application's current state., Get the CFBundleIdentifier of this application.         Example: 'com.apple.Safa, Get the file URL to the application's .app bundle.         Example: 'file:///App, Get the file URL to the application's executable binary.         Example: 'file: (+18 more)
+Cohesion: 0.06
+Nodes (23): Control for AXWindow elements.     Provides window management methods similar to, Minimize this window., Restore this minimized window., Restore from minimized state (alias for Unminimize)., Zoom (maximize) this window via the zoom button., Maximize (zoom) this window. Alias for Zoom()., Toggle fullscreen mode via AXFullScreen attribute., Move this window to the center of the screen. (+15 more)
 
 ### Community 17 - "Arm & Armclient"
 Cohesion: 0.08
 Nodes (26): ARMClient, Azure Resource Manager (ARM) client for Azure RBAC PIM operations.  Handles PIM, Build Azure resource scope string., List role definitions at the specified scope., Get a specific role definition., Find role definition by display name (e.g., 'Owner', 'Contributor')., List eligible role assignment schedules., List eligible schedule instances (active eligibilities). (+18 more)
 
 ### Community 18 - "Basehttprequesthandler & Any"
-Cohesion: 0.13
-Nodes (21): BaseHTTPRequestHandler, Any, ArgumentParser, bool, float, int, Path, str (+13 more)
+Cohesion: 0.08
+Nodes (45): BaseHTTPRequestHandler, Any, ArgumentParser, bool, float, int, Path, str (+37 more)
 
 ### Community 19 - "Community 19"
-Cohesion: 0.05
-Nodes (26): Create a Control from an AXUIElement, application PID, or search parameters., Get the process identifier (PID) of this application., Get the executing processor architecture of the application.          Common val, Get the insertion point line number., Get the slider value as a float., Set the slider value., Get the minimum value., Get the maximum value. (+18 more)
+Cohesion: 0.09
+Nodes (16): Control for AXSlider elements., Get the slider value as a float., Set the slider value., Get the minimum value., Get the maximum value., Get the scroll position as (horizontal_percent, vertical_percent).         Value, Get the progress value., Set focus to this element. (+8 more)
 
 ### Community 20 - "Expressions & Always"
 Cohesion: 0.04
@@ -1300,8 +1314,8 @@ Cohesion: 0.08
 Nodes (43): Invoke a script's `main()` with patched sys.argv, returning the SystemExit code., run_cli(), Tests for the long-tail subcommands of helper.py., test_album_converts_olak_id(), test_album_converts_pl_id(), test_album_with_browse_id(), test_artist(), test_artist_albums_falls_back_to_inline_results() (+35 more)
 
 ### Community 32 - "  Init   & Args:             Debounce Interval: Minimum Time Between Events (Seconds)"
-Cohesion: 0.07
-Nodes (25): Args:             debounce_interval: Minimum time between events (seconds)., Event, Event emitter service for the agent., Manages event subscribers and dispatches events to them., BaseEventSubscriber, ConsoleEventSubscriber, FileEventSubscriber, _format_tool_name() (+17 more)
+Cohesion: 0.08
+Nodes (23): Event, Event emitter service for the agent., Manages event subscribers and dispatches events to them., BaseEventSubscriber, ConsoleEventSubscriber, FileEventSubscriber, _format_tool_name(), Built-in event subscribers for agent observation. (+15 more)
 
 ### Community 33 - "Examples & Application Specific Examples"
 Cohesion: 0.04
@@ -1320,8 +1334,8 @@ Cohesion: 0.04
 Nodes (44): Automated Sync, Azure Arc-enabled Kubernetes & AKS, Blue-Green Deployments, Branching Strategies, Canary with Argo Rollouts, Cloud Provider Integration, Common Issues Checklist, Core Concepts Quick Reference (+36 more)
 
 ### Community 37 - "Base & Baseagent"
-Cohesion: 0.08
-Nodes (26): BaseAgent, Executes a task/query and returns a result., Abstract Base Class for all Agents., LoopGuard, Watches for signs that the agent is looping:      - **Action repetition**: the s, Record the current desktop state as a fingerprint., Agent, Run the main agent loop synchronously. (+18 more)
+Cohesion: 0.06
+Nodes (47): ABC, BaseAgent, Executes a task/query and returns a result., Abstract Base Class for all Agents., LoopGuard, Watches for signs that the agent is looping:      - **Action repetition**: the s, Agent, Run the main agent loop synchronously. (+39 more)
 
 ### Community 38 - "Api Reference & Core Classes"
 Cohesion: 0.05
@@ -1512,7 +1526,7 @@ Cohesion: 0.05
 Nodes (37): Configuration Validation, Search Configuration, Azure Storage, Breaking Changes, Common Configuration Patterns, Compactor Configuration, Configuration Structure (Chart v1.19.0+), Consul (+29 more)
 
 ### Community 85 - "Any & Basemessage"
-Cohesion: 0.12
+Cohesion: 0.11
 Nodes (21): Any, BaseMessage, BaseModel, bool, float, int, LLMEvent, LLMStreamEvent (+13 more)
 
 ### Community 86 - "Dax Patterns & 3 Month Moving Average"
@@ -1648,7 +1662,7 @@ Cohesion: 0.06
 Nodes (33): Alternative Format (Backward Compatible), Annotation-Based Mapping, ArgoCD Authorization, Authentication Overview, Basic OIDC Setup, CLI Credential Management, CLI Role Management, Container Registry Credentials (+25 more)
 
 ### Community 119 - "  Init   & Chatlitellm"
-Cohesion: 0.13
+Cohesion: 0.14
 Nodes (20): ChatLiteLLM, Convert Tool objects to OpenAI-compatible tool definitions., Build the common parameters dict for litellm calls., LiteLLM wrapper implementation following the BaseChatLLM protocol.      LiteLLM, Extract usage information from a LiteLLM response., Process a LiteLLM response (OpenAI-compatible format) into AIMessage or ToolMess, Initialize the LiteLLM wrapper.          Args:             model: The model name, Convert BaseMessage objects to OpenAI-compatible message dictionaries.         L (+12 more)
 
 ### Community 120 - "Api Server Etcd & Alert Thresholds"
@@ -1964,8 +1978,8 @@ Cohesion: 0.07
 Nodes (28): Add New Worktree, Bare Repository Pattern, Branch Already Checked Out, Build Different Branches Simultaneously, Cannot Remove Dirty Worktree, Code Review in Separate Directory, Common Workflows, Directory Structure Best Practices (+20 more)
 
 ### Community 198 - "Enums & Activationpolicy"
-Cohesion: 0.08
-Nodes (25): ActivationPolicy, EventFlag, MouseButton, MouseEventType, Notification, NotificationKey, Orientation, macOS Accessibility API constants and enumerations. Provides comprehensive defin (+17 more)
+Cohesion: 0.09
+Nodes (20): ActivationPolicy, EventFlag, MouseButton, MouseEventType, NotificationKey, Orientation, macOS Accessibility API constants and enumerations. Provides comprehensive defin, Keys used in notification info dictionaries.     Passed to AXObserverCallbackWit (+12 more)
 
 ### Community 199 - "Commands & Command Overview"
 Cohesion: 0.07
@@ -2084,8 +2098,8 @@ Cohesion: 0.08
 Nodes (25): Add Credential Template, Add Repository, Common Issues, Create Repository Secret Manually, Credential Template Secret, Get Repository Details, Git Repository (HTTPS), Git Repository (SSH) (+17 more)
 
 ### Community 228 - "  Init   & Service"
-Cohesion: 0.22
-Nodes (17): Context, _load_template(), Load a prompt template from disk, caching after first read., Browser, Supported browser applications kept for backwards compatibility., ImageMessage, Browser, Desktop (+9 more)
+Cohesion: 0.25
+Nodes (5): Check if a bundle ID matches a known browser., Format windows list for display., Format active window for display., bool, str
 
 ### Community 229 - "Skill & Auto Enabled Plugins"
 Cohesion: 0.08
@@ -2196,8 +2210,8 @@ Cohesion: 0.08
 Nodes (24): 0.10 — Save config, 0.11 — First build, 0.12 — Confirm and end setup, 0.1 — Greet the user, 0.2 — Ask about Obsidian, 0.3 — Ask about Graphify rebuild cadence, 0.4 — Ask about lint cadence, 0.5 — Ask about CLAUDE.md location (+16 more)
 
 ### Community 256 - "Any & Argumentparser"
-Cohesion: 0.22
-Nodes (24): Any, ArgumentParser, float, Namespace, NoReturn, Path, str, RuntimeError (+16 more)
+Cohesion: 0.32
+Nodes (5): int, str, Page, Type with human-like speed, Click with realistic movement
 
 ### Community 257 - "Api Reference & Error Codes"
 Cohesion: 0.08
@@ -2348,8 +2362,8 @@ Cohesion: 0.16
 Nodes (15): Any, bool, int, Path, str, CleanupManager, main(), Get size of file or directory in bytes (+7 more)
 
 ### Community 294 - "Boundingbox & Control"
-Cohesion: 0.19
-Nodes (14): BoundingBox, Control, bool, int, str, TreeElementNode, Window, ScrollElementNode (+6 more)
+Cohesion: 0.22
+Nodes (15): BoundingBox, Control, Window, bool, int, str, TreeElementNode, Window (+7 more)
 
 ### Community 295 - "Any & Int"
 Cohesion: 0.22
@@ -2436,8 +2450,8 @@ Cohesion: 0.14
 Nodes (20): MonkeyPatch, Path, str, ModuleType, data_dir(), fake_playwright(), fake_yt_instance(), fake_ytmusicapi() (+12 more)
 
 ### Community 316 - "Query & Main()"
-Cohesion: 0.18
-Nodes (14): main(), printUsage(), Context7Error, setLogLevel(), formatError(), FormattedError, ArgParseError, KNOWN_FLAGS (+6 more)
+Cohesion: 0.22
+Nodes (17): main(), printUsage(), main(), printUsage(), main(), printUsage(), clearCache(), getKnownLibraryId() (+9 more)
 
 ### Community 317 - "Readme & Tenfoldmarc)"
 Cohesion: 0.10
@@ -2504,8 +2518,8 @@ Cohesion: 0.10
 Nodes (19): 0. Network Proxy Check (前置步骤), 1. System Detection, 2. Interactive Q&A Flow, 3. Plan Generation, 4. Execution Engine, backend, Best Practices, Configuration Files (+11 more)
 
 ### Community 333 - "Bool &   Init  "
-Cohesion: 0.12
-Nodes (10): bool, WatchDog Service for monitoring macOS Accessibility events. Delegates to the ax, Unified WatchDog Service for monitoring macOS Accessibility events.     Wraps th, Check if the watchdog is currently running., Start the watchdog service., Stop the watchdog service., Set the callback for focus changes. Pass None to disable.                  Callb, Set the callback for structure changes. Pass None to disable.                  C (+2 more)
+Cohesion: 0.14
+Nodes (8): WatchDog Service for monitoring macOS Accessibility events. Delegates to the ax, Unified WatchDog Service for monitoring macOS Accessibility events.     Wraps th, Start the watchdog service., Stop the watchdog service., Set the callback for focus changes. Pass None to disable.                  Callb, Set the callback for structure changes. Pass None to disable.                  C, Set the callback for property changes. Pass None to disable.                  Ca, WatchDog
 
 ### Community 334 - "Get All Config() & Get Config()"
 Cohesion: 0.18
@@ -2616,8 +2630,8 @@ Cohesion: 0.11
 Nodes (18): Environment Variables, Exit Codes, Arguments, Azure Document Intelligence, Basic Conversion, Basic Syntax, Batch Processing, Error Handling (+10 more)
 
 ### Community 361 - "Main() & Printusage()"
-Cohesion: 0.28
-Nodes (15): main(), printUsage(), main(), printUsage(), CachedResolve, clearCache(), ensureCacheDir(), getCached() (+7 more)
+Cohesion: 0.40
+Nodes (8): CachedResolve, ensureCacheDir(), getCached(), getCachePath(), readCache(), setCached(), writeCache(), tmpPath
 
 ### Community 362 - "Operational Policies &  Comment"
 Cohesion: 0.11
@@ -2744,8 +2758,8 @@ Cohesion: 0.11
 Nodes (17): Attach to Session, Best Practices, Create New Session, Detach from Session, iTerm2 Integration for SSH, Kill Session, List Sessions, Multi-Window Session Setup (+9 more)
 
 ### Community 393 - "Playwright & Bool"
-Cohesion: 0.14
-Nodes (12): bool, BrowserContext, int, str, Page, Playwright, dependencies, playwright (+4 more)
+Cohesion: 0.25
+Nodes (7): bool, BrowserContext, Playwright, dependencies, playwright, Launch a persistent browser context with anti-detection features         and coo, Inject cookies from state.json if available
 
 ### Community 394 - "Manage Projects & Api Delete()"
 Cohesion: 0.26
@@ -2824,8 +2838,8 @@ Cohesion: 0.12
 Nodes (16): Component Types, Context, Custom Hook Pattern, Data Fetching (TanStack Query), Event Handling, Form Handling (React Hook Form + Zod), Function Components, Generic Components (+8 more)
 
 ### Community 413 - "Abc & Basetelemetryevent"
-Cohesion: 0.15
-Nodes (7): ABC, BaseTelemetryEvent, Any, str, ProductTelemetry, AgentTelemetryEvent, BaseTelemetryEvent
+Cohesion: 0.09
+Nodes (21): 📚 Additional Resources, After Running the Agent, Before Running the Agent, ⚠️ Critical Security Notice, Current Limitations, Direct OS Interaction Risks, ⚖️ Disclaimer, For Development and Testing (+13 more)
 
 ### Community 414 - "Analyze & Analyze Workflow"
 Cohesion: 0.12
@@ -2860,8 +2874,8 @@ Cohesion: 0.12
 Nodes (15): Copy Mode (vi keys), iTerm2 Shortcuts, iTerm2 tmux Integration Mode, Keyboard Shortcuts Reference, Miscellaneous, Panes, Search & Selection, Sessions (+7 more)
 
 ### Community 422 - "Service & Desktop"
-Cohesion: 0.23
-Nodes (6): Desktop, str, Tool, Registry, ToolResult, ToolResult
+Cohesion: 0.35
+Nodes (5): Desktop, str, Tool, Registry, ToolResult
 
 ### Community 423 - "Main & Terraform"
 Cohesion: 0.12
@@ -2924,8 +2938,8 @@ Cohesion: 0.13
 Nodes (14): Generator, Multi-Source Configuration, Required Fields, Safety Policy, Step 1: Identify the Target, Step 2: Structural Validation, Step 3: Values Files Validation, Step 4: Kustomization Registration (+6 more)
 
 ### Community 438 - " Global Observer Callback() & Check If This Appobserver Owns The Given Axobserver"
-Cohesion: 0.17
-Nodes (10): _global_observer_callback(), Check if this AppObserver owns the given AXObserver., Check if the observer is running., Check if this EventObserver owns the given AXObserver., Dispatch a notification to the appropriate callback., Global callback function for AXObserver notifications.     Routes notifications, Create the observer and register for notifications.          Args:             n, Any (+2 more)
+Cohesion: 0.50
+Nodes (3): Context Navigation (Wiki-Brain), Wiki-Brain Commands Available, Wiki-Brain Session Rules
 
 ### Community 439 - "Skill & Aztfexport — Export Azure Resources To Terraform"
 Cohesion: 0.13
@@ -3020,8 +3034,8 @@ Cohesion: 0.14
 Nodes (13): 1. Progressive Delivery, 2. Traffic Management Integration, 3. Metrics-Based Analysis, 4. Rollout Strategies, Architecture, Argo Rollouts Summary, Comparison with Kubernetes Deployment, Core CRDs (+5 more)
 
 ### Community 462 - "Eventobserver & High Level Event Observation Service For Macos Accessibility"
-Cohesion: 0.22
-Nodes (7): EventObserver, High-level event observation service for macOS Accessibility.     Manages multip, Start the event observation thread., Stop the event observation thread., Determine which notifications to register based on set callbacks., Update observers to match currently running applications., Main event loop running in a dedicated thread.
+Cohesion: 0.24
+Nodes (13): Get list of user-facing application windows on the desktop.         Uses the ax, Capture a screenshot of the screen using Pillow ImageGrab.          Args:, Take a screenshot and annotate it with numbered bounding boxes for each, DesktopState, Size, Status, Image, bool (+5 more)
 
 ### Community 463 - "Skill & Azure Cost Management App — Install & Connect Skill"
 Cohesion: 0.14
@@ -3157,11 +3171,11 @@ Nodes (12): Authentication, DashboardCrud CLI, Error Handling, Examples, Gotchas
 
 ### Community 496 - "Guia Completo Para OrganizaçÃO E AutomaçÃO De E Mails No Mail Do Macbook"
 Cohesion: 0.15
-Nodes (12): 0. Diagnóstico Inicial: Entendendo o Volume com AppleScript, 1. Escolha de uma Metodologia Organizacional, 2. Construção da Estrutura: Caixas de Correio, VIPs e Sinalizadores, 3. Automação com Regras: Melhores Práticas, 4. Configuração de Notificações Inteligentes e Granulares, 5. Visualizações Dinâmicas com Caixas de Correio Inteligentes, 6. Gestão Avançada de Spam e Cancelamento de Inscrições, 7. Automação Avançada: Scripts, Atalhos e Automator (+4 more)
+Nodes (13): , 0. Diagnóstico Inicial: Entendendo o Volume com AppleScript, 1. Escolha de uma Metodologia Organizacional, 2. Construção da Estrutura: Caixas de Correio, VIPs e Sinalizadores, 3. Automação com Regras: Melhores Práticas, 4. Configuração de Notificações Inteligentes e Granulares, 5. Visualizações Dinâmicas com Caixas de Correio Inteligentes, 6. Gestão Avançada de Spam e Cancelamento de Inscrições (+5 more)
 
 ### Community 497 - "Context7 & Colors"
-Cohesion: 0.28
-Nodes (11): Colors, COMMON_LIBRARIES, Context7ErrorKind, Context7Options, DocSnippet, getClient(), getLogLevel(), LibraryInfo (+3 more)
+Cohesion: 0.19
+Nodes (14): Colors, COMMON_LIBRARIES, Context7Error, Context7ErrorKind, Context7Options, DocSnippet, getClient(), getLogLevel() (+6 more)
 
 ### Community 498 - "Migratechat & Auth Path"
 Cohesion: 0.24
@@ -3281,7 +3295,7 @@ Nodes (11): Access DefectDojo, Azure AD Groups for Role Mapping, Basic Helm Inst
 
 ### Community 527 - "Context7Client & Kindfromstatus()"
 Cohesion: 0.26
-Nodes (4): Context7Client, kindFromStatus(), parseRetryAfter(), sleep()
+Nodes (5): Context7Client, kindFromStatus(), log(), parseRetryAfter(), sleep()
 
 ### Community 528 - "Knowledge Capture & Adr Template (Architecture Decision Record)"
 Cohesion: 0.17
@@ -3923,10 +3937,6 @@ Nodes (8): Cloud Security, Container / Infrastructure, DAST / Web Scanning, Depe
 Cohesion: 0.25
 Nodes (8): Azure AD OIDC Groups Integration (Detailed Guide), Environment Variables Reference, How OIDC Groups Work in Dependency-Track, Method 1: API-Based Setup (Recommended), Method 2: Manual UI Configuration, Retrieving Azure AD Group Object IDs, Validating Group Claims in ID Token, Verifying OIDC Group Mappings
 
-### Community 688 - "Check If A Bundle Id Matches A Known Browser & Format Windows List For Display"
-Cohesion: 0.25
-Nodes (5): Check if a bundle ID matches a known browser., Format windows list for display., Format active window for display., bool, str
-
 ### Community 689 - "Task Plan & Arquivos De Saída"
 Cohesion: 0.25
 Nodes (7): Arquivos de saída, Critérios de aprovação, Fases, Gate de segurança atual, Guardrails, Objetivo, Plano de Execução — Organização Segura do Apple Mail
@@ -4524,8 +4534,8 @@ Cohesion: 0.40
 Nodes (5): Injecting Secrets into Commands, Injecting Secrets into Files, Reading Secrets Directly, Secret Reference Format, Secret Retrieval
 
 ### Community 839 - "Agents & Graphify"
-Cohesion: 0.40
-Nodes (3): graphify, Mapeamento de Slash Commands & Workflows (.agents/workflows/), Regras de Engajamento para Automação macOS
+Cohesion: 0.25
+Nodes (6): Context Navigation (Wiki-Brain), graphify, Mapeamento de Slash Commands & Workflows (.agents/workflows/), Regras de Engajamento para Automação macOS, Wiki-Brain Commands Available, Wiki-Brain Session Rules
 
 ### Community 840 - "Skill & Argocd Advanced"
 Cohesion: 0.40
@@ -4712,8 +4722,8 @@ Cohesion: 0.40
 Nodes (5): File Management, File Operations, Folder Operations, Reading Files, Writing Files
 
 ### Community 886 - "Project Management & Complete Example"
-Cohesion: 0.40
-Nodes (4): Complete Example, Minimal Configuration, pyproject.toml Configuration, uv Project Management Reference
+Cohesion: 0.67
+Nodes (3): Complete Example, Minimal Configuration, pyproject.toml Configuration
 
 ### Community 887 - "Basic Sync & Controlling What'S Installed"
 Cohesion: 0.40
@@ -4882,6 +4892,10 @@ Nodes (4): Encryption, Key Backup, Secrets Filtering, Security
 ### Community 928 - "First Time Setup & Installation"
 Cohesion: 0.50
 Nodes (4): First-Time Setup, Installation, Quick Start, Shell Integration
+
+### Community 929 - "Community 929"
+Cohesion: 0.11
+Nodes (18): Adding Tests, Branching Strategy, Code Style, Commit Messages, Contributing to MacOS-Use, Creating a Pull Request, Development Environment, Development Workflow (+10 more)
 
 ### Community 930 - "Available Mcp Tools & Merge Strategies"
 Cohesion: 0.50
@@ -5095,9 +5109,9 @@ Nodes (4): check-jsonschema, YAML/JSON Hooks, yamlfmt (Formatter), yamllint
 Cohesion: 0.50
 Nodes (4): codespell (Typos), Documentation Hooks, markdownlint, typos (Fast Typo Checker)
 
-### Community 983 - "Certificates Api & Create Certificates"
-Cohesion: 0.50
-Nodes (4): Certificates API, Create Certificates, Delete Certificate, List Certificates
+### Community 983 - "Community 983"
+Cohesion: 0.19
+Nodes (8): EventObserver, High-level event observation service for macOS Accessibility.     Manages multip, Start the event observation thread., Stop the event observation thread., Get PIDs of all running user-facing applications., Determine which notifications to register based on set callbacks., Update observers to match currently running applications., Main event loop running in a dedicated thread.
 
 ### Community 984 - "Create Session (Login) & Delete Session (Logout)"
 Cohesion: 0.50
@@ -5327,6 +5341,14 @@ Nodes (3): Common Field Reference, Scheduling Fields, System Fields
 Cohesion: 0.67
 Nodes (3): Error Handling, Error Response Format, HTTP Status Codes
 
+### Community 1043 - "Community 1043"
+Cohesion: 0.21
+Nodes (8): _global_observer_callback(), Check if this AppObserver owns the given AXObserver., Check if the observer is running., Check if this EventObserver owns the given AXObserver., Dispatch a notification to the appropriate callback., Global callback function for AXObserver notifications.     Routes notifications, Any, bool
+
+### Community 1057 - "Community 1057"
+Cohesion: 0.22
+Nodes (8): Notification, Accessibility notifications (events) that can be observed.     Equivalent to Win, AppObserver, Stop the observer and clean up resources., Observer for a single application's accessibility events.     Each application r, Create the observer and register for notifications.          Args:             n, int, str
+
 ### Community 1058 - "Azure Ad App Registration & Environment Configuration"
 Cohesion: 0.67
 Nodes (3): Azure AD App Registration, Environment Configuration, Project File Locations
@@ -5367,9 +5389,9 @@ Nodes (3): Basic .envrc, Custom Layout Function, direnv Integration
 Cohesion: 0.67
 Nodes (3): Auto-linking, Basic, External Links
 
-### Community 1070 - "Basic Template & Common Functions"
-Cohesion: 0.67
-Nodes (3): Basic Template, Common Functions, Templater (Plugin)
+### Community 1070 - "Community 1070"
+Cohesion: 0.50
+Nodes (3): Added, Changelog, [Unreleased]
 
 ### Community 1071 - "Block Comments & Comments"
 Cohesion: 0.67
@@ -5404,8 +5426,8 @@ Cohesion: 0.67
 Nodes (3): Core Files, File Purposes, Project Structure
 
 ### Community 1079 - "Defining Extras & Optional Dependencies (Extras)"
-Cohesion: 0.67
-Nodes (3): Defining Extras, Optional Dependencies (Extras), Using Extras
+Cohesion: 0.40
+Nodes (4): Defining Extras, Optional Dependencies (Extras), Using Extras, uv Project Management Reference
 
 ### Community 1080 - "Export Formats & Export Options"
 Cohesion: 0.67
@@ -5451,17 +5473,29 @@ Nodes (3): Core Concepts, DSN (Data Source Name), Quick Reference
 Cohesion: 0.67
 Nodes (3): Distributed Tracing, Manual Transactions, Performance Monitoring
 
+### Community 1100 - "Claude & Graphify"
+Cohesion: 0.40
+Nodes (4): Context Navigation (Wiki-Brain), graphify, Wiki-Brain Commands Available, Wiki-Brain Session Rules
+
+### Community 1106 - "Community 1106"
+Cohesion: 0.50
+Nodes (4): Certificates API, Create Certificates, Delete Certificate, List Certificates
+
+### Community 1147 - "Community 1147"
+Cohesion: 0.67
+Nodes (3): Basic Template, Common Functions, Templater (Plugin)
+
 ## Knowledge Gaps
-- **10668 isolated node(s):** `system_audit.sh script`, `authenticated_at`, `authenticated_at_iso`, `hashes`, `hashes` (+10663 more)
+- **10708 isolated node(s):** `system_audit.sh script`, `authenticated_at`, `authenticated_at_iso`, `hashes`, `hashes` (+10703 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **65 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **68 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `ApplicationControl` connect `Applicationcontrol` to `Control`, `Controls & Control Classes Wrapping Macos Axuielementref`, `Buttoncontrol & Cellcontrol`, `Community 5`, `  Init   & Service`, `Community 19`?**
+- **Why does `ApplicationControl` connect `Community 5` to `Control`, `Controls & Control Classes Wrapping Macos Axuielementref`, `Patterns & Expandcollapsepattern`, `Buttoncontrol & Cellcontrol`, `  Init   & Service`, `Eventobserver & High Level Event Observation Service For Macos Accessibility`, `Applicationcontrol`?**
   _High betweenness centrality (0.010) - this node is a cross-community bridge._
-- **Why does `Desktop` connect `  Init   & Service` to `  Init   & Service`, `Service & Desktop`, `Llm & Service`, `Bool & Int`, `Applicationcontrol`?**
+- **Why does `Desktop` connect `  Init   & Service` to `Community 5`, `Boundingbox & Control`, `Base & Baseagent`, `Eventobserver & High Level Event Observation Service For Macos Accessibility`, `Bool & Int`?**
   _High betweenness centrality (0.006) - this node is a cross-community bridge._
 - **Why does `Control` connect `Control` to `Controls & Control Classes Wrapping Macos Axuielementref`, `Patterns & Expandcollapsepattern`, `Buttoncontrol & Cellcontrol`, `Community 5`, `Applicationcontrol`, `Community 19`?**
   _High betweenness centrality (0.005) - this node is a cross-community bridge._
@@ -5472,4 +5506,4 @@ _Questions this graph is uniquely positioned to answer:_
 - **Are the 24 inferred relationships involving `ApplicationControl` (e.g. with `Point` and `Rect`) actually correct?**
   _`ApplicationControl` has 24 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `system_audit.sh script`, `authenticated_at`, `authenticated_at_iso` to the rest of the system?**
-  _11825 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _11866 weakly-connected nodes found - possible documentation gaps or missing edges._

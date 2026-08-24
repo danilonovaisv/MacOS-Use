@@ -1,0 +1,36 @@
+{
+  "_notice": "Illustrative only. Replace placeholders after review; this file does not enable any MCP server.",
+  "mcpServers": {
+    "filesystem": {
+      "command": "<FILESYSTEM_MCP_COMMAND>",
+      "args": [
+        "<WORKSPACE_ROOT>"
+      ],
+      "env": {}
+    },
+    "browser-automation": {
+      "command": "<BROWSER_MCP_COMMAND>",
+      "args": [],
+      "env": {
+        "REQUIRES_HUMAN_APPROVAL": "true"
+      }
+    },
+    "github-readonly": {
+      "command": "<GITHUB_MCP_COMMAND>",
+      "args": [
+        "--read-only"
+      ],
+      "env": {
+        "GITHUB_TOKEN": "${GITHUB_TOKEN}"
+      }
+    },
+    "context7-readonly": {
+      "command": "<CONTEXT7_MCP_COMMAND>",
+      "args": [],
+      "env": {
+        "CONTEXT7_API_KEY": "${CONTEXT7_API_KEY}"
+      }
+    }
+  }
+}
+

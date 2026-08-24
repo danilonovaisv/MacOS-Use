@@ -122,4 +122,3 @@ Estado da configuracao real: nao executada; exige gate especifico
 - Criterio de conclusao: conectividade sem exposicao de segredo.
 - Risco: transmissao de chave/prompts e alteracao persistente de provider.
 - Aprovacao adicional: sim, obrigatoria no momento da acao.
-

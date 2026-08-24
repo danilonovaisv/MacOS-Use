@@ -65,4 +65,3 @@ Atue como coordenador PREVC. Produza uma unica saida auditavel e use revisores t
 ## Criterios de parada
 
 Pare quando houver segredo, endpoint incerto, permissao ampla, divergencia de escopo, falha de validacao ou ausencia da aprovacao necessaria. Nao declare sucesso parcial como conclusao total.
-

@@ -48,4 +48,3 @@ Produza um walkthrough verificavel sem inventar estado externo e sem manipular c
 - Troubleshooting por sintoma.
 - Lista `⚠️ Verificar`.
 - Evidencias e resultado de validacao.
-

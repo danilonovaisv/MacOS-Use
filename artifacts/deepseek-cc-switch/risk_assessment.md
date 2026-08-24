@@ -53,4 +53,3 @@ Metodo: analise documental, Context7 e inspecao somente leitura da UI local
 - Permissao ampla permanece ativa sem necessidade.
 - Scanner dedicado e revisao manual nao estao disponiveis antes de release.
 - Preset do CC Switch diverge do endpoint Anthropic-compatible e a divergencia nao e explicada.
-

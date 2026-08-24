@@ -78,4 +78,3 @@ Prosseguir somente com aprovacao pontual aplicavel a essa acao. Aprovacao docume
 - `STATUS FINAL: APROVADO PARA REVISAO HUMANA` quando todos os criterios documentais passam.
 - `STATUS FINAL: BLOQUEADO POR PENDENCIAS` diante de qualquer falha obrigatoria.
 - Nunca declarar que a integracao real funciona sem chamada autorizada e evidencia fresca.
-

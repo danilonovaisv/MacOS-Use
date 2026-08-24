@@ -54,4 +54,3 @@ Escopo: missoes conduzidas pela skill `deepseek-cc-switch`. Esta politica e decl
 ## Incidente
 
 Se um segredo for observado: parar; nao repetir; identificar apenas categoria e local; revogar/rotacionar; remover de staging; avaliar logs, caches e historico em tarefa separada aprovada.
-

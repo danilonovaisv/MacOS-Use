@@ -45,3 +45,12 @@ Data de referência: 2026-08-07
 - As quatro Caixas Inteligentes GTD incluem mensagens enviadas, omitem Lixo e Apagadas e preservam as mensagens no servidor.
 - A amostra manual totalizou 259 mensagens recentes. A conta `danilonovais@portfoliodanilo.com` possuía somente 9 mensagens disponíveis na Caixa de Entrada.
 - A taxa de falsos positivos e a promoção das regras permanecem deliberadamente pendentes até a revisão de sete dias.
+
+## Revisão do piloto em 2026-09-11
+
+- Sete contas estavam ativas; 2.295 mensagens recentes foram verificadas dentro do limite de 500 por conta.
+- As cinco regras continuam sem ações de apagar, encaminhar, copiar ou mover para `No Meu Mac`.
+- Cobertura de sinalização: LinkedIn 34/43, QuintoAndar 4/4, All Set 0/0, Claro 1/2 e Google 0/0.
+- Cobertura não equivale a taxa de falsos positivos; a revisão sem assunto ou corpo não permite julgamento semântico inferior a 1%.
+- `COBRANÇA GOOGLE`, `QUINTO ANDAR` e `Claro` conservam critérios alternativos amplos que exigem conferência visual.
+- Nenhuma regra foi promovida e o filtro de lixo não foi alterado.

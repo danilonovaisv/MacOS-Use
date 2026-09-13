@@ -20,6 +20,7 @@ class Prompt:
                     'datetime': datetime.now().strftime('%A, %B %d, %Y'),
                     'os':desktop.get_macos_version(),
                     'browser':browser.value,
+                    'instructions': '\n'.join(instructions),
                 })
             case "normal":
                 template =Path(files('macos_use.agent.prompt').joinpath('system.md')).read_text(encoding='utf-8')

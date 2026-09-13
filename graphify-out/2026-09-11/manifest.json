@@ -870,8 +870,8 @@
     "semantic_hash": ""
   },
   "macos_use/agent/prompt/service.py": {
-    "mtime": 1789261667.8179805,
-    "ast_hash": "5f5361cc33636e1f0603c2c06bad6bf0",
+    "mtime": 1786129568.5779603,
+    "ast_hash": "cbe6c322a5f69bfd9a0af74941a7d34b",
     "semantic_hash": ""
   },
   "macos_use/agent/registry/service.py": {
@@ -885,8 +885,8 @@
     "semantic_hash": ""
   },
   "macos_use/agent/service.py": {
-    "mtime": 1789261530.4112546,
-    "ast_hash": "79a97da4b63419b06783c895fa7d9cd4",
+    "mtime": 1786451083.5294805,
+    "ast_hash": "30eacc25c10b5b5805c7fb1b35cfb429",
     "semantic_hash": ""
   },
   "macos_use/agent/tools/__init__.py": {
@@ -975,8 +975,8 @@
     "semantic_hash": ""
   },
   "macos_use/main.py": {
-    "mtime": 1789261506.183634,
-    "ast_hash": "b128e5dbf3ef605e338dce7d3ee4a028",
+    "mtime": 1786450070.5561926,
+    "ast_hash": "adfb02a9faa2901da8acf118fb6993f7",
     "semantic_hash": ""
   },
   "macos_use/messages/__init__.py": {
@@ -985,8 +985,8 @@
     "semantic_hash": ""
   },
   "macos_use/messages/service.py": {
-    "mtime": 1789261506.182362,
-    "ast_hash": "2ae227210c1f4144e46df91958ba3a2e",
+    "mtime": 1786129568.5817118,
+    "ast_hash": "3a1b742ede6f2d7d32bac3aea198926e",
     "semantic_hash": ""
   },
   "macos_use/providers/__init__.py": {
@@ -1070,8 +1070,8 @@
     "semantic_hash": ""
   },
   "macos_use/providers/events.py": {
-    "mtime": 1789261506.1826215,
-    "ast_hash": "a80d273f2acc96353f8dbf011e3309c6",
+    "mtime": 1786129568.5838854,
+    "ast_hash": "e63e30b12f5763ba71ae24f2c1210ee1",
     "semantic_hash": ""
   },
   "macos_use/providers/google/__init__.py": {
@@ -1170,8 +1170,8 @@
     "semantic_hash": ""
   },
   "macos_use/providers/openai/llm.py": {
-    "mtime": 1789261506.1830525,
-    "ast_hash": "afeca96a4535f794cf4ab6bd8fba18a6",
+    "mtime": 1786129568.586194,
+    "ast_hash": "ebcf8c132d1505b0bbc32994dae2b344",
     "semantic_hash": ""
   },
   "macos_use/providers/openai/stt.py": {
@@ -1310,8 +1310,8 @@
     "semantic_hash": ""
   },
   "tests/test_cli.py": {
-    "mtime": 1789261734.703953,
-    "ast_hash": "190073d28deaa97574a496a19b4e08eb",
+    "mtime": 1786450070.562039,
+    "ast_hash": "124a4a4dcb7353552fba6243e055d235",
     "semantic_hash": ""
   },
   "tests/test_ollama.py": {
@@ -4865,8 +4865,8 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1789261667.819387,
-    "ast_hash": "033c2185784c21f5b4c4324f834e4620",
+    "mtime": 1786450580.7811809,
+    "ast_hash": "ae3a6ef3d473ae876c7c40ae077db19c",
     "semantic_hash": ""
   },
   "docs/Guia Completo para Organiza\u00e7\u00e3o e Automa\u00e7\u00e3o de E-mails no Mail do MacBook/Guia Completo para Organiza\u00e7\u00e3o e Automa\u00e7\u00e3o de E-mails no Mail do MacBook.md": {
@@ -4875,13 +4875,13 @@
     "semantic_hash": ""
   },
   "docs/Guia Completo para Organiza\u00e7\u00e3o e Automa\u00e7\u00e3o de E-mails no Mail do MacBook/execucao-mail/findings.md": {
-    "mtime": 1789128527.6595094,
-    "ast_hash": "842d2429e3bdc48e43413d5b98a86316",
+    "mtime": 1786450070.3740091,
+    "ast_hash": "6377f423083b633fb6f0939e08642d58",
     "semantic_hash": ""
   },
   "docs/Guia Completo para Organiza\u00e7\u00e3o e Automa\u00e7\u00e3o de E-mails no Mail do MacBook/execucao-mail/progress.md": {
-    "mtime": 1789128527.6601706,
-    "ast_hash": "d79b26895e1022d77443c234ca546a54",
+    "mtime": 1786450070.3741312,
+    "ast_hash": "f6a5962af3f431302f1c2a9157fcf9bb",
     "semantic_hash": ""
   },
   "docs/Guia Completo para Organiza\u00e7\u00e3o e Automa\u00e7\u00e3o de E-mails no Mail do MacBook/execucao-mail/reports/metadata-summary-2026-08-07.md": {
@@ -4925,13 +4925,13 @@
     "semantic_hash": ""
   },
   "macos_use/agent/prompt/system.md": {
-    "mtime": 1789261667.818694,
-    "ast_hash": "19a7be8d74e40df62483d46ba8df75f7",
+    "mtime": 1786129568.5781384,
+    "ast_hash": "5ecca5fc66bcdce95d08d68a6adb4f2e",
     "semantic_hash": ""
   },
   "macos_use/agent/prompt/system_flash.md": {
-    "mtime": 1789261667.818159,
-    "ast_hash": "4e4aa7706cdb260aa22cd8ffae9a24b5",
+    "mtime": 1786129568.578231,
+    "ast_hash": "9f1293516bdc0b5c8fc3a1014edf11df",
     "semantic_hash": ""
   },
   "mail-automation-staging/DEPLOYMENT_GUIDE.md": {
@@ -6365,8 +6365,8 @@
     "semantic_hash": ""
   },
   "docs/TUTORIAL-ROTACAO-CREDENCIAIS.md": {
-    "mtime": 1788899537.1151586,
-    "ast_hash": "4bffdfcd0597af21077df9f16d60e70f",
+    "mtime": 1788895098.8343027,
+    "ast_hash": "ceb93dba0da2466c923bc31803e763e3",
     "semantic_hash": ""
   },
   "mail_automation/apple-mail-daily-audit.md": {
@@ -6412,51 +6412,6 @@
   "docs/PROMPT-AGENTE-IDE-ROTACAO-CREDENCIAIS.md": {
     "mtime": 1788895900.319421,
     "ast_hash": "0c64428dfa5c9f676baf7072b2a4fc29",
-    "semantic_hash": ""
-  },
-  ".serena/project.local.yml": {
-    "mtime": 1789008718.9862232,
-    "ast_hash": "f136e7d47205d9a758913615074760e5",
-    "semantic_hash": ""
-  },
-  ".serena/project.yml": {
-    "mtime": 1789008721.1559432,
-    "ast_hash": "0d65945fa16bfb96550e15e87979275c",
-    "semantic_hash": ""
-  },
-  "docs/Guia Completo para Organiza\u00e7\u00e3o e Automa\u00e7\u00e3o de E-mails no Mail do MacBook/execucao-mail/reports/pilot-review-2026-09-11.md": {
-    "mtime": 1789128527.6589825,
-    "ast_hash": "72afd6bf365ace42db48b85dd8a2e6df",
-    "semantic_hash": ""
-  },
-  "docs/TUTORIAL-ROTACAO-KEYCHAIN.md": {
-    "mtime": 1788899537.112579,
-    "ast_hash": "b9cbb9e76d5f6ba941c10169be716f7b",
-    "semantic_hash": ""
-  },
-  "reports/keychain-rotation-validation-20260908T190942.md": {
-    "mtime": 1788905821.7171698,
-    "ast_hash": "5a0682fb1b7cdec3a9dbca7c67f73ad7",
-    "semantic_hash": ""
-  },
-  "macos_use/providers/openai/responses.py": {
-    "mtime": 1789261506.1819975,
-    "ast_hash": "e3a375e929bc57392c07a3fe2fa4b08f",
-    "semantic_hash": ""
-  },
-  "tests/test_astra_agent.py": {
-    "mtime": 1789261734.704208,
-    "ast_hash": "c89b368dc0b199d72d43d8dbaf4aa9fa",
-    "semantic_hash": ""
-  },
-  "tests/test_openai.py": {
-    "mtime": 1789261667.8203568,
-    "ast_hash": "e179c033e9b33a6cdc8686754bc34e3e",
-    "semantic_hash": ""
-  },
-  "docs/gpt-6-astra-migration.md": {
-    "mtime": 1789261796.339972,
-    "ast_hash": "e052f34e8a8678057ae25c1dd7a33dcc",
     "semantic_hash": ""
   }
 }

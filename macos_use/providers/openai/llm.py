@@ -4,6 +4,7 @@ import logging
 from typing import Iterator, AsyncIterator, List, Optional, Any, Union, overload
 from openai import OpenAI, AsyncOpenAI
 from pydantic import BaseModel
+from macos_use.providers.openai.responses import request_params, response_event, ResponseStream
 from macos_use.providers.base import BaseChatLLM
 from macos_use.providers.views import TokenUsage, Metadata
 from macos_use.messages import BaseMessage, SystemMessage, HumanMessage, AIMessage, ImageMessage, ToolMessage
@@ -27,7 +28,7 @@ class ChatOpenAI(BaseChatLLM):
 
     def __init__(
         self,
-        model: str = "gpt-4o",
+        model: str = "gpt-6-astra",
         api_key: Optional[str] = None,
         base_url: Optional[str] = None,
         timeout: float = 600.0,
@@ -39,7 +40,7 @@ class ChatOpenAI(BaseChatLLM):
         Initialize the OpenAI LLM.
 
         Args:
-            model (str): The model name to use. Defaults to "gpt-4o".
+            model (str): The model name to use. Defaults to "gpt-6-astra".
             api_key (str, optional): OpenAI API key. Defaults to OPENAI_API_KEY environment variable.
             base_url (str, optional): Base URL for the API. Defaults to OPENAI_BASE_URL environment variable.
             timeout (float): Request timeout in seconds.
@@ -77,6 +78,9 @@ class ChatOpenAI(BaseChatLLM):
     def _is_reasoning_model(self) -> bool:
         """Check if the model is a reasoning model (o-series: o1, o3, o4, etc.)."""
         return self._model.startswith(("o1", "o3", "o4"))
+
+    def _uses_responses(self) -> bool:
+        return self.provider == "openai" and (self._model == "gpt-6-astra" or self._model.startswith("gpt-6-astra-"))
 
     def _convert_messages(self, messages: List[BaseMessage]) -> List[dict]:
         """
@@ -201,6 +205,9 @@ class ChatOpenAI(BaseChatLLM):
         ...
 
     def invoke(self, messages: list[BaseMessage], tools: list[Tool] = [], structured_output: BaseModel | None = None, json_mode: bool = False) -> LLMEvent:
+        if self._uses_responses():
+            params = request_params(self._model, messages, tools, self.kwargs, structured_output, json_mode)
+            return response_event(self.client.responses.create(**params), structured_output)
         openai_messages = self._convert_messages(messages)
         openai_tools = self._convert_tools(tools) if tools else None
 
@@ -254,6 +261,9 @@ class ChatOpenAI(BaseChatLLM):
         ...
 
     async def ainvoke(self, messages: list[BaseMessage], tools: list[Tool] = [], structured_output: BaseModel | None = None, json_mode: bool = False) -> LLMEvent:
+        if self._uses_responses():
+            params = request_params(self._model, messages, tools, self.kwargs, structured_output, json_mode)
+            return response_event(await self.aclient.responses.create(**params), structured_output)
         openai_messages = self._convert_messages(messages)
         openai_tools = self._convert_tools(tools) if tools else None
 
@@ -304,6 +314,15 @@ class ChatOpenAI(BaseChatLLM):
         ...
 
     def stream(self, messages: list[BaseMessage], tools: list[Tool] = [], structured_output: BaseModel | None = None, json_mode: bool = False) -> Iterator[LLMStreamEvent]:
+        if self._uses_responses():
+            params = request_params(self._model, messages, tools, self.kwargs, structured_output, json_mode)
+            params["stream"] = True
+            state = ResponseStream(structured_output)
+            with self.client.responses.create(**params) as response:
+                for event in response:
+                    yield from state.feed(event)
+            state.finish()
+            return
         openai_messages = self._convert_messages(messages)
         openai_tools = self._convert_tools(tools) if tools else None
 
@@ -412,6 +431,16 @@ class ChatOpenAI(BaseChatLLM):
         ...
 
     async def astream(self, messages: list[BaseMessage], tools: list[Tool] = [], structured_output: BaseModel | None = None, json_mode: bool = False) -> AsyncIterator[LLMStreamEvent]:
+        if self._uses_responses():
+            params = request_params(self._model, messages, tools, self.kwargs, structured_output, json_mode)
+            params["stream"] = True
+            state = ResponseStream(structured_output)
+            async with await self.aclient.responses.create(**params) as response:
+                async for event in response:
+                    for output in state.feed(event):
+                        yield output
+            state.finish()
+            return
         openai_messages = self._convert_messages(messages)
         openai_tools = self._convert_tools(tools) if tools else None
 
@@ -518,7 +547,9 @@ class ChatOpenAI(BaseChatLLM):
         # Determine context window based on model
         context_window = 128000  # Default for GPT-4o and newer models
 
-        if self._model.startswith("gpt-4-turbo"):
+        if self._uses_responses():
+            context_window = 1050000
+        elif self._model.startswith("gpt-4-turbo"):
             context_window = 128000
         elif self._model.startswith("gpt-4"):
             context_window = 8192

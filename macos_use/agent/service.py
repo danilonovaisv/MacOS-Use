@@ -181,12 +181,13 @@ class Agent(BaseAgent):
                                 id=llm_event.tool_call.id,
                                 name=llm_event.tool_call.name,
                                 params=llm_event.tool_call.params,
+                                response_items=llm_event.response_items,
                                 thinking=llm_event.thinking.content if llm_event.thinking else None,
                                 thinking_signature=llm_event.thinking.signature if llm_event.thinking else None,
                             )
                             break
                         case LLMEventType.TEXT:
-                            ai_message = AIMessage(content=llm_event.content)
+                            ai_message = AIMessage(content=llm_event.content, response_items=llm_event.response_items)
                             human_message = HumanMessage(
                                 content="Response rejected, please use the `done_tool` to respond to the user."
                             )
@@ -384,12 +385,13 @@ class Agent(BaseAgent):
                                 id=llm_event.tool_call.id,
                                 name=llm_event.tool_call.name,
                                 params=llm_event.tool_call.params,
+                                response_items=llm_event.response_items,
                                 thinking=llm_event.thinking.content if llm_event.thinking else None,
                                 thinking_signature=llm_event.thinking.signature if llm_event.thinking else None,
                             )
                             break
                         case LLMEventType.TEXT:
-                            ai_message = AIMessage(content=llm_event.content)
+                            ai_message = AIMessage(content=llm_event.content, response_items=llm_event.response_items)
                             human_message = HumanMessage(
                                 content="Response rejected, please use the `done_tool` to respond to the user."
                             )

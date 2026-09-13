@@ -54,3 +54,14 @@
 - As Caixas Inteligentes criadas incluem Enviadas e excluem Lixo e Apagadas.
 - A interface confirmou novamente: filtro de lixo ativo e conservador, alertas em VIPs, sons secundários desligados e Foco `Work` restrito às duas contas profissionais.
 - Falta somente a confirmação específica para `Proteger Atividade no Mail` e a verificação final após esse ajuste.
+
+## Revisão de 2026-09-11
+
+- [x] Cinco regras `PILOTO` confirmadas ativas; versões antigas confirmadas inativas.
+- [x] Ações revisadas pela interface: somente sinalizador e notificações previstas.
+- [x] Zero caminhos configurados para exclusão, encaminhamento, cópia ou movimento para `No Meu Mac`.
+- [x] Amostra somente leitura: 2.295 mensagens recentes em sete contas, sem erros de coleta.
+- [x] Caixas GTD e visibilidade de mensagens financeiras/profissionais confirmadas.
+- [ ] Taxa de falsos positivos validada por revisão humana de até 50 mensagens por regra.
+- [ ] Promoção individual das regras aprovada pelo usuário.
+- [ ] Automação convertida para revisão trimestral após a decisão do usuário.

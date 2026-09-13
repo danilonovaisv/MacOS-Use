@@ -28,7 +28,7 @@ PROVIDERS: dict[str, tuple[str, str, str]] = {
     "nvidia": ("macos_use.providers.nvidia", "ChatNvidia", "nvidia/nemotron-3-super-120b-a12b"),
     "ollama": ("macos_use.providers.ollama", "ChatOllama", "qwen3.6:latest"),
     "open_router": ("macos_use.providers.open_router", "ChatOpenRouter", "openai/gpt-4o"),
-    "openai": ("macos_use.providers.openai", "ChatOpenAI", "gpt-4o"),
+    "openai": ("macos_use.providers.openai", "ChatOpenAI", "gpt-6-astra"),
     "vllm": ("macos_use.providers.vllm", "ChatVLLM", "Qwen/Qwen3-8B"),
 }
 

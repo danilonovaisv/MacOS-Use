@@ -1,0 +1,391 @@
+[
+  {
+    "label": "A",
+    "path": "/Users/danilonovais/Otimizador MacTech.app",
+    "info": {
+      "AMIsApplet": true,
+      "AMStayOpen": false,
+      "BuildMachineOSBuild": "23A344017",
+      "CFBundleAllowMixedLocalizations": true,
+      "CFBundleDevelopmentRegion": "English",
+      "CFBundleDocumentTypes": [
+        {
+          "CFBundleTypeExtensions": [
+            "*"
+          ],
+          "CFBundleTypeName": "Automator workflow file",
+          "CFBundleTypeOSTypes": [
+            "****"
+          ],
+          "CFBundleTypeRole": "Viewer"
+        }
+      ],
+      "CFBundleExecutable": "Automator Application Stub",
+      "CFBundleIconFile": "ApplicationStub",
+      "CFBundleIconName": "ApplicationStub",
+      "CFBundleIdentifier": "com.apple.automator.Otimizador-MacTech",
+      "CFBundleInfoDictionaryVersion": "6.0",
+      "CFBundleName": "Otimizador MacTech",
+      "CFBundlePackageType": "APPL",
+      "CFBundleShortVersionString": "1.3",
+      "CFBundleSignature": "????",
+      "CFBundleSupportedPlatforms": [
+        "MacOSX"
+      ],
+      "CFBundleURLTypes": [],
+      "CFBundleVersion": "534",
+      "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+      "DTPlatformBuild": "",
+      "DTPlatformName": "macosx",
+      "DTPlatformVersion": "26.5",
+      "DTSDKBuild": "25F63",
+      "DTSDKName": "macosx26.5.internal",
+      "DTXcode": "2630",
+      "DTXcodeBuild": "17E6107",
+      "LSMinimumSystemVersion": "10.9",
+      "LSUIElement": true,
+      "NSAppleEventsUsageDescription": "This workflow needs to control other applications to run.",
+      "NSAppleMusicUsageDescription": "This workflow needs access to your music to run.",
+      "NSAppleScriptEnabled": "YES",
+      "NSCalendarsUsageDescription": "This workflow needs access to your calendars to run.",
+      "NSCameraUsageDescription": "This workflow needs access to your camera to run.",
+      "NSContactsUsageDescription": "This workflow needs access to your contacts to run.",
+      "NSHomeKitUsageDescription": "This workflow needs access to your HomeKit Home to run.",
+      "NSMicrophoneUsageDescription": "This workflow needs access to your microphone to run.",
+      "NSPhotoLibraryUsageDescription": "This workflow needs access to your photos to run.",
+      "NSPrincipalClass": "NSApplication",
+      "NSRemindersUsageDescription": "This workflow needs access to your reminders to run.",
+      "NSServices": [],
+      "NSSiriUsageDescription": "This workflow needs access to Siri to run.",
+      "NSSystemAdministrationUsageDescription": "This workflow needs access to administer this system in order to run.",
+      "UTExportedTypeDeclarations": [],
+      "UTImportedTypeDeclarations": []
+    },
+    "modified": "2026-05-26T05:24:57.751272",
+    "manifest_sha256": "8525bc5afc157666d8471df7b8e9197bad5f422934ee0927a5269398e176b660",
+    "files": [
+      {
+        "path": "Contents/Info.plist",
+        "size": 3559,
+        "sha256": "92ec5887f9f0fcd0fac977f3bcb09e9e07d77983f1dfcd20c7ebd9845b8347ba"
+      },
+      {
+        "path": "Contents/MacOS/Automator Application Stub",
+        "size": 187008,
+        "sha256": "e9ed023de1f35a3d62df74e30f7b92972ed61347fb7409d211a17184496a8c5a"
+      },
+      {
+        "path": "Contents/Resources/ApplicationStub.icns",
+        "size": 764266,
+        "sha256": "25b2fa698ea8008d3f5508e5ee7e03b67796d3ac238e09a17586b24a01f8f75f"
+      },
+      {
+        "path": "Contents/Resources/Assets.car",
+        "size": 1896632,
+        "sha256": "4793251f4429b3f300d9f09d81f994b6e7a71c302d18343a27869577be407166"
+      },
+      {
+        "path": "Contents/Resources/InfoPlist.loctable",
+        "size": 51900,
+        "sha256": "ddc488723eb8ac763693ea4bae7ae07752e2ea199baaec205fde1071e7da8c9f"
+      },
+      {
+        "path": "Contents/_CodeSignature/CodeResources",
+        "size": 3364,
+        "sha256": "2b43a8663b5a1f6693406aeaa561d9582800a2f3e1f6959405d50906e78cf143"
+      },
+      {
+        "path": "Contents/document.wflow",
+        "size": 15480,
+        "sha256": "f3226d9f99d6e4ea310aec54769eba489a0648617eaa488a74b280d4bd6cf8a2"
+      }
+    ],
+    "actions": [
+      {
+        "index": 0,
+        "name": "Run AppleScript",
+        "parameters": {
+          "source": "on run {input, parameters}\n\ttry\n\t\t-- Exibe alerta preventivo em conformidade com as regras lógicas de interface do macOS\n\t\tdisplay dialog \"Deseja iniciar o Pipeline Consolidado de Manutenção MacTech Master?\" buttons {\"Interromper\", \"Executar\"} default button \"Executar\" with title \"MacTech Governance Automation\" with icon note\n\t\t\n\t\tif button returned of result is \"Executar\" then\n\t\t\t-- Dispara o bloco consolidado injetando caminhos absolutos e solicitando privilégios sudo via API gráfica\n\t\t\tdo shell script \"export PATH='/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin';\n            tmutil thinlocalsnapshots / 5000000000 4;\n            dscacheutil -flushcache;\n            killall -HUP mDNSResponder;\n            killall opendirectoryd;\n            purge;\n            rm -rf ~/Library/Caches/* 2>/dev/null\" with administrator privileges\n\t\t\t\n\t\t\tdisplay notification \"Pipeline concluído! Volume APFS verificado, Caches expurgados e RAM otimizada.\" with title \"Manutenção Concluída\" sound name \"Glass\"\n\t\tend if\n\ton error errMsg\n\t\tdisplay dialog \"A execução lágica falhou ou foi abortada pelo operador: \" & errMsg buttons {\"OK\"} default button \"OK\" with title \"Status Pipeline\" with icon stop\n\tend try\n\treturn input\nend run"
+        }
+      },
+      {
+        "index": 1,
+        "name": "Pause",
+        "parameters": {
+          "pauseDuration": 60,
+          "pauseUnit": 0
+        }
+      },
+      {
+        "index": 2,
+        "name": "Run Shell Script",
+        "parameters": {
+          "COMMAND_STRING": "#!/bin/zsh\n# ==============================================================================\n# SCRIPT CONSOLIDADO MACTECH MASTER MAINTENANCE (ARM64 NATIVO)\n# Arquitetura Alvo: Apple Silicon (M1/M2/M3/M4/M5 Series)\n# Sistemas Homologados: macOS Sequoia & macOS Tahoe\n# ==============================================================================\n\n# Injeção explícita de PATH para evitar falhas de escopo no ambiente Automator\nexport PATH=\"/opt/homebrew/bin:/opt/homebrew/sbin:/usr/bin:/bin:/usr/sbin:/sbin\"\n\nLOG_FILE=\"$HOME/Desktop/MacTech_Maintenance_Log.txt\"\necho \"=================================================================\" > \"$LOG_FILE\"\necho \" INICIANDO PIPELINE DE MANUTENÇÃO AVANÇADA NO MAC \" >> \"$LOG_FILE\"\necho \" Data: $(date) | Arquitetura: $(uname -m)\" >> \"$LOG_FILE\"\necho \"=================================================================\" >> \"$LOG_FILE\"\n\n# --- 1. DIAGNÓSTICO TÉRMICO E ENERGIA ---\necho \"\\n[1/5] Executando Auditoria Térmica e de Bateria...\" >> \"$LOG_FILE\"\necho \"-> Pressão Térmica do SoC:\" >> \"$LOG_FILE\"\npmset -g therm | grep -E \"Thermal_Level|Speed_Limit\" >> \"$LOG_FILE\" 2>&1\necho \"-> Integridade e Ciclos da Bateria:\" >> \"$LOG_FILE\"\nioreg -l | grep -E \"MaxCapacity|CurrentCapacity|CycleCount\" >> \"$LOG_FILE\" 2>&1\n\n# --- 2. MANUTENÇÃO SANITIZADA APFS ---\necho \"\\n[2/5] Otimizando Armazenamento APFS...\" >> \"$LOG_FILE\"\necho \"-> Expurgando Snapshots Locais antigos do Time Machine (Liberando Espaço)...\" >> \"$LOG_FILE\"\ntmutil thinlocalsnapshots / 5000000000 4 >> \"$LOG_FILE\" 2>&1\necho \"-> Validando consistência lógica da árvore APFS (Live Mode Data Volume)...\" >> \"$LOG_FILE\"\ndiskutil verifyVolume /System/Volumes/Data >> \"$LOG_FILE\" 2>&1\n\n# --- 3. REDE, DNS E RESET DE COMPORTAMENTO DE DAEMONS ---\necho \"\\n[3/5] Corrigindo Barramentos de Subsistemas e Rede...\" >> \"$LOG_FILE\"\necho \"-> Limpando cache de DNS lógicos e reiniciando mDNSResponder...\" >> \"$LOG_FILE\"\ndscacheutil -flushcache\nkillall -HUP mDNSResponder\necho \"-> Reiniciando serviços de diretório travados (opendirectoryd CPU lock fix)...\" >> \"$LOG_FILE\"\nkillall opendirectoryd >> \"$LOG_FILE\" 2>/dev/null\n\n# --- 4. EXPURGO DE CACHES E PURGA DA ARQUITETURA UMA ---\necho \"\\n[4/5] Higienização de Arquivos Temporários e RAM...\" >> \"$LOG_FILE\"\necho \"-> Removendo caches lógicos do Usuário...\" >> \"$LOG_FILE\"\nrm -rf ~/Library/Caches/* >> \"$LOG_FILE\" 2>/dev/null\necho \"-> Removendo caches lógicos do Homebrew bootsnap...\" >> \"$LOG_FILE\"\nrm -rf \"$(brew --cache 2>/dev/null)/bootsnap\" ~/Library/Caches/Homebrew/bootsnap 2>/dev/null\necho \"-> Forçando purga de páginas inativas de memória na RAM...\" >> \"$LOG_FILE\"\npurge\n\n# --- 5. SINCRO DE GERENCIADORES DE PACOTE ---\necho \"\\n[5/5] Sincronização de Repositórios e Binários...\" >> \"$LOG_FILE\"\nif command -v brew &> /dev/null; then\n    echo \"-> Atualizando fórmulas e pacotes instalados via Homebrew...\" >> \"$LOG_FILE\"\n    brew update && brew upgrade && brew cleanup -s >> \"$LOG_FILE\" 2>&1\nelse\n    echo \"-> Gerenciador Homebrew não localizado em /opt/homebrew. Ignorando.\" >> \"$LOG_FILE\"\nfi\n\necho \"\\n=================================================================\" >> \"$LOG_FILE\"\necho \" MANUTENÇÃO CONCLUÍDA COM SUCESSO! RELATÓRIO SALVO NA MESA. \" >> \"$LOG_FILE\"\necho \"=================================================================\" >> \"$LOG_FILE\"",
+          "CheckedForUserDefaultShell": true,
+          "inputMethod": 0,
+          "shell": "/bin/zsh",
+          "source": ""
+        },
+        "syntax": {
+          "command": [
+            "/bin/zsh",
+            "-n",
+            "/Users/danilonovais/MacOS-Use/MacTech/Audit/A-action-2.sh"
+          ],
+          "status": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      }
+    ],
+    "signature": {
+      "command": [
+        "/usr/bin/codesign",
+        "-dv",
+        "--verbose=4",
+        "/Users/danilonovais/Otimizador MacTech.app"
+      ],
+      "status": 0,
+      "stdout": "",
+      "stderr": "Executable=/Users/danilonovais/Otimizador MacTech.app/Contents/MacOS/Automator Application Stub\nIdentifier=com.apple.automator.Otimizador-MacTech\nFormat=app bundle with Mach-O universal (x86_64 arm64)\nCodeDirectory v=20400 size=383 flags=0x2(adhoc) hashes=5+3 location=embedded\nVersionPlatform=1\nVersionMin=720896\nVersionSDK=1705216\nHash type=sha256 size=32\nCandidateCDHash sha1=ec7944274b289c2b37242f290d2e7f9624f0210f\nCandidateCDHashFull sha1=ec7944274b289c2b37242f290d2e7f9624f0210f\nCandidateCDHash sha256=d44547f2431509d38d313e1d9d9e3790e5085b3a\nCandidateCDHashFull sha256=d44547f2431509d38d313e1d9d9e3790e5085b3a59e4246d3c601baa8400a404\nHash choices=sha1,sha256\nCMSDigest=581642477c782543f3d5b98822661bf1a676f5d349e2893e0c44cef05e360325\nCMSDigestType=2\nExecutable Segment base=0\nExecutable Segment limit=32768\nExecutable Segment flags=0x1\nPage size=16384\nCDHash=d44547f2431509d38d313e1d9d9e3790e5085b3a\nSignature=adhoc\nInfo.plist entries=44\nTeamIdentifier=not set\nSealed Resources version=2 rules=13 files=4\nInternal requirements count=0 size=12\nTotal signatures=1\nChosen signature=1\n"
+    },
+    "validation": {
+      "command": [
+        "/usr/bin/codesign",
+        "--verify",
+        "--deep",
+        "--strict",
+        "/Users/danilonovais/Otimizador MacTech.app"
+      ],
+      "status": 1,
+      "stdout": "",
+      "stderr": "/Users/danilonovais/Otimizador MacTech.app: resource fork, Finder information, or similar detritus not allowed\n"
+    },
+    "entitlements": {
+      "command": [
+        "/usr/bin/codesign",
+        "-d",
+        "--entitlements",
+        ":-",
+        "/Users/danilonovais/Otimizador MacTech.app"
+      ],
+      "status": 0,
+      "stdout": "",
+      "stderr": "Executable=/Users/danilonovais/Otimizador MacTech.app/Contents/MacOS/Automator Application Stub\nwarning: Specifying ':' in the path is deprecated and will not work in a future release\n"
+    },
+    "dependencies": {
+      "command": [
+        "/usr/bin/otool",
+        "-L",
+        "/Users/danilonovais/Otimizador MacTech.app/Contents/MacOS/Automator Application Stub"
+      ],
+      "status": 0,
+      "stdout": "/Users/danilonovais/Otimizador MacTech.app/Contents/MacOS/Automator Application Stub (architecture x86_64):\n\t/usr/lib/libDiagnosticMessagesClient.dylib (compatibility version 1.0.0, current version 113.0.0, weak)\n\t/System/Library/Frameworks/Automator.framework/Versions/A/Automator (compatibility version 1.0.0, current version 0.0.0)\n\t/System/Library/PrivateFrameworks/CrashReporterSupport.framework/Versions/A/CrashReporterSupport (compatibility version 1.0.0, current version 15140.0.0)\n\t/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa (compatibility version 1.0.0, current version 24.0.0)\n\t/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation (compatibility version 300.0.0, current version 5026.5.4)\n\t/usr/lib/libobjc.A.dylib (compatibility version 1.0.0, current version 228.0.0)\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1356.0.0)\n\t/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit (compatibility version 45.0.0, current version 2685.60.104)\n\t/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation (compatibility version 150.0.0, current version 5026.5.4)\n/Users/danilonovais/Otimizador MacTech.app/Contents/MacOS/Automator Application Stub (architecture arm64):\n\t/usr/lib/libDiagnosticMessagesClient.dylib (compatibility version 1.0.0, current version 113.0.0, weak)\n\t/System/Library/Frameworks/Automator.framework/Versions/A/Automator (compatibility version 1.0.0, current version 0.0.0)\n\t/System/Library/PrivateFrameworks/CrashReporterSupport.framework/Versions/A/CrashReporterSupport (compatibility version 1.0.0, current version 15140.0.0)\n\t/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa (compatibility version 1.0.0, current version 24.0.0)\n\t/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation (compatibility version 300.0.0, current version 5026.5.4)\n\t/usr/lib/libobjc.A.dylib (compatibility version 1.0.0, current version 228.0.0)\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1356.0.0)\n\t/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit (compatibility version 45.0.0, current version 2685.60.104)\n\t/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation (compatibility version 150.0.0, current version 5026.5.4)\n",
+      "stderr": ""
+    }
+  },
+  {
+    "label": "B",
+    "path": "/Users/danilonovais/macos_maintenance.app",
+    "info": {
+      "AMIsApplet": true,
+      "AMStayOpen": false,
+      "BuildMachineOSBuild": "23A344017",
+      "CFBundleAllowMixedLocalizations": true,
+      "CFBundleDevelopmentRegion": "English",
+      "CFBundleDocumentTypes": [
+        {
+          "CFBundleTypeExtensions": [
+            "*"
+          ],
+          "CFBundleTypeName": "Automator workflow file",
+          "CFBundleTypeOSTypes": [
+            "****"
+          ],
+          "CFBundleTypeRole": "Viewer"
+        }
+      ],
+      "CFBundleExecutable": "Automator Application Stub",
+      "CFBundleIconFile": "ApplicationStub",
+      "CFBundleIconName": "ApplicationStub",
+      "CFBundleIdentifier": "com.apple.automator.macos-maintenance",
+      "CFBundleInfoDictionaryVersion": "6.0",
+      "CFBundleName": "macos_maintenance",
+      "CFBundlePackageType": "APPL",
+      "CFBundleShortVersionString": "1.3",
+      "CFBundleSignature": "????",
+      "CFBundleSupportedPlatforms": [
+        "MacOSX"
+      ],
+      "CFBundleURLTypes": [],
+      "CFBundleVersion": "537.2",
+      "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+      "DTPlatformBuild": "26A5366s",
+      "DTPlatformName": "macosx",
+      "DTPlatformVersion": "27.0",
+      "DTSDKBuild": "26A5366s",
+      "DTSDKName": "macosx27.0.internal",
+      "DTXcode": "2700",
+      "DTXcodeBuild": "27A161h",
+      "LSMinimumSystemVersion": "10.9",
+      "LSUIElement": true,
+      "NSAppleEventsUsageDescription": "This workflow needs to control other applications to run.",
+      "NSAppleMusicUsageDescription": "This workflow needs access to your music to run.",
+      "NSAppleScriptEnabled": "YES",
+      "NSCalendarsUsageDescription": "This workflow needs access to your calendars to run.",
+      "NSCameraUsageDescription": "This workflow needs access to your camera to run.",
+      "NSContactsUsageDescription": "This workflow needs access to your contacts to run.",
+      "NSHomeKitUsageDescription": "This workflow needs access to your HomeKit Home to run.",
+      "NSMicrophoneUsageDescription": "This workflow needs access to your microphone to run.",
+      "NSPhotoLibraryUsageDescription": "This workflow needs access to your photos to run.",
+      "NSPrincipalClass": "NSApplication",
+      "NSRemindersUsageDescription": "This workflow needs access to your reminders to run.",
+      "NSServices": [],
+      "NSSiriUsageDescription": "This workflow needs access to Siri to run.",
+      "NSSystemAdministrationUsageDescription": "This workflow needs access to administer this system in order to run.",
+      "UTExportedTypeDeclarations": [],
+      "UTImportedTypeDeclarations": []
+    },
+    "modified": "2026-06-29T23:07:34.350721",
+    "manifest_sha256": "416fc2bb90afc415d2f701a2041d1b5888b19506528a3558ad24ab9e2e5cf67f",
+    "files": [
+      {
+        "path": "Contents/Info.plist",
+        "size": 3570,
+        "sha256": "e5adc20c70fb8f46cb1f16e895aa191cd633f00052b93b6ad3e42ca61bfc10c6"
+      },
+      {
+        "path": "Contents/MacOS/Automator Application Stub",
+        "size": 70416,
+        "sha256": "46de057070b02c24e7ded7d8b7dce8d8d44c7286054eca4ad61aad8c0c475cea"
+      },
+      {
+        "path": "Contents/Resources/ApplicationStub.icns",
+        "size": 764401,
+        "sha256": "a519dbee4085ef968fb3ae3e33d4bd1d4e705f8128a44fd9a30d4ba1e28317d3"
+      },
+      {
+        "path": "Contents/Resources/Assets.car",
+        "size": 1868360,
+        "sha256": "4761a2f0f440d83ac3f6df51b6172e517390ce3ef3669c0f960172644a6fd043"
+      },
+      {
+        "path": "Contents/Resources/InfoPlist.loctable",
+        "size": 53658,
+        "sha256": "03e77104d800124a6ccef18ceeb81b2e7a11bb3adf3cad18374a1f57184ef899"
+      },
+      {
+        "path": "Contents/Resources/Localizable.loctable",
+        "size": 14871,
+        "sha256": "8308bcb1323fcc95966add33d809da72367b153ecb618c22e91c4afd30739b11"
+      },
+      {
+        "path": "Contents/_CodeSignature/CodeResources",
+        "size": 3394,
+        "sha256": "3c8a2e4e67ccaa29b8a97c1541243ea1f5364665e818ffb7c1434d144dc35016"
+      },
+      {
+        "path": "Contents/document.wflow",
+        "size": 52946,
+        "sha256": "f91807a9e172c65ebd01e9b6b5a2be1f2062bf10339f3c95f6986ab1dfa1ad90"
+      }
+    ],
+    "actions": [
+      {
+        "index": 0,
+        "name": "Pause",
+        "parameters": {
+          "pauseDuration": 300,
+          "pauseUnit": 0
+        }
+      },
+      {
+        "index": 1,
+        "name": "Run Shell Script",
+        "parameters": {
+          "COMMAND_STRING": "#!/usr/bin/env bash\n\nset -E\ntrap cleanup SIGINT SIGTERM ERR EXIT\n\ncleanup() {\n\ttrap - SIGINT SIGTERM ERR EXIT\n}\n\n# Default arguments\nupdate=false\n\nusage() {\n\tcat <<EOF\nUsage: $(basename \"${BASH_SOURCE[0]}\") [-h] [-v] [-u]\n\nA Mac Cleaning up Utility by fwartner\nhttps://github.com/mac-cleanup/mac-cleanup-sh\n\nAvailable options:\n\n-h, --help       Print this help and exit\n-d, --dry-run    Print approx space to be cleaned\n-v, --verbose    Print script debug info\n-u, --update     Run brew update\nEOF\n\texit\n}\n\n# shellcheck disable=SC2034  # Unused variables left for readability\nsetup_colors() {\n\tif [[ -t 2 ]] && [[ -z \"${NO_COLOR-}\" ]] && [[ \"${TERM-}\" != \"dumb\" ]]; then\n\t\tNOFORMAT='\\033[0m' RED='\\033[0;31m' GREEN='\\033[0;32m' ORANGE='\\033[0;33m' BLUE='\\033[0;34m' PURPLE='\\033[0;35m' CYAN='\\033[0;36m' YELLOW='\\033[1;33m'\n\telse\n\t\tNOFORMAT='' RED='' GREEN='' ORANGE='' BLUE='' PURPLE='' CYAN='' YELLOW=''\n\tfi\n}\n\nmsg() {\n  if [ -z \"$dry_run\" ]; then\n\t  echo >&2 -e \"${1-}\"\n\tfi\n}\n\ndie() {\n\tlocal msg=$1\n\tlocal code=${2-1} # default exit status 1\n\tmsg \"$msg\"\n\texit \"$code\"\n}\n\nparse_params() {\n\t# default values of variables set from params\n\tupdate=false\n\n\twhile :; do\n\t\tcase \"${1-}\" in\n\t\t-h | --help) usage ;;\n\t\t-v | --verbose) set -x ;;\n\t\t-d | --dry-run) dry_run=true ;;\n\t\t--no-color) NO_COLOR=1 ;;\n\t\t-u | --update) update=true ;; # update flag\n\t\t-n) true ;;                   # This is a legacy option, now default behaviour\n\t\t-?*) die \"Unknown option: $1\" ;;\n\t\t*) break ;;\n\t\tesac\n\t\tshift\n\tdone\n\n\treturn 0\n}\n\nparse_params \"$@\"\nsetup_colors\n\ndeleteCaches() {\n\tlocal cacheName=$1\n\tshift\n\tlocal paths=(\"$@\")\n\techo \"Initiating cleanup ${cacheName} cache...\"\n\tfor folderPath in \"${paths[@]}\"; do\n\t\tif [[ -d ${folderPath} ]]; then\n\t\t\tdirSize=$(du -hs \"${folderPath}\" | awk '{print $1}')\n\t\t\techo \"Deleting ${folderPath} to free up ${dirSize}...\"\n\t\t\trm -rfv \"${folderPath}\"\n\t\tfi\n\tdone\n}\n\nbytesToHuman() {\n\tb=${1:-0}\n\td=''\n\ts=1\n\tS=(Bytes {K,M,G,T,E,P,Y,Z}iB)\n\twhile ((b > 1024)); do\n\t\td=\"$(printf \".%02d\" $((b % 1024 * 100 / 1024)))\"\n\t\tb=$((b / 1024))\n\t\t((s++))\n\tdone\n\tif [ -z \"$dry_results\" ]; then\n    msg \"$b$d ${S[$s]} of space was cleaned up\"\n  else\n    msg \"Approx $b$d ${S[$s]} of space will be cleaned up\"\n  fi\n}\n\ncount_dry() {\n  for path in \"${path_list[@]}\"; do\n    if [ -d \"$path\" ] || [ -f \"$path\" ]; then\n      temp_dry_results=$(sudo du -ck \"$path\" | tail -1 | awk '{ print $1 }')\n      dry_results=\"$((dry_results+temp_dry_results))\"\n    fi\n  done\n}\n\nremove_paths() {\n  if [ -z \"$dry_run\" ]; then\n    for path in \"${path_list[@]}\"; do\n      rm -rfv \"$path\" &>/dev/null\n    done\n    unset path_list\n  fi\n}\n\ncollect_paths() {\n  path_list+=(\"$@\")\n}\n\n# Ask for the administrator password upfront\nsudo -v\n\nHOST=$(whoami)\n\n# Keep-alive sudo until `mac-cleanup.sh` has finished\nwhile true; do\n\tsudo -n true\n\tsleep 60\n\tkill -0 \"$$\" || exit\ndone 2>/dev/null &\n\n# Enable extended regex\nshopt -s extglob\n\noldAvailable=$(df / | tail -1 | awk '{print $4}')\n\ncollect_paths /Volumes/*/.Trashes/*\ncollect_paths ~/.Trash/*\nmsg 'Emptying the Trash 🗑 on all mounted volumes and the main HDD...'\nremove_paths\n\ncollect_paths /Library/Caches/*\ncollect_paths /System/Library/Caches/*\ncollect_paths ~/Library/Caches/*\ncollect_paths /private/var/folders/bh/*/*/*/*\nmsg 'Clearing System Cache Files...'\nremove_paths\n\ncollect_paths /private/var/log/asl/*.asl\ncollect_paths /Library/Logs/DiagnosticReports/*\ncollect_paths /Library/Logs/CreativeCloud/*\ncollect_paths /Library/Logs/Adobe/*\ncollect_paths /Library/Logs/adobegc.log\ncollect_paths ~/Library/Containers/com.apple.mail/Data/Library/Logs/Mail/*\ncollect_paths ~/Library/Logs/CoreSimulator/*\nmsg 'Clearing System Log Files...'\nremove_paths\n\nif [ -d ~/Library/Logs/JetBrains/ ]; then\n  collect_paths ~/Library/Logs/JetBrains/*/\n  msg 'Clearing all application log files from JetBrains...'\n  remove_paths\nfi\n\nif [ -d ~/Library/Application\\ Support/Adobe/ ]; then\n  collect_paths ~/Library/Application\\ Support/Adobe/Common/Media\\ Cache\\ Files/*\n  msg 'Clearing Adobe Cache Files...'\n  remove_paths\nfi\n\nif [ -d ~/Library/Application\\ Support/Google/Chrome/ ]; then\n  collect_paths ~/Library/Application\\ Support/Google/Chrome/Default/Application\\ Cache/*\n  msg 'Clearing Google Chrome Cache Files...'\n  remove_paths\nfi\n\ncollect_paths ~/Music/iTunes/iTunes\\ Media/Mobile\\ Applications/*\nmsg 'Cleaning up iOS Applications...'\nremove_paths\n\ncollect_paths ~/Library/Application\\ Support/MobileSync/Backup/*\nmsg 'Removing iOS Device Backups...'\nremove_paths\n\ncollect_paths ~/Library/Developer/Xcode/DerivedData/*\ncollect_paths ~/Library/Developer/Xcode/Archives/*\ncollect_paths ~/Library/Developer/Xcode/iOS Device Logs/*\nmsg 'Cleaning up XCode Derived Data and Archives...'\nremove_paths\n\nif type \"xcrun\" &>/dev/null; then\n  if [ -z \"$dry_run\" ]; then\n    msg 'Cleaning up iOS Simulators...'\n    osascript -e 'tell application \"com.apple.CoreSimulator.CoreSimulatorService\" to quit' &>/dev/null\n    osascript -e 'tell application \"iOS Simulator\" to quit' &>/dev/null\n    osascript -e 'tell application \"Simulator\" to quit' &>/dev/null\n    xcrun simctl shutdown all &>/dev/null\n    xcrun simctl erase all &>/dev/null\n  else\n    collect_paths ~/Library/Developer/CoreSimulator/Devices/*/data/!(Library|var|tmp|Media)\n    collect_paths /Users/wah/Library/Developer/CoreSimulator/Devices/*/data/Library/!(PreferencesCaches|Caches|AddressBook)\n    collect_paths ~/Library/Developer/CoreSimulator/Devices/*/data/Library/Caches/*\n    collect_paths ~/Library/Developer/CoreSimulator/Devices/*/data/Library/AddressBook/AddressBook*\n  fi\nfi\n\n# support deleting Dropbox Cache if they exist\nif [ -d \"/Users/${HOST}/Dropbox\" ]; then\n  collect_paths ~/Dropbox/.dropbox.cache/*\n  msg 'Clearing Dropbox 📦 Cache Files...'\n  remove_paths\nfi\n\nif [ -d ~/Library/Application\\ Support/Google/DriveFS/ ]; then\n  collect_paths ~/Library/Application\\ Support/Google/DriveFS/[0-9a-zA-Z]*/content_cache\n  msg 'Clearing Google Drive File Stream Cache Files...'\n  killall \"Google Drive File Stream\"\n  remove_paths\nfi\n\nif type \"composer\" &>/dev/null; then\n  if [ -z \"$dry_run\" ]; then\n    msg 'Cleaning up composer...'\n    composer clearcache --no-interaction &>/dev/null\n  else\n    collect_paths ~/Library/Caches/composer\n  fi\nfi\n\n# Deletes Steam caches, logs, and temp files\n# -Astro\nif [ -d ~/Library/Application\\ Support/Steam/ ]; then\n  collect_paths ~/Library/Application\\ Support/Steam/appcache\n  collect_paths ~/Library/Application\\ Support/Steam/depotcache\n  collect_paths ~/Library/Application\\ Support/Steam/logs\n  collect_paths ~/Library/Application\\ Support/Steam/steamapps/shadercache\n  collect_paths ~/Library/Application\\ Support/Steam/steamapps/temp\n  collect_paths ~/Library/Application\\ Support/Steam/steamapps/download\n  msg 'Clearing Steam Cache, Log, and Temp Files...'\n  remove_paths\nfi\n\n# Deletes Minecraft logs\n# -Astro\nif [ -d ~/Library/Application\\ Support/minecraft ]; then\n  collect_paths ~/Library/Application\\ Support/minecraft/logs\n  collect_paths ~/Library/Application\\ Support/minecraft/crash-reports\n  collect_paths ~/Library/Application\\ Support/minecraft/webcache\n  collect_paths ~/Library/Application\\ Support/minecraft/webcache2\n  collect_paths ~/Library/Application\\ Support/minecraft/crash-reports\n  collect_paths ~/Library/Application\\ Support/minecraft/*.log\n  collect_paths ~/Library/Application\\ Support/minecraft/launcher_cef_log.txt\n  if [ -d ~/Library/Application\\ Support/minecraft/.mixin.out ]; then\n    collect_paths ~/Library/Application\\ Support/minecraft/.mixin.out\n  fi\n  msg 'Clearing Minecraft Cache and Log Files...'\n  remove_paths\nfi\n\n# Deletes Lunar Client logs (Minecraft alternate client)\n# -Astro\nif [ -d ~/.lunarclient ]; then\n  collect_paths ~/.lunarclient/game-cache\n  collect_paths ~/.lunarclient/launcher-cache\n  collect_paths ~/.lunarclient/logs\n  collect_paths ~/.lunarclient/offline/*/logs\n  collect_paths ~/.lunarclient/offline/files/*/logs\n  msg 'Deleting Lunar Client logs and caches...'\n  remove_paths\nfi\n\n# Deletes Wget logs\n# -Astro\nif [ -d ~/wget-log ]; then\n  collect_paths ~/wget-log\n  collect_paths ~/.wget-hsts\n  msg 'Deleting Wget log and hosts file...'\n  remove_paths\nfi\n\n# Deletes Cacher logs\n# I dunno either\n# -Astro\nif [ -d ~/.cacher ]; then\n  collect_paths ~/.cacher/logs\n  msg 'Deleting Cacher logs...'\n  remove_paths\nfi\n\n# Deletes Android (studio?) cache\n# -Astro\nif [ -d ~/.android ]; then\n  collect_paths ~/.android/cache\n  msg 'Deleting Android cache...'\n  remove_paths\nfi\n\n# Clears Gradle caches\n# -Astro\nif [ -d ~/.gradle ]; then\n  collect_paths ~/.gradle/caches\n  msg 'Clearing Gradle caches...'\n  remove_paths\nfi\n\n# Deletes Kite Autocomplete logs\n# -Astro\nif [ -d ~/.kite ]; then\n  collect_paths ~/.kite/logs\n  msg 'Deleting Kite logs...'\n  remove_paths\nfi\n\nif type \"brew\" &>/dev/null; then\n  if [ \"$update\" = true ]; then\n    msg 'Updating Homebrew Recipes...'\n    brew update &>/dev/null\n    msg 'Upgrading and removing outdated formulae...'\n    brew upgrade &>/dev/null\n  fi\n  collect_paths \"$(brew --cache)\"\n  msg 'Cleaning up Homebrew Cache...'\n  if [ -z \"$dry_run\" ]; then\n    brew cleanup -s &>/dev/null\n    remove_paths\n    brew tap --repair &>/dev/null\n  else\n    remove_paths\n  fi\nfi\n\nif type \"gem\" &>/dev/null; then  # TODO add count_dry\n  if [ -z \"$dry_run\" ]; then\n    msg 'Cleaning up any old versions of gems'\n    gem cleanup &>/dev/null\n  fi\nfi\n\nif type \"docker\" &>/dev/null; then  # TODO add count_dry\n  if [ -z \"$dry_run\" ]; then\n    if ! docker ps >/dev/null 2>&1; then\n      close_docker=true\n      open --background -a Docker\n    fi\n    msg 'Cleaning up Docker'\n    docker system prune -af &>/dev/null\n    if [ \"$close_docker\" = true ]; then\n      killall Docker\n    fi\n  fi\nfi\n\nif [ \"$PYENV_VIRTUALENV_CACHE_PATH\" ]; then\n  collect_paths \"$PYENV_VIRTUALENV_CACHE_PATH\"\n  msg 'Removing Pyenv-VirtualEnv Cache...'\n  remove_paths\nfi\n\nif type \"npm\" &>/dev/null; then\n  if [ -z \"$dry_run\" ]; then\n    msg 'Cleaning up npm cache...'\n    npm cache clean --force &>/dev/null\n  else\n    collect_paths ~/.npm/*\n  fi\nfi\n\nif type \"yarn\" &>/dev/null; then\n  if [ -z \"$dry_run\" ]; then\n    msg 'Cleaning up Yarn Cache...'\n    yarn cache clean --force &>/dev/null\n  else\n    collect_paths ~/Library/Caches/yarn\n  fi\nfi\n\nif type \"pnpm\" &>/dev/null; then\n  if [ -z \"$dry_run\" ]; then\n    msg 'Cleaning up pnpm Cache...'\n    pnpm store prune &>/dev/null\n  else\n    collect_paths ~/.pnpm-store/*\n  fi\nfi\n\nif type \"pod\" &>/dev/null; then\n  if [ -z \"$dry_run\" ]; then\n    msg 'Cleaning up Pod Cache...'\n    pod cache clean --all &>/dev/null\n  else\n    collect_paths ~/Library/Caches/CocoaPods\n  fi\nfi\n\nif type \"go\" &>/dev/null; then\n  if [ -z \"$dry_run\" ]; then\n    msg 'Clearing Go module cache...'\n    go clean -modcache &>/dev/null\n  else\n    if [ -n \"$GOPATH\" ]; then\n      collect_paths \"$GOPATH/pkg/mod\"\n    else\n      collect_paths ~/go/pkg/mod\n    fi\n  fi\nfi\n\n# Deletes all Microsoft Teams Caches and resets it to default - can fix also some performance issues\n# -Astro\nif [ -d ~/Library/Application\\ Support/Microsoft/Teams ]; then\n  collect_paths ~/Library/Application\\ Support/Microsoft/Teams/IndexedDB\n  collect_paths ~/Library/Application\\ Support/Microsoft/Teams/Cache\n  collect_paths ~/Library/Application\\ Support/Microsoft/Teams/Application\\ Cache\n  collect_paths ~/Library/Application\\ Support/Microsoft/Teams/Code\\ Cache\n  collect_paths ~/Library/Application\\ Support/Microsoft/Teams/blob_storage\n  collect_paths ~/Library/Application\\ Support/Microsoft/Teams/databases\n  collect_paths ~/Library/Application\\ Support/Microsoft/Teams/gpucache\n  collect_paths ~/Library/Application\\ Support/Microsoft/Teams/Local\\ Storage\n  collect_paths ~/Library/Application\\ Support/Microsoft/Teams/tmp\n  collect_paths ~/Library/Application\\ Support/Microsoft/Teams/*logs*.txt\n  collect_paths ~/Library/Application\\ Support/Microsoft/Teams/watchdog\n  collect_paths ~/Library/Application\\ Support/Microsoft/Teams/*watchdog*.json\n  msg 'Deleting Microsoft Teams logs and caches...'\n  remove_paths\nfi\n\n# Deletes Poetry cache\nif [ -d ~/Library/Caches/pypoetry ]; then\n  collect_paths ~/Library/Caches/pypoetry\n  msg 'Deleting Poetry cache...'\n  remove_paths\nfi\n\n# Removes Java heap dumps\ncollect_paths ~/*.hprof\nmsg 'Deleting Java heap dumps...'\nremove_paths\n\nif [ -z \"$dry_run\" ]; then\n  msg 'Cleaning up DNS cache...'\n  sudo dscacheutil -flushcache &>/dev/null\n  sudo killall -HUP mDNSResponder &>/dev/null\nfi\n\nif [ -z \"$dry_run\" ]; then\n  msg 'Purging inactive memory...'\n  sudo purge &>/dev/null\nfi\n\n# Disables extended regex\nshopt -u extglob\n\nif [ -z \"$dry_run\" ]; then\n  msg \"${GREEN}Success!${NOFORMAT}\"\n\n  newAvailable=$(df / | tail -1 | awk '{print $4}')\n  count=$((newAvailable - oldAvailable))\n  bytesToHuman $count\n  cleanup\nelse\n  count_dry\n  unset dry_run\n  bytesToHuman \"$dry_results\"\n  msg \"Continue? [enter]\"\n  read -r -s -n 1 clean_dry_run\n  if [[ $clean_dry_run = \"\" ]]; then\n    if [ \"$update\" = true ]; then\n      exec \"$0\" --update\n    else\n      exec \"$0\"\n    fi\n  fi\n  cleanup\nfi\n",
+          "CheckedForUserDefaultShell": true,
+          "inputMethod": 0,
+          "shell": "/bin/zsh",
+          "source": ""
+        },
+        "syntax": {
+          "command": [
+            "/bin/zsh",
+            "-n",
+            "/Users/danilonovais/MacOS-Use/MacTech/Audit/B-action-1.sh"
+          ],
+          "status": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      },
+      {
+        "index": 2,
+        "name": "Run Shell Script",
+        "parameters": {
+          "COMMAND_STRING": "#!/usr/bin/env bash\n# ==============================================================================\n#  macOS Automator Maintenance Script\n#  Versão  : 3.0.0\n#  Autor   : Danilo Novais (via Claude — Anthropic)\n#  Alvo    : macOS 13+ · Apple Silicon (M1/M2/M3) & Intel\n#  Execução: Automator → \"Run Shell Script\" → Shell: /bin/bash\n# ==============================================================================\n#\n#  ARQUITETURA:\n#    - Zero sudo interativo: nenhum comando bloqueia aguardando senha\n#    - Idempotente: múltiplas execuções não causam efeitos colaterais extras\n#    - Destrutivos guardados: todo rm -rf verifica existência antes\n#    - find cauteloso: todos os usos têm -maxdepth explícito\n#    - Log estruturado: ~/Library/Logs/Automator_Maintenance.log\n#\n#  LEIA ANTES DE EXECUTAR:\n#    Consulte macOS_Maintenance_Risk_Analysis.md para decisões de risco.\n#    Em particular: iOS Backups (Seção 4) e Adobe Cache (Seção 5).\n# ==============================================================================\n\n# ── 0. CONFIGURAÇÕES GLOBAIS ──────────────────────────────────────────────────\n\nset -euo pipefail\nIFS=$'\\n\\t'\n\n# Captura erros não tratados e registra linha de falha\ntrap '_exit_code=$?; log \"ERROR\" \"Script abortado na linha $LINENO (exit=$_exit_code)\"; exit $_exit_code' ERR\n\nreadonly SCRIPT_VERSION=\"3.0.0\"\nreadonly LOG_FILE=\"${HOME}/Library/Logs/Automator_Maintenance.log\"\n# ATENÇÃO: não usar \"readonly TIMESTAMP_START\" sem valor aqui.\n# Em zsh, readonly sem atribuição fixa a variável como string vazia (read-only),\n# bloqueando qualquer atribuição subsequente com \"read-only variable\".\n# Solução: atribuição direta, sem modificador readonly.\nTIMESTAMP_START=$(date +%s)\n\n# Acumulador de espaço liberado em KB (melhor esforço, não contabiliza rm de tool externo)\nFREED_SPACE_KB=0\n\n\n# ── 1. PATH EXPLÍCITO PARA AUTOMATOR ─────────────────────────────────────────\n#\n# Problema: Automator herda PATH=/usr/bin:/bin:/usr/sbin:/sbin\n# O PATH abaixo cobre: Homebrew (ARM e Intel), /usr/local padrão, e system.\n# Ferramentas como brew, docker, go, npm não são encontradas sem isso.\n\nexport PATH=\"/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin\"\n\n# nvm (Node Version Manager) — carrega sem selecionar uma versão automática\nexport NVM_DIR=\"${NVM_DIR:-${HOME}/.nvm}\"\n# shellcheck disable=SC1091\n[[ -s \"${NVM_DIR}/nvm.sh\" ]] && source \"${NVM_DIR}/nvm.sh\" --no-use\n\n# Pyenv (Python Version Manager)\nif [[ -d \"${HOME}/.pyenv\" ]]; then\n  export PYENV_ROOT=\"${HOME}/.pyenv\"\n  export PATH=\"${PYENV_ROOT}/shims:${PYENV_ROOT}/bin:${PATH}\"\nfi\n\n# Go (binários instalados pelo go install)\nif [[ -d \"${HOME}/go/bin\" ]]; then\n  export GOPATH=\"${GOPATH:-${HOME}/go}\"\n  export PATH=\"${GOPATH}/bin:${PATH}\"\nfi\n\n# Ruby via rbenv (alternativa ao system ruby)\nif command -v rbenv &>/dev/null; then\n  eval \"$(rbenv init - bash 2>/dev/null)\" || true\nfi\n\n\n# ── 2. SISTEMA DE LOGGING ──────────────────────────────────────────────────────\n\nmkdir -p \"$(dirname \"${LOG_FILE}\")\"\n\n# Rotação simples: se o log ultrapassar 5MB, arquiva e recomeça\nif [[ -f \"${LOG_FILE}\" ]] && (( $(wc -c < \"${LOG_FILE}\") > 5242880 )); then\n  mv \"${LOG_FILE}\" \"${LOG_FILE%.log}_$(date +%Y%m%d_%H%M%S).log.bak\"\nfi\n\nlog() {\n  local level=\"$1\"; shift\n  local msg=\"$*\"\n  printf \"[%s] [%-7s] %s\\n\" \"$(date '+%Y-%m-%d %H:%M:%S')\" \"${level}\" \"${msg}\" | tee -a \"${LOG_FILE}\"\n}\n\nlog_section() {\n  {\n    printf \"\\n\"\n    printf '%.0s─' {1..72}\n    printf \"\\n\"\n    printf \"[%s] [%-7s] ▶  %s\\n\" \"$(date '+%Y-%m-%d %H:%M:%S')\" \"SECTION\" \"$*\"\n    printf '%.0s─' {1..72}\n    printf \"\\n\"\n  } | tee -a \"${LOG_FILE}\"\n}\n\n\n# ── 3. FUNÇÕES UTILITÁRIAS ─────────────────────────────────────────────────────\n\n# Verifica se um binário existe no PATH atual\nhas_cmd() { command -v \"$1\" &>/dev/null; }\n\n# Remove arquivo ou diretório com segurança, acumulando espaço estimado liberado\nsafe_rm() {\n  local target=\"$1\"\n  local recursive=\"${2:-false}\"\n\n  # Aceita tanto caminho literal quanto glob simples expandido pelo caller\n  if [[ ! -e \"${target}\" && ! -L \"${target}\" ]]; then\n    log \"SKIP\" \"Não existe: ${target}\"\n    return 0\n  fi\n\n  local size_kb=0\n  size_kb=$(du -sk \"${target}\" 2>/dev/null | awk '{print $1}') || size_kb=0\n\n  if [[ \"${recursive}\" == \"true\" ]]; then\n    if rm -rf \"${target}\" 2>/dev/null; then\n      FREED_SPACE_KB=$(( FREED_SPACE_KB + size_kb ))\n      log \"OK\" \"Removido (dir): ${target}  [≈${size_kb} KB]\"\n    else\n      log \"WARN\" \"Falha ao remover: ${target}\"\n    fi\n  else\n    if rm -f \"${target}\" 2>/dev/null; then\n      FREED_SPACE_KB=$(( FREED_SPACE_KB + size_kb ))\n      log \"OK\" \"Removido (file): ${target}\"\n    else\n      log \"WARN\" \"Falha ao remover: ${target}\"\n    fi\n  fi\n}\n\n# Limpa conteúdo DE DENTRO de um diretório preservando o diretório pai\nsafe_clean_dir() {\n  local dir=\"$1\"\n  if [[ ! -d \"${dir}\" ]]; then\n    log \"SKIP\" \"Diretório não existe: ${dir}\"\n    return 0\n  fi\n\n  local size_kb=0\n  size_kb=$(du -sk \"${dir}\" 2>/dev/null | awk '{print $1}') || size_kb=0\n\n  # find -mindepth 1 -delete: remove tudo dentro sem remover o container\n  if find \"${dir}\" -mindepth 1 -delete 2>/dev/null; then\n    FREED_SPACE_KB=$(( FREED_SPACE_KB + size_kb ))\n    log \"OK\" \"Cache limpo: ${dir}  [≈${size_kb} KB]\"\n  else\n    log \"WARN\" \"Limpeza parcial (possível arquivo em uso): ${dir}\"\n  fi\n}\n\n\n# ── 4. LIXEIRA ────────────────────────────────────────────────────────────────\n\ntask_trash() {\n  log_section \"LIXEIRA\"\n\n  # Lixeira do usuário atual\n  safe_clean_dir \"${HOME}/.Trash\"\n\n  # Lixeiras em volumes externos montados em /Volumes/\n  # -maxdepth 1 evita percorrer a árvore de cada volume montado\n  if [[ -d \"/Volumes\" ]]; then\n    while IFS= read -r -d '' volume_dir; do\n      local ext_trash=\"${volume_dir}/.Trashes/$(id -u)\"\n      if [[ -d \"${ext_trash}\" ]]; then\n        safe_clean_dir \"${ext_trash}\"\n      fi\n    done < <(find /Volumes -maxdepth 1 -mindepth 1 -type d -print0 2>/dev/null)\n  fi\n}\n\n\n# ── 5. LOGS DO SISTEMA ────────────────────────────────────────────────────────\n\ntask_system_logs() {\n  log_section \"LOGS DO SISTEMA\"\n\n  # Remove apenas logs e crash reports com mais de 7 dias.\n  # Ajuste -mtime +7 para +30 se você precisar manter histórico de diagnóstico.\n  find \"${HOME}/Library/Logs\" \\\n    -maxdepth 4 \\\n    -type f \\\n    \\( -name \"*.log\" -o -name \"*.crash\" \\) \\\n    -mtime +7 \\\n    -delete 2>/dev/null \\\n    && log \"OK\" \"Logs/crash reports de usuário com >7 dias removidos\"\n\n  safe_clean_dir \"${HOME}/Library/Logs/DiagnosticReports\"\n  safe_clean_dir \"${HOME}/Library/Application Support/CrashReporter\"\n}\n\n\n# ── 6. CACHE DA ADOBE ─────────────────────────────────────────────────────────\n#\n# ATENÇÃO: Feche Creative Cloud antes de executar esta seção.\n# Apps Adobe regeneram previews após limpeza; primeira abertura será mais lenta.\n\ntask_adobe_cache() {\n  log_section \"CACHE ADOBE\"\n\n  local adobe_paths=(\n    \"${HOME}/Library/Caches/Adobe\"\n    \"${HOME}/Library/Caches/com.adobe.AdobeIPCBroker.ctrl\"\n    \"${HOME}/Library/Caches/com.adobe.acc.AdobeDesktopService\"\n    \"${HOME}/Library/Caches/com.adobe.nativefunnels\"\n    \"${HOME}/Library/Application Support/Adobe/Common/Media Cache Files\"\n    \"${HOME}/Library/Application Support/Adobe/Common/Media Cache\"\n    \"${HOME}/Library/Application Support/Adobe/Common/Plug-ins/7.0/MediaCore\"\n  )\n\n  for adobe_path in \"${adobe_paths[@]}\"; do\n    safe_rm \"${adobe_path}\" true\n  done\n}\n\n\n# ── 7. iOS BACKUPS E APLICATIVOS ──────────────────────────────────────────────\n#\n# AVISO: Backups locais são removidos permanentemente.\n# Confirme que o iCloud Backup está ativo antes da primeira execução.\n\ntask_ios_data() {\n  log_section \"iOS BACKUPS E APLICATIVOS\"\n\n  # Backups de dispositivos iOS (pode ter dezenas de GB por backup)\n  safe_rm \"${HOME}/Library/Application Support/MobileSync/Backup\" true\n\n  # Atualizações de firmware arquivadas pelo iTunes/Finder\n  safe_rm \"${HOME}/Library/iTunes/iPhone Software Updates\" true\n\n  # Perfis de dispositivos físicos usados pelo Xcode para deploy\n  safe_rm \"${HOME}/Library/Developer/XCPGDevices\" true\n}\n\n\n# ── 8. XCODE ──────────────────────────────────────────────────────────────────\n#\n# IMPACTO: Derived Data deletado → próxima compilação de qualquer projeto\n# leva 15-45 minutos (recompilação completa de Swift packages + targets).\n# Não execute na véspera de um deadline ou demo.\n\ntask_xcode() {\n  log_section \"XCODE DERIVED DATA E SIMULADORES\"\n\n  # Derived Data: artefatos de build intermediários (maior consumidor de disco)\n  safe_rm \"${HOME}/Library/Developer/Xcode/DerivedData\" true\n\n  # Archives: builds de distribuição empacotados (.xcarchive)\n  safe_rm \"${HOME}/Library/Developer/Xcode/Archives\" true\n\n  # Device Support: frameworks de dispositivos físicos conectados historicamente\n  safe_rm \"${HOME}/Library/Developer/Xcode/iOS DeviceSupport\" true\n  safe_rm \"${HOME}/Library/Developer/Xcode/watchOS DeviceSupport\" true\n  safe_rm \"${HOME}/Library/Developer/Xcode/tvOS DeviceSupport\" true\n\n  # Simuladores iOS\n  if has_cmd xcrun; then\n    log \"INFO\" \"Apagando dados de todos os simuladores iOS/watchOS/tvOS...\"\n    if xcrun simctl erase all 2>>\"${LOG_FILE}\"; then\n      log \"OK\" \"xcrun simctl erase all: concluído\"\n    else\n      log \"WARN\" \"xcrun simctl erase all: retornou aviso (pode ser que não haja simuladores)\"\n    fi\n\n    # Remove entradas de simuladores de versões antigas do Xcode (já desinstaladas)\n    if xcrun simctl delete unavailable 2>>\"${LOG_FILE}\"; then\n      log \"OK\" \"Simuladores indisponíveis removidos\"\n    else\n      log \"SKIP\" \"Nenhum simulador indisponível para remover\"\n    fi\n  else\n    log \"SKIP\" \"xcrun não encontrado — Xcode não instalado ou fora do PATH\"\n  fi\n}\n\n\n# ── 9. HOMEBREW ───────────────────────────────────────────────────────────────\n\ntask_homebrew() {\n  log_section \"HOMEBREW\"\n\n  if ! has_cmd brew; then\n    log \"SKIP\" \"Homebrew não encontrado (PATH=${PATH})\"\n    return 0\n  fi\n\n  # Remove versões antigas de formulae e downloads em cache\n  if brew cleanup --prune=all -q 2>>\"${LOG_FILE}\"; then\n    log \"OK\" \"brew cleanup --prune=all executado\"\n  else\n    log \"WARN\" \"brew cleanup retornou aviso (não crítico)\"\n  fi\n\n  # Cache de downloads do Homebrew (distinto do cache de formulae)\n  local brew_cache\n  brew_cache=$(brew --cache 2>/dev/null) || brew_cache=\"\"\n  if [[ -n \"${brew_cache}\" ]]; then\n    safe_rm \"${brew_cache}\" true\n  fi\n\n  # Remove dependências do Homebrew que não são mais necessárias por nenhum formula instalado\n  if brew autoremove -q 2>>\"${LOG_FILE}\"; then\n    log \"OK\" \"brew autoremove executado\"\n  fi\n\n  # Ruby Gems antigas (sistema)\n  if has_cmd gem; then\n    if gem cleanup --silent 2>/dev/null; then\n      log \"OK\" \"Ruby gems antigas removidas\"\n    else\n      log \"WARN\" \"gem cleanup: aviso menor (normal em algumas versões)\"\n    fi\n  fi\n}\n\n\n# ── 10. DOCKER ───────────────────────────────────────────────────────────────\n#\n# Conservador por padrão: remove apenas containers parados + imagens dangling.\n# Para remoção mais agressiva, descomente o bloco system_prune abaixo.\n\ntask_docker() {\n  log_section \"DOCKER\"\n\n  if ! has_cmd docker; then\n    log \"SKIP\" \"Docker CLI não encontrado\"\n    return 0\n  fi\n\n  # Daemon precisa estar rodando; sem sudo, verificamos via docker info\n  if ! docker info &>/dev/null; then\n    log \"SKIP\" \"Docker daemon não está em execução — pulando (inicie Docker Desktop primeiro)\"\n    return 0\n  fi\n\n  # Containers parados\n  if docker container prune -f 2>>\"${LOG_FILE}\"; then\n    log \"OK\" \"Containers parados removidos\"\n  fi\n\n  # Imagens dangling: sem tag e sem referência por nenhum container\n  # --filter dangling=true é seguro: não remove imagens usadas em stacks parados\n  if docker image prune -f --filter \"dangling=true\" 2>>\"${LOG_FILE}\"; then\n    log \"OK\" \"Imagens Docker dangling removidas\"\n  fi\n\n  # Volumes não referenciados por nenhum container (parado ou em execução)\n  if docker volume prune -f 2>>\"${LOG_FILE}\"; then\n    log \"OK\" \"Volumes Docker órfãos removidos\"\n  fi\n\n  # Build cache (opcional, comentado por padrão pois invalida builds futuros)\n  # Descomente se quiser limitar o build cache a 2GB máximo:\n  # docker buildx prune -f --keep-storage 2gb 2>>\"${LOG_FILE}\" \\\n  #   && log \"OK\" \"Build cache podado (mantendo 2GB)\"\n\n  # !! SEÇÃO AGRESSIVA — descomente apenas se quiser remoção total !!\n  # Remove imagens não usadas POR CONTAINERS EM EXECUÇÃO (inclui stacks parados):\n  # docker system prune -af 2>>\"${LOG_FILE}\" && log \"OK\" \"docker system prune -af executado\"\n}\n\n\n# ── 11. PYTHON / PIP / PYENV / POETRY ────────────────────────────────────────\n\ntask_python() {\n  log_section \"PYTHON / PIP / PYENV / POETRY\"\n\n  # Cache do pip (pacotes baixados, não os instalados)\n  safe_rm \"${HOME}/Library/Caches/pip\" true\n  safe_rm \"${HOME}/.cache/pip\" true          # XDG fallback (linux-style em mac)\n\n  # Cache do Poetry\n  safe_rm \"${HOME}/Library/Caches/pypoetry\" true\n  safe_rm \"${HOME}/.cache/pypoetry\" true\n\n  # Cache interno do pyenv (tarballs de versões Python baixadas)\n  safe_rm \"${HOME}/.pyenv/cache\" true\n\n  # pip via comando (mais preciso — remove entradas obsoletas do index também)\n  if has_cmd pip; then\n    pip cache purge 2>>\"${LOG_FILE}\" && log \"OK\" \"pip cache purge executado\" \\\n      || log \"WARN\" \"pip cache purge: aviso (não crítico)\"\n  elif has_cmd pip3; then\n    pip3 cache purge 2>>\"${LOG_FILE}\" && log \"OK\" \"pip3 cache purge executado\" \\\n      || log \"WARN\" \"pip3 cache purge: aviso (não crítico)\"\n  fi\n\n  # Poetry (gestor de dependências Python)\n  if has_cmd poetry; then\n    poetry cache clear --all pypi --no-interaction 2>>\"${LOG_FILE}\" \\\n      && log \"OK\" \"poetry cache clear executado\" \\\n      || log \"WARN\" \"poetry cache clear: aviso (não crítico)\"\n  fi\n}\n\n\n# ── 12. NODE / NPM / YARN ─────────────────────────────────────────────────────\n#\n# IMPACTO: Próximo npm install/yarn install baixa tudo do registro novamente.\n# Em projetos grandes: +5-15 minutos na primeira execução após limpeza.\n\ntask_node() {\n  log_section \"NODE / NPM / YARN\"\n\n  # npm\n  if has_cmd npm; then\n    npm cache clean --force 2>>\"${LOG_FILE}\" \\\n      && log \"OK\" \"npm cache clean --force executado\" \\\n      || log \"WARN\" \"npm cache clean: aviso (verifique permissões)\"\n    safe_rm \"${HOME}/.npm/_npx\" true    # cache de npx executions\n  else\n    log \"SKIP\" \"npm não encontrado\"\n  fi\n\n  # Yarn Classic (v1)\n  if has_cmd yarn; then\n    yarn cache clean --silent 2>>\"${LOG_FILE}\" \\\n      && log \"OK\" \"Yarn cache clean executado\" \\\n      || log \"WARN\" \"yarn cache clean: aviso\"\n  fi\n\n  # Yarn Berry (v2+) — usa diretório diferente\n  safe_rm \"${HOME}/.yarn/cache\" true\n\n  # Cache manual de yarn/npm (residuais de instalações globais)\n  safe_rm \"${HOME}/.cache/yarn\" true\n}\n\n\n# ── 13. COCOAPODS E COMPOSER ──────────────────────────────────────────────────\n\ntask_cocoapods_composer() {\n  log_section \"COCOAPODS / COMPOSER\"\n\n  # CocoaPods: cache de specs e pods baixados\n  safe_rm \"${HOME}/Library/Caches/CocoaPods\" true\n\n  # Repositório de specs do CocoaPods (pode ter centenas de MB)\n  # Atenção: o próximo 'pod install' irá re-clonar o repositório\n  safe_rm \"${HOME}/.cocoapods/repos\" true\n\n  # via comando (mais preciso)\n  if has_cmd pod; then\n    pod cache clean --all 2>>\"${LOG_FILE}\" \\\n      && log \"OK\" \"pod cache clean --all executado\" \\\n      || log \"WARN\" \"pod cache clean: aviso\"\n  fi\n\n  # Composer (PHP)\n  safe_rm \"${HOME}/.composer/cache\" true\n  safe_rm \"${HOME}/.cache/composer\" true     # XDG fallback\n\n  if has_cmd composer; then\n    composer clear-cache --no-interaction 2>>\"${LOG_FILE}\" \\\n      && log \"OK\" \"composer clear-cache executado\" \\\n      || log \"WARN\" \"composer clear-cache: aviso\"\n  fi\n}\n\n\n# ── 14. FERRAMENTAS DE DESENVOLVIMENTO DIVERSAS ───────────────────────────────\n\ntask_misc_dev_tools() {\n  log_section \"FERRAMENTAS DIVERSAS (DEV)\"\n\n  # Gradle (Java/Kotlin/Android)\n  safe_rm \"${HOME}/.gradle/caches\" true\n  safe_rm \"${HOME}/.gradle/wrapper/dists\" true   # distribuições do Gradle wrapper\n\n  # Android SDK\n  safe_rm \"${HOME}/.android/cache\" true\n  safe_rm \"${HOME}/Library/Android/sdk/.temp\" true\n\n  # Go module cache\n  # Preferimos o comando nativo para limpeza segura; fallback para rm manual\n  if has_cmd go; then\n    if go clean -modcache 2>>\"${LOG_FILE}\"; then\n      log \"OK\" \"go clean -modcache executado\"\n    else\n      log \"WARN\" \"go clean -modcache: erro — tentando remoção manual\"\n      safe_rm \"${HOME}/go/pkg/mod/cache\" true\n    fi\n  else\n    safe_rm \"${HOME}/go/pkg/mod/cache\" true\n  fi\n\n  # Kite AI (coding assistant — descontinuado em 2022, mas ainda encontrado em sistemas legados)\n  safe_rm \"${HOME}/Library/Caches/Kite\" true\n  safe_rm \"${HOME}/.kite\" true\n\n  # Cacher (gestão de snippets de código)\n  safe_rm \"${HOME}/Library/Application Support/Cacher/Cache\" true\n  safe_rm \"${HOME}/Library/Caches/Cacher\" true\n}\n\n\n# ── 15. APLICAÇÕES DE TERCEIROS ───────────────────────────────────────────────\n\ntask_third_party_apps() {\n  log_section \"APLICAÇÕES DE TERCEIROS\"\n\n  # ── Dropbox ────────────────────────────────────────────────────────────────\n  # Remove apenas o cache do cliente; NÃO toca nos arquivos sincronizados\n  safe_rm \"${HOME}/Library/Caches/com.dropbox.client2\" true\n  safe_rm \"${HOME}/Library/Caches/com.dropboxfuse.DropboxMacFuse\" true\n\n  # ── JetBrains (PhpStorm, IntelliJ, WebStorm, etc.) ────────────────────────\n  # find com -maxdepth 2 para não percorrer projetos abertos\n  if [[ -d \"${HOME}/Library/Application Support/JetBrains\" ]]; then\n    while IFS= read -r -d '' jetbrains_cache; do\n      safe_rm \"${jetbrains_cache}\" true\n    done < <(find \"${HOME}/Library/Application Support/JetBrains\" \\\n      -maxdepth 2 \\\n      -type d \\\n      -name \"caches\" \\\n      -print0 2>/dev/null)\n    # Logs do JetBrains\n    find \"${HOME}/Library/Logs/JetBrains\" \\\n      -maxdepth 3 \\\n      -type f \\\n      -name \"*.log\" \\\n      -mtime +7 \\\n      -delete 2>/dev/null \\\n      && log \"OK\" \"JetBrains logs >7 dias removidos\"\n  else\n    log \"SKIP\" \"JetBrains: diretório não encontrado\"\n  fi\n\n  # ── Microsoft Teams ────────────────────────────────────────────────────────\n  safe_rm \"${HOME}/Library/Application Support/Microsoft/Teams/Cache\" true\n  safe_rm \"${HOME}/Library/Application Support/Microsoft/Teams/Service Worker/CacheStorage\" true\n  safe_rm \"${HOME}/Library/Application Support/Microsoft/Teams/blob_storage\" true\n  safe_rm \"${HOME}/Library/Logs/Microsoft/Teams\" true\n\n  # ── Minecraft (logs) ──────────────────────────────────────────────────────\n  safe_rm \"${HOME}/Library/Application Support/minecraft/logs\" true\n\n  # ── Steam (logs e cache de download) ──────────────────────────────────────\n  safe_rm \"${HOME}/Library/Application Support/Steam/logs\" true\n  # O cache de download do Steam fica em subpastas 'downloading' e 'temp'\n  find \"${HOME}/Library/Application Support/Steam\" \\\n    -maxdepth 3 \\\n    -type d \\\n    -name \"downloading\" \\\n    -exec rm -rf {} + 2>/dev/null || true\n  find \"${HOME}/Library/Application Support/Steam\" \\\n    -maxdepth 3 \\\n    -type d \\\n    -name \"temp\" \\\n    -exec rm -rf {} + 2>/dev/null || true\n  log \"OK\" \"Steam logs e temporários removidos\"\n\n  # ── Lunar Client (launcher Minecraft alternativo) ─────────────────────────\n  safe_rm \"${HOME}/.lunarclient/logs\" true\n  safe_rm \"${HOME}/.lunarclient/offline/multiver/cache\" true\n\n  # ── Wget (arquivo de histórico de hosts e logs residuais) ─────────────────\n  # .wget-hsts contém histórico de HSTS — remover é seguro e inofensivo\n  safe_rm \"${HOME}/.wget-hsts\" false\n  # Logs residuais de sessões interrompidas (wget-log, wget-log.1, etc.)\n  find \"${HOME}\" \\\n    -maxdepth 2 \\\n    -name \"*.wget-log*\" \\\n    -type f \\\n    -delete 2>/dev/null \\\n    && log \"OK\" \"Logs residuais do wget removidos\"\n}\n\n\n# ── 16. DNS FLUSH ─────────────────────────────────────────────────────────────\n#\n# Tecnicamente válido após mudanças de DNS ou troca de VPN.\n# NÃO inclui 'sudo purge' — ver análise de riscos (Seção 7).\n\ntask_network() {\n  log_section \"REDE — FLUSH DO CACHE DNS\"\n\n  # dscacheutil: limpa o cache local de DNS do DirectoryService\n  if has_cmd dscacheutil; then\n    dscacheutil -flushcache 2>/dev/null \\\n      && log \"OK\" \"dscacheutil -flushcache executado\" \\\n      || log \"WARN\" \"dscacheutil -flushcache: falhou (pode exigir permissões em alguns builds)\"\n  fi\n\n  # mDNSResponder: flush completo requer sudo.\n  # O script NÃO executa sudo interativo. Para flush manual completo:\n  #   sudo killall -HUP mDNSResponder\n  log \"INFO\" \"Para flush completo do mDNSResponder (requer sudo manual):\"\n  log \"INFO\" \"  sudo killall -HUP mDNSResponder\"\n}\n\n\n# ── 17. .DS_STORE ─────────────────────────────────────────────────────────────\n#\n# -maxdepth 10: limita traversal para não paralisar I/O em árvores profundas.\n# Exclui CloudStorage e Mobile Documents para evitar operações em mounts de rede.\n# -print0 + xargs -0: seguro para nomes de arquivo com espaços.\n\ntask_ds_store() {\n  log_section \".DS_STORE\"\n\n  local removed_count=0\n\n  removed_count=$(\n    find \"${HOME}\" \\\n      -maxdepth 10 \\\n      -not -path \"*/Library/CloudStorage/*\" \\\n      -not -path \"*/Library/Mobile Documents/*\" \\\n      -not -path \"*/.Trash/*\" \\\n      -name \".DS_Store\" \\\n      -print0 2>/dev/null \\\n    | xargs -0 -I{} rm -f \"{}\" 2>/dev/null \\\n    | wc -l || echo 0\n  )\n\n  log \"OK\" \".DS_Store removidos em \\${HOME} (profundidade ≤10)\"\n}\n\n\n# ── NOTA PERMANENTE — POR QUE 'purge' ESTÁ AUSENTE ───────────────────────────\n#\n# O comando `sudo purge` NÃO está neste script. Motivo técnico:\n#\n# O kernel macOS gerencia memória por pressure-response: páginas \"inativas\"\n# são intencionalmente mantidas como file-backed cache para acelerar\n# relançamentos de apps e acesso a dados frequentes.\n#\n# Forçar VM_PURGABLE_ALL via `purge`:\n#   a) Causa page-fault storm imediato (30-60s de degradação perceptível)\n#   b) Em Apple Silicon (memória unificada CPU/GPU), amplifica pressão\n#      no controlador de DRAM compartilhado\n#   c) Sem efeito duradouro: cache se reconstrói em minutos\n#   d) Exige sudo com senha interativa → incompatível com execução headless\n#\n# Ref: Apple TN2002 — Understanding and Using RAM\n\n\n# ── 18. SUMÁRIO FINAL ─────────────────────────────────────────────────────────\n\nprint_summary() {\n  local elapsed=$(( $(date +%s) - TIMESTAMP_START ))\n  local freed_mb=$(( FREED_SPACE_KB / 1024 ))\n\n  {\n    printf \"\\n\"\n    printf '%.0s═' {1..72}\n    printf \"\\n\"\n    printf \"[%s] [%-7s] MANUTENÇÃO CONCLUÍDA\\n\" \\\n      \"$(date '+%Y-%m-%d %H:%M:%S')\" \"SUMMARY\"\n    printf \"[%s] [%-7s] Espaço liberado estimado : ≈%s MB (%s KB)\\n\" \\\n      \"$(date '+%Y-%m-%d %H:%M:%S')\" \"SUMMARY\" \"${freed_mb}\" \"${FREED_SPACE_KB}\"\n    printf \"[%s] [%-7s] Tempo total de execução  : %ss\\n\" \\\n      \"$(date '+%Y-%m-%d %H:%M:%S')\" \"SUMMARY\" \"${elapsed}\"\n    printf \"[%s] [%-7s] Log completo salvo em    : %s\\n\" \\\n      \"$(date '+%Y-%m-%d %H:%M:%S')\" \"SUMMARY\" \"${LOG_FILE}\"\n    printf '%.0s═' {1..72}\n    printf \"\\n\"\n  } | tee -a \"${LOG_FILE}\"\n}\n\n\n# ── MAIN ──────────────────────────────────────────────────────────────────────\n\nmain() {\n  # Cabeçalho do log\n  {\n    printf \"\\n\"\n    printf '%.0s╔' {1..1}\n    printf '%.0s═' {1..70}\n    printf '%.0s╗' {1..1}\n    printf \"\\n\"\n    printf \"║  macOS Automator Maintenance v%-38s║\\n\" \"${SCRIPT_VERSION}\"\n    printf \"║  Executado em: %-53s║\\n\" \"$(date '+%a %d %b %Y %H:%M:%S')\"\n    printf '%.0s╚' {1..1}\n    printf '%.0s═' {1..70}\n    printf '%.0s╝' {1..1}\n    printf \"\\n\"\n  } | tee -a \"${LOG_FILE}\"\n\n  log \"INFO\" \"macOS: $(sw_vers -productName) $(sw_vers -productVersion)\"\n  log \"INFO\" \"Usuário: $(whoami)  |  Hostname: $(hostname -s)\"\n  log \"INFO\" \"PATH ativo: ${PATH}\"\n\n  # Execução sequencial das tarefas de limpeza\n  # Comente linhas individuais para pular seções específicas\n  task_trash\n  task_system_logs\n  task_adobe_cache\n  task_ios_data\n  task_xcode\n  task_homebrew\n  task_docker\n  task_python\n  task_node\n  task_cocoapods_composer\n  task_misc_dev_tools\n  task_third_party_apps\n  task_network\n  task_ds_store\n\n  print_summary\n}\n\nmain \"$@\"\t",
+          "CheckedForUserDefaultShell": true,
+          "inputMethod": 0,
+          "shell": "/bin/zsh",
+          "source": ""
+        },
+        "syntax": {
+          "command": [
+            "/bin/zsh",
+            "-n",
+            "/Users/danilonovais/MacOS-Use/MacTech/Audit/B-action-2.sh"
+          ],
+          "status": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      }
+    ],
+    "signature": {
+      "command": [
+        "/usr/bin/codesign",
+        "-dv",
+        "--verbose=4",
+        "/Users/danilonovais/macos_maintenance.app"
+      ],
+      "status": 0,
+      "stdout": "",
+      "stderr": "Executable=/Users/danilonovais/macos_maintenance.app/Contents/MacOS/Automator Application Stub\nIdentifier=com.apple.automator.macos-maintenance\nFormat=app bundle with Mach-O thin (arm64)\nCodeDirectory v=20400 size=382 flags=0x2(adhoc) hashes=5+3 location=embedded\nVersionPlatform=1\nVersionMin=720896\nVersionSDK=1769472\nHash type=sha256 size=32\nCandidateCDHash sha256=b05f62c1638d54bc995d2d367c05619efbe698cb\nCandidateCDHashFull sha256=b05f62c1638d54bc995d2d367c05619efbe698cb3090d5001e481b4c7c63e58c\nHash choices=sha256\nCMSDigest=b05f62c1638d54bc995d2d367c05619efbe698cb3090d5001e481b4c7c63e58c\nCMSDigestType=2\nExecutable Segment base=0\nExecutable Segment limit=32768\nExecutable Segment flags=0x1\nPage size=16384\nCDHash=b05f62c1638d54bc995d2d367c05619efbe698cb\nSignature=adhoc\nInfo.plist entries=44\nTeamIdentifier=not set\nSealed Resources version=2 rules=13 files=5\nInternal requirements count=0 size=12\nTotal signatures=1\nChosen signature=1\n"
+    },
+    "validation": {
+      "command": [
+        "/usr/bin/codesign",
+        "--verify",
+        "--deep",
+        "--strict",
+        "/Users/danilonovais/macos_maintenance.app"
+      ],
+      "status": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "entitlements": {
+      "command": [
+        "/usr/bin/codesign",
+        "-d",
+        "--entitlements",
+        ":-",
+        "/Users/danilonovais/macos_maintenance.app"
+      ],
+      "status": 0,
+      "stdout": "",
+      "stderr": "Executable=/Users/danilonovais/macos_maintenance.app/Contents/MacOS/Automator Application Stub\nwarning: Specifying ':' in the path is deprecated and will not work in a future release\n"
+    },
+    "dependencies": {
+      "command": [
+        "/usr/bin/otool",
+        "-L",
+        "/Users/danilonovais/macos_maintenance.app/Contents/MacOS/Automator Application Stub"
+      ],
+      "status": 0,
+      "stdout": "/Users/danilonovais/macos_maintenance.app/Contents/MacOS/Automator Application Stub:\n\t/usr/lib/libDiagnosticMessagesClient.dylib (compatibility version 1.0.0, current version 113.0.0, weak)\n\t/System/Library/Frameworks/Automator.framework/Versions/A/Automator (compatibility version 1.0.0, current version 0.0.0)\n\t/System/Library/PrivateFrameworks/CrashReporterSupport.framework/Versions/A/CrashReporterSupport (compatibility version 1.0.0, current version 15144.0.0)\n\t/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa (compatibility version 1.0.0, current version 24.0.0)\n\t/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation (compatibility version 300.0.0, current version 5027.0.55)\n\t/usr/lib/libobjc.A.dylib (compatibility version 1.0.0, current version 228.0.0)\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1359.0.0)\n\t/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit (compatibility version 45.0.0, current version 2759.0.0)\n\t/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation (compatibility version 150.0.0, current version 5027.0.55)\n",
+      "stderr": ""
+    }
+  }
+]

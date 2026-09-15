@@ -1,0 +1,9 @@
+Dry Run: nenhuma alteracao de sistema, arquivo ou configuracao.
+REVIEW | Execucoes npx | ~/.npm/_npx | Pacotes podem precisar de novo download. Confirmar que nenhuma tarefa npx esta ativa. | nenhuma exclusao automatica
+REVIEW | Compilacoes Xcode | ~/Library/Developer/Xcode/DerivedData | Proxima compilacao refaz artefatos. Preservar projetos ativos. | nenhuma exclusao automatica
+REVIEW | Downloads Homebrew | ~/Library/Caches/Homebrew | Novo download necessario. Usar revisao nativa do gerenciador. | nenhuma exclusao automatica
+REVIEW | Caches de aplicativos | ~/Library/Caches | Podem acelerar aplicativos e conter trabalho em andamento. Preservados. | nenhuma exclusao automatica
+REVIEW | Logs de diagnostico | ~/Library/Logs | Historico necessario para investigar falhas. Preservado. | nenhuma exclusao automatica
+REMOVE | Backups iOS | ~/Library/Application Support/MobileSync/Backup | Perda de possibilidade de restaurar dispositivos. Exclusao bloqueada. | nenhuma exclusao automatica
+REMOVE | Distribuicoes Xcode | ~/Library/Developer/Xcode/Archives | Perda de builds e simbolos para diagnosticar crashes. Exclusao bloqueada. | nenhuma exclusao automatica
+REMOVE | Plugins Adobe | ~/Library/Application Support/Adobe/Common/Plug-ins/7.0/MediaCore | Remocao quebra recursos dos aplicativos. Exclusao bloqueada. | nenhuma exclusao automatica

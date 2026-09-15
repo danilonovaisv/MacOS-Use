@@ -5685,8 +5685,8 @@
     "semantic_hash": ""
   },
   ".vscode/settings.json": {
-    "mtime": 1789277313.0168912,
-    "ast_hash": "af4dfaf683b3b26395642ef612c483dc",
+    "mtime": 1787612798.569056,
+    "ast_hash": "2371158a8c17d4250f67af674bea199a",
     "semantic_hash": ""
   },
   "SCRIPTS-MACREPAIR/clean-wacom.sh": {
@@ -6455,148 +6455,8 @@
     "semantic_hash": ""
   },
   "docs/gpt-6-astra-migration.md": {
-    "mtime": 1789261826.780114,
-    "ast_hash": "3606d89aba6537bac478d10b81b21671",
-    "semantic_hash": ""
-  },
-  "MacTech/.build/workspace-state.json": {
-    "mtime": 1789423995.5652442,
-    "ast_hash": "2e5a5ad2a66d6697a649f98dcd8f1c38",
-    "semantic_hash": ""
-  },
-  "MacTech/Audit/A-action-2.sh": {
-    "mtime": 1789423759.7574937,
-    "ast_hash": "34550de146c50aed4e1cfb4a0042a096",
-    "semantic_hash": ""
-  },
-  "MacTech/Audit/B-action-1.sh": {
-    "mtime": 1789423759.9160514,
-    "ast_hash": "85437d1fae118e38b1db1f42f52eac68",
-    "semantic_hash": ""
-  },
-  "MacTech/Audit/B-action-2.sh": {
-    "mtime": 1789423759.9632704,
-    "ast_hash": "6de76d4a9dafa536c4bed2b2bda04196",
-    "semantic_hash": ""
-  },
-  "MacTech/Audit/automatic-report.json": {
-    "mtime": 1789443098.186947,
-    "ast_hash": "bd71b740af4e33ecd68f9a536b75bceb",
-    "semantic_hash": ""
-  },
-  "MacTech/Audit/inventory.json": {
-    "mtime": 1789423760.0619013,
-    "ast_hash": "e2fc839d34b92c7aca76e0d04ccc3dd5",
-    "semantic_hash": ""
-  },
-  "MacTech/Package.swift": {
-    "mtime": 1789423759.520587,
-    "ast_hash": "89348662adfb30d23e2c7a585274ef7d",
-    "semantic_hash": ""
-  },
-  "MacTech/Sources/MacTech/Main.swift": {
-    "mtime": 1789442818.688475,
-    "ast_hash": "9b35c8e60687eee26221aa33e9c4dcc5",
-    "semantic_hash": ""
-  },
-  "MacTech/Sources/MacTechCore/Diagnostics.swift": {
-    "mtime": 1789442865.82516,
-    "ast_hash": "0da86c6c6827bcf3e76e2728546086be",
-    "semantic_hash": ""
-  },
-  "MacTech/Sources/MacTechCore/Review.swift": {
-    "mtime": 1789423992.4482205,
-    "ast_hash": "d07287f2f0693d86eecd6317ad776394",
-    "semantic_hash": ""
-  },
-  "MacTech/Sources/MacTechCore/Safety.swift": {
-    "mtime": 1789423860.9562562,
-    "ast_hash": "17c4d5b67526e645e700ed5dc33e8aaf",
-    "semantic_hash": ""
-  },
-  "MacTech/Tests/MacTechCoreTests/SafetyTests.swift": {
-    "mtime": 1789442818.6914964,
-    "ast_hash": "21b4f1050b4ab3948b95c71eb1c6357a",
-    "semantic_hash": ""
-  },
-  "MacTech/audit.py": {
-    "mtime": 1789423759.5203018,
-    "ast_hash": "6e259ec49aab9f145955ba285f18bb0d",
-    "semantic_hash": ""
-  },
-  "MacTech/build.sh": {
-    "mtime": 1789442865.82609,
-    "ast_hash": "8d88d6a50270560fca05ec20d56b8d09",
-    "semantic_hash": ""
-  },
-  "MacTech/AUDITORIA.md": {
-    "mtime": 1789443098.0484443,
-    "ast_hash": "06403c74ce422b43a04985c8d3ab0f4c",
-    "semantic_hash": ""
-  },
-  "MacTech/Audit/analyze-output.txt": {
-    "mtime": 1789442561.0669212,
-    "ast_hash": "0776129b26aef3f59bf95306d88cb99e",
-    "semantic_hash": ""
-  },
-  "MacTech/Audit/analyze-performance.txt": {
-    "mtime": 1789442561.067938,
-    "ast_hash": "eb18a31884845889a8cd975dc4538f0a",
-    "semantic_hash": ""
-  },
-  "MacTech/Audit/automatic-error.txt": {
-    "mtime": 1789442924.4677062,
-    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
-    "semantic_hash": ""
-  },
-  "MacTech/Audit/automatic-output.txt": {
-    "mtime": 1789443052.4159303,
-    "ast_hash": "82fd352a03abb95f113b8ca3f6badfcc",
-    "semantic_hash": ""
-  },
-  "MacTech/Audit/concurrent-1.txt": {
-    "mtime": 1789442595.2952378,
-    "ast_hash": "6e50e5baca641b955645fc2e6b818560",
-    "semantic_hash": ""
-  },
-  "MacTech/Audit/concurrent-2.txt": {
-    "mtime": 1789442592.63929,
-    "ast_hash": "22be6d9733e39e91b1d8f4a91ff5799d",
-    "semantic_hash": ""
-  },
-  "MacTech/Audit/final-dry-run.txt": {
-    "mtime": 1789443098.195357,
-    "ast_hash": "ca307784548bbf948409c9374cf35939",
-    "semantic_hash": ""
-  },
-  "MacTech/Audit/startup-before.txt": {
-    "mtime": 1789423763.3815799,
-    "ast_hash": "e00cde7cbc3ad68e45cfe6bec6772125",
-    "semantic_hash": ""
-  },
-  "MacTech/Audit/tests.txt": {
-    "mtime": 1789442873.248094,
-    "ast_hash": "778cc8989702716a6101180c660787fd",
-    "semantic_hash": ""
-  },
-  "MacTech/README.md": {
-    "mtime": 1789443098.048661,
-    "ast_hash": "bec7a28696e1ab5106bcb535a77366d3",
-    "semantic_hash": ""
-  },
-  "MacTech/ROLLBACK.md": {
-    "mtime": 1789442693.7476966,
-    "ast_hash": "b15dd9bd3e0064fa75cf78d3492f2ff9",
-    "semantic_hash": ""
-  },
-  "docs/Safari-Bookmarks-Otimizado.html": {
-    "mtime": 1789275555.5398757,
-    "ast_hash": "4d72932e2d73fd921f902c35572bae6f",
-    "semantic_hash": ""
-  },
-  "docs/Relatorio-Auditoria-Safari.pdf": {
-    "mtime": 1789267413.8407402,
-    "ast_hash": "38232dd3112a044a1c3e3f7a7d41c242",
+    "mtime": 1789261796.339972,
+    "ast_hash": "e052f34e8a8678057ae25c1dd7a33dcc",
     "semantic_hash": ""
   }
 }

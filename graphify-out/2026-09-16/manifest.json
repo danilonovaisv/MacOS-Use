@@ -1,0 +1,308 @@
+{
+  "micrograd/micrograd/__init__.py": {
+    "mtime": 1789598678.2736197,
+    "seen": 1789601129.9779599,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "micrograd/micrograd/engine.py": {
+    "mtime": 1789598678.2737787,
+    "seen": 1789601129.977964,
+    "ast_hash": "faec124ee7602f3f9dd94c90b49e6cec",
+    "semantic_hash": "faec124ee7602f3f9dd94c90b49e6cec"
+  },
+  "micrograd/micrograd/nn.py": {
+    "mtime": 1789598678.2738664,
+    "seen": 1789601129.977965,
+    "ast_hash": "8da2aa7759ccae50e653bcbd759b6962",
+    "semantic_hash": "8da2aa7759ccae50e653bcbd759b6962"
+  },
+  "micrograd/setup.py": {
+    "mtime": 1789598678.2743626,
+    "seen": 1789601129.977966,
+    "ast_hash": "f38b3bcda98a1c3c99063b7db95df42f",
+    "semantic_hash": "f38b3bcda98a1c3c99063b7db95df42f"
+  },
+  "micrograd/test/test_engine.py": {
+    "mtime": 1789598678.2744772,
+    "seen": 1789601129.977967,
+    "ast_hash": "7d1d70e375e46ee820ca97ddf6fe3b84",
+    "semantic_hash": "7d1d70e375e46ee820ca97ddf6fe3b84"
+  },
+  "minGPT/mingpt/__init__.py": {
+    "mtime": 1789598677.2672808,
+    "seen": 1789601129.9779682,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "minGPT/mingpt/bpe.py": {
+    "mtime": 1789598677.2675023,
+    "seen": 1789601129.977969,
+    "ast_hash": "69ffafe7852ef13e7345168847cc96ff",
+    "semantic_hash": "69ffafe7852ef13e7345168847cc96ff"
+  },
+  "minGPT/mingpt/model.py": {
+    "mtime": 1789598677.267708,
+    "seen": 1789601129.97797,
+    "ast_hash": "a37eb12b12393537174e1de12482c2cf",
+    "semantic_hash": "a37eb12b12393537174e1de12482c2cf"
+  },
+  "minGPT/mingpt/trainer.py": {
+    "mtime": 1789598677.2678542,
+    "seen": 1789601129.9779708,
+    "ast_hash": "8225f940237867996ebcf85588b35239",
+    "semantic_hash": "8225f940237867996ebcf85588b35239"
+  },
+  "minGPT/mingpt/utils.py": {
+    "mtime": 1789598677.2679787,
+    "seen": 1789601129.977972,
+    "ast_hash": "6889c368400f0ab4312f46f64b7ac213",
+    "semantic_hash": "6889c368400f0ab4312f46f64b7ac213"
+  },
+  "minGPT/projects/adder/adder.py": {
+    "mtime": 1789598677.2682176,
+    "seen": 1789601129.977976,
+    "ast_hash": "9c5e03b6f24cd65733846df1c88ac24c",
+    "semantic_hash": "9c5e03b6f24cd65733846df1c88ac24c"
+  },
+  "minGPT/projects/chargpt/chargpt.py": {
+    "mtime": 1789598677.2684667,
+    "seen": 1789601129.9779782,
+    "ast_hash": "2430a937bb19717b648886dbfc2fbb77",
+    "semantic_hash": "2430a937bb19717b648886dbfc2fbb77"
+  },
+  "minGPT/setup.py": {
+    "mtime": 1789598677.268703,
+    "seen": 1789601129.977979,
+    "ast_hash": "c1c6489db1ec171e078977baeb40ccc3",
+    "semantic_hash": "c1c6489db1ec171e078977baeb40ccc3"
+  },
+  "minGPT/tests/test_huggingface_import.py": {
+    "mtime": 1789598677.2688575,
+    "seen": 1789601129.97798,
+    "ast_hash": "9cce9bcb5d6896abd5655570d6a9d426",
+    "semantic_hash": "9cce9bcb5d6896abd5655570d6a9d426"
+  },
+  "nanoGPT/bench.py": {
+    "mtime": 1789598673.9592714,
+    "seen": 1789601129.97798,
+    "ast_hash": "b4449ff1f52d3738628d72fc4db236ce",
+    "semantic_hash": "b4449ff1f52d3738628d72fc4db236ce"
+  },
+  "nanoGPT/config/eval_gpt2.py": {
+    "mtime": 1789598673.9598582,
+    "seen": 1789601129.9779809,
+    "ast_hash": "7f046ffc27d028702bd42d9106808efb",
+    "semantic_hash": "7f046ffc27d028702bd42d9106808efb"
+  },
+  "nanoGPT/config/eval_gpt2_large.py": {
+    "mtime": 1789598673.9599783,
+    "seen": 1789601129.977982,
+    "ast_hash": "dad30ff21ff304466a4b7e7c5c99391d",
+    "semantic_hash": "dad30ff21ff304466a4b7e7c5c99391d"
+  },
+  "nanoGPT/config/eval_gpt2_medium.py": {
+    "mtime": 1789598673.9600644,
+    "seen": 1789601129.977983,
+    "ast_hash": "4ebcb1aead0d03afc4e1c9947756ec21",
+    "semantic_hash": "4ebcb1aead0d03afc4e1c9947756ec21"
+  },
+  "nanoGPT/config/eval_gpt2_xl.py": {
+    "mtime": 1789598673.9601476,
+    "seen": 1789601129.977984,
+    "ast_hash": "562fe9f9e732ef2d17dcdf48fe257989",
+    "semantic_hash": "562fe9f9e732ef2d17dcdf48fe257989"
+  },
+  "nanoGPT/config/finetune_shakespeare.py": {
+    "mtime": 1789598673.9602444,
+    "seen": 1789601129.977985,
+    "ast_hash": "6eb7d251b030721c920730dc282fcb48",
+    "semantic_hash": "6eb7d251b030721c920730dc282fcb48"
+  },
+  "nanoGPT/config/train_gpt2.py": {
+    "mtime": 1789598673.9603367,
+    "seen": 1789601129.977986,
+    "ast_hash": "61ed6ad86d9428b61c92963d2ecd1352",
+    "semantic_hash": "61ed6ad86d9428b61c92963d2ecd1352"
+  },
+  "nanoGPT/config/train_shakespeare_char.py": {
+    "mtime": 1789598673.9604287,
+    "seen": 1789601129.977987,
+    "ast_hash": "403bda0209635c30554c483cf473f542",
+    "semantic_hash": "403bda0209635c30554c483cf473f542"
+  },
+  "nanoGPT/configurator.py": {
+    "mtime": 1789598673.9605234,
+    "seen": 1789601129.977988,
+    "ast_hash": "3a0b8a88b762bccd83d9b95f5d037e7c",
+    "semantic_hash": "3a0b8a88b762bccd83d9b95f5d037e7c"
+  },
+  "nanoGPT/data/openwebtext/prepare.py": {
+    "mtime": 1789598673.960707,
+    "seen": 1789601129.9779892,
+    "ast_hash": "b72572f8ec4130a832b475fcf2898f67",
+    "semantic_hash": "b72572f8ec4130a832b475fcf2898f67"
+  },
+  "nanoGPT/data/shakespeare/prepare.py": {
+    "mtime": 1789598673.9609268,
+    "seen": 1789601129.97799,
+    "ast_hash": "42308fd4e3101746f158586b9d964e05",
+    "semantic_hash": "42308fd4e3101746f158586b9d964e05"
+  },
+  "nanoGPT/data/shakespeare_char/prepare.py": {
+    "mtime": 1789598673.9611392,
+    "seen": 1789601129.9779909,
+    "ast_hash": "7094255206a104140203f8a8cb36da24",
+    "semantic_hash": "7094255206a104140203f8a8cb36da24"
+  },
+  "nanoGPT/model.py": {
+    "mtime": 1789598673.9613762,
+    "seen": 1789601129.9779918,
+    "ast_hash": "6c76c0b17f8100e286218cf0510f6d62",
+    "semantic_hash": "6c76c0b17f8100e286218cf0510f6d62"
+  },
+  "nanoGPT/sample.py": {
+    "mtime": 1789598673.9614816,
+    "seen": 1789601129.977993,
+    "ast_hash": "6873549c920867c7f6c2a11856fe0519",
+    "semantic_hash": "6873549c920867c7f6c2a11856fe0519"
+  },
+  "nanoGPT/train.py": {
+    "mtime": 1789598673.9629679,
+    "seen": 1789601129.977993,
+    "ast_hash": "e56c85877d9e257d7c37278bd11bbf29",
+    "semantic_hash": "e56c85877d9e257d7c37278bd11bbf29"
+  },
+  "micrograd/README.md": {
+    "mtime": 1789598678.2729654,
+    "seen": 1789601129.977995,
+    "ast_hash": "99d5a78260fb5b7bcafef05a65daaf9e",
+    "semantic_hash": "99d5a78260fb5b7bcafef05a65daaf9e"
+  },
+  "minGPT/README.md": {
+    "mtime": 1789598677.2666473,
+    "seen": 1789601129.977996,
+    "ast_hash": "d6c20669d913900b4809636b7624a83a",
+    "semantic_hash": "d6c20669d913900b4809636b7624a83a"
+  },
+  "minGPT/projects/adder/readme.md": {
+    "mtime": 1789598677.2683089,
+    "seen": 1789601129.977997,
+    "ast_hash": "83af6689f0b098d97fba4520afcbb9d3",
+    "semantic_hash": "83af6689f0b098d97fba4520afcbb9d3"
+  },
+  "minGPT/projects/chargpt/readme.md": {
+    "mtime": 1789598677.26855,
+    "seen": 1789601129.977998,
+    "ast_hash": "b444f7dfc4b0122aa1f4c04e79a6972f",
+    "semantic_hash": "b444f7dfc4b0122aa1f4c04e79a6972f"
+  },
+  "minGPT/projects/readme.md": {
+    "mtime": 1789598677.2686226,
+    "seen": 1789601129.977998,
+    "ast_hash": "9e5cae7af0d50c4191fd1a21a0dc278e",
+    "semantic_hash": "9e5cae7af0d50c4191fd1a21a0dc278e"
+  },
+  "nanoGPT/README.md": {
+    "mtime": 1789598673.9581764,
+    "seen": 1789601129.9779992,
+    "ast_hash": "6b01ea677ebeabf70638c93234113b90",
+    "semantic_hash": "6b01ea677ebeabf70638c93234113b90"
+  },
+  "nanoGPT/data/openwebtext/readme.md": {
+    "mtime": 1789598673.9607885,
+    "seen": 1789601129.978,
+    "ast_hash": "01dc81ac34caf38f257a5564095c546d",
+    "semantic_hash": "01dc81ac34caf38f257a5564095c546d"
+  },
+  "nanoGPT/data/shakespeare/readme.md": {
+    "mtime": 1789598673.9610095,
+    "seen": 1789601129.978003,
+    "ast_hash": "a0d18a2ef948d40600ab735fec305669",
+    "semantic_hash": "a0d18a2ef948d40600ab735fec305669"
+  },
+  "nanoGPT/data/shakespeare_char/readme.md": {
+    "mtime": 1789598673.9612236,
+    "seen": 1789601129.978004,
+    "ast_hash": "1b7d2d9b9ce15add727b2c335b2b8d2e",
+    "semantic_hash": "1b7d2d9b9ce15add727b2c335b2b8d2e"
+  },
+  "attention.pdf": {
+    "mtime": 1789599438.3202271,
+    "seen": 1789601129.978005,
+    "ast_hash": "18e1b007a1dab45b30cc861ba2dfda25",
+    "semantic_hash": "18e1b007a1dab45b30cc861ba2dfda25"
+  },
+  "attn_residuals.pdf": {
+    "mtime": 1789599526.220953,
+    "seen": 1789601129.9780061,
+    "ast_hash": "507063b4a23f3592e854dd62b3ed1c96",
+    "semantic_hash": "507063b4a23f3592e854dd62b3ed1c96"
+  },
+  "flashattention.pdf": {
+    "mtime": 1789598777.895024,
+    "seen": 1789601129.9780061,
+    "ast_hash": "71e6e8bb3499c6529c66850a915d395e",
+    "semantic_hash": "71e6e8bb3499c6529c66850a915d395e"
+  },
+  "flashattention2.pdf": {
+    "mtime": 1789598770.906685,
+    "seen": 1789601129.978007,
+    "ast_hash": "47cba624bb9b26a98db626cc953adea7",
+    "semantic_hash": "47cba624bb9b26a98db626cc953adea7"
+  },
+  "neuralwalker.pdf": {
+    "mtime": 1789599665.772094,
+    "seen": 1789601129.978008,
+    "ast_hash": "3fc53a9d6f30ff574640720b2fa23f6c",
+    "semantic_hash": "3fc53a9d6f30ff574640720b2fa23f6c"
+  },
+  "gout.svg": {
+    "mtime": 1789599032.3323624,
+    "seen": 1789601129.978009,
+    "ast_hash": "49b9495f2e158b7de02d931204d1cf78",
+    "semantic_hash": "49b9495f2e158b7de02d931204d1cf78"
+  },
+  "micrograd/gout.svg": {
+    "mtime": 1789598678.2734592,
+    "seen": 1789601129.9780102,
+    "ast_hash": "49b9495f2e158b7de02d931204d1cf78",
+    "semantic_hash": "49b9495f2e158b7de02d931204d1cf78"
+  },
+  "micrograd/moon_mlp.png": {
+    "mtime": 1789598678.2740343,
+    "seen": 1789601129.978011,
+    "ast_hash": "5dbeab149447e4ff238b13bb2b2578a7",
+    "semantic_hash": "5dbeab149447e4ff238b13bb2b2578a7"
+  },
+  "micrograd/puppy.jpg": {
+    "mtime": 1789598678.2742739,
+    "seen": 1789601129.9780118,
+    "ast_hash": "c1bdcabec562a8933c9cb0474e2b5714",
+    "semantic_hash": "c1bdcabec562a8933c9cb0474e2b5714"
+  },
+  "minGPT/mingpt.jpg": {
+    "mtime": 1789598677.2671738,
+    "seen": 1789601129.978013,
+    "ast_hash": "127202529a47c4f799417cac6cbf5d57",
+    "semantic_hash": "127202529a47c4f799417cac6cbf5d57"
+  },
+  "moon_mlp.png": {
+    "mtime": 1789599100.1920595,
+    "seen": 1789601129.978014,
+    "ast_hash": "5dbeab149447e4ff238b13bb2b2578a7",
+    "semantic_hash": "5dbeab149447e4ff238b13bb2b2578a7"
+  },
+  "nanoGPT/assets/gpt2_124M_loss.png": {
+    "mtime": 1789598673.9586725,
+    "seen": 1789601129.978014,
+    "ast_hash": "2c175d95c6e76fb7f111333a39335860",
+    "semantic_hash": "2c175d95c6e76fb7f111333a39335860"
+  },
+  "nanoGPT/assets/nanogpt.jpg": {
+    "mtime": 1789598673.9589496,
+    "seen": 1789601129.978015,
+    "ast_hash": "92b8ffbb1e7ec3fb8b0fa8d328e59798",
+    "semantic_hash": "92b8ffbb1e7ec3fb8b0fa8d328e59798"
+  }
+}

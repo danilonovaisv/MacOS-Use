@@ -1,0 +1,44 @@
+Building for debugging...
+[4 / 22] MacTechCore
+[6 / 24] MacTechCore
+[12 / 24] MacTech
+[16 / 28] MacTechCore
+[17 / 29] MacTechCore
+[19 / 29] MacTechCore
+[21 / 31] MacTech-product
+[23 / 31] MacTechCoreTests-product
+[26 / 33] MacTech
+[28 / 34] MacTech
+[33 / 37] MacTechCoreTests-product
+[35 / 37] MacTech-product
+[37 / 38] MacTechCoreTests-product
+Build complete! (4,74 secs)
+Test Suite 'All tests' started at 2026-09-15 00:27:53.133.
+Test Suite 'MacTechCoreTests.xctest' started at 2026-09-15 00:27:53.135.
+Test Suite 'SafetyTests' started at 2026-09-15 00:27:53.135.
+Test Case '-[MacTechCoreTests.SafetyTests testCycleMarkerAndMissingState]' started.
+Test Case '-[MacTechCoreTests.SafetyTests testCycleMarkerAndMissingState]' passed (0.004 seconds).
+Test Case '-[MacTechCoreTests.SafetyTests testDryRunDoesNotWrite]' started.
+Test Case '-[MacTechCoreTests.SafetyTests testDryRunDoesNotWrite]' passed (0.001 seconds).
+Test Case '-[MacTechCoreTests.SafetyTests testLockExcludesAndReleases]' started.
+Test Case '-[MacTechCoreTests.SafetyTests testLockExcludesAndReleases]' passed (0.001 seconds).
+Test Case '-[MacTechCoreTests.SafetyTests testReportPreservesErrorAndWritesPrivateFile]' started.
+Test Case '-[MacTechCoreTests.SafetyTests testReportPreservesErrorAndWritesPrivateFile]' passed (0.004 seconds).
+Test Case '-[MacTechCoreTests.SafetyTests testSymlinkAncestorRejected]' started.
+Test Case '-[MacTechCoreTests.SafetyTests testSymlinkAncestorRejected]' passed (0.001 seconds).
+Test Case '-[MacTechCoreTests.SafetyTests testSymlinkLockRejected]' started.
+Test Case '-[MacTechCoreTests.SafetyTests testSymlinkLockRejected]' passed (0.001 seconds).
+Test Case '-[MacTechCoreTests.SafetyTests testTraversalAndSiblingRejected]' started.
+Test Case '-[MacTechCoreTests.SafetyTests testTraversalAndSiblingRejected]' passed (0.001 seconds).
+Test Case '-[MacTechCoreTests.SafetyTests testUnsafeStatePermissionsRejected]' started.
+Test Case '-[MacTechCoreTests.SafetyTests testUnsafeStatePermissionsRejected]' passed (0.001 seconds).
+Test Suite 'SafetyTests' passed at 2026-09-15 00:27:53.150.
+	 Executed 8 tests, with 0 failures (0 unexpected) in 0.014 (0.015) seconds
+Test Suite 'MacTechCoreTests.xctest' passed at 2026-09-15 00:27:53.150.
+	 Executed 8 tests, with 0 failures (0 unexpected) in 0.014 (0.015) seconds
+Test Suite 'All tests' passed at 2026-09-15 00:27:53.150.
+	 Executed 8 tests, with 0 failures (0 unexpected) in 0.014 (0.017) seconds
+􀟈  Test run started.
+􀄵  Testing Library Version: 2070
+􀄵  Target Platform: arm64e-apple-macos14.0
+􁁛  Test run with 0 tests in 0 suites passed after 0.001 seconds.

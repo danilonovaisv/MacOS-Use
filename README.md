@@ -71,10 +71,23 @@ agent.invoke(task="Open Notes and write a short poem about macOS")
 from macos_use.providers.openai import ChatOpenAI
 from macos_use import Agent, Browser
 
-llm = ChatOpenAI(model="gpt-4o")
+llm = ChatOpenAI(model="gpt-6-astra", reasoning_effort="low")
 agent = Agent(llm=llm, browser=Browser.CHROME)
 agent.invoke(task="Search for the weather in New York on Google")
 ```
+
+The OpenAI provider defaults to `gpt-6-astra` and uses Responses for Astra,
+including streaming, images, structured output, and tool-result continuation.
+Other models retain the existing Chat Completions path. The CLI's default
+provider remains Ollama; select OpenAI explicitly:
+
+```sh
+macos-use --provider openai --model gpt-6-astra --profile observe --dry-run
+```
+
+Configure `OPENAI_API_KEY` in the environment before a live run. Use
+`--provider openai --model gpt-4o` (or `ChatOpenAI(model="gpt-4o")`) to roll back.
+See [Astra migration and validation](docs/gpt-6-astra-migration.md).
 
 ### Google Gemini
 

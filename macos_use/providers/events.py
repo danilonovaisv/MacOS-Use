@@ -30,6 +30,7 @@ class ToolCall(BaseModel):
 
 class LLMStreamEvent(BaseModel):
     type: LLMStreamEventType
+    response_items: list[dict] | None = None
     thinking: Thinking | None = None
     content: str | None = None
     tool_call: ToolCall | None = None
@@ -38,6 +39,7 @@ class LLMStreamEvent(BaseModel):
 
 class LLMEvent(BaseModel):
     type: LLMEventType
+    response_items: list[dict] | None = None
     thinking: Thinking | None = None
     content: str | None = None
     tool_call: ToolCall | None = None

@@ -1,0 +1,15 @@
+119:
+                 UUID: 3F3C2D1B-4F42-4695-839B-F26A55023C2E
+                 Name: macos_maintenance.app
+       Developer Name: (null)
+                 Type: app (0x2)
+                Flags: [  ] (0)
+          Disposition: [enabled, allowed, not notified] (0x3)
+           Identifier: 2.com.apple.automator.macos-maintenance
+                  URL: /Users/501/macos_maintenance.app
+           Generation: 10
+    Bundle Identifier: com.apple.automator.macos-maintenance
+             Last Use: 2026-07-26 22:12:25-03:00
+
+
+

@@ -10,6 +10,7 @@ class BaseMessage(BaseModel):
     content: str | None = None
     thinking: str | None = None
     thinking_signature: str | bytes | None = None
+    response_items: list[dict] | None = None
     
     model_config = ConfigDict(arbitrary_types_allowed=True)
 

@@ -1,4 +1,5 @@
 {
     "geminicodeassist.agentDebugMode": true,
-    "geminicodeassist.agentYoloMode": true
+    "geminicodeassist.agentYoloMode": true,
+    "geminicodeassist.agent.additionalTrustedCertificates": "/Users/danilonovais/.gemini/oauth_creds.json"
 }

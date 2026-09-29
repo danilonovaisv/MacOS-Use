@@ -3,13 +3,28 @@ from __future__ import annotations
 import argparse
 import os
 import unittest
-from unittest.mock import patch
+from unittest.mock import patch, MagicMock
 
 from macos_use.agent import Agent
-from macos_use.main import PROFILE_TOOLS, build_parser, resolve_settings
+from macos_use.main import PROFILE_TOOLS, PROFILE_INSTRUCTIONS, build_parser, resolve_settings
+from macos_use.agent.prompt.service import Prompt
+from macos_use.agent.desktop.views import Browser
 
 
 class CliTests(unittest.TestCase):
+    def test_openai_default_and_explicit_rollback(self):
+        with patch.dict(os.environ, {}, clear=True):
+            parser = build_parser()
+            self.assertEqual(resolve_settings(parser.parse_args(["--provider", "openai"])).model, "gpt-6-astra")
+            self.assertEqual(resolve_settings(parser.parse_args(["--provider", "openai", "--model", "gpt-4o"])).model, "gpt-4o")
+
+    def test_profile_instructions_reach_both_prompt_modes(self):
+        desktop = MagicMock()
+        with patch("macos_use.agent.prompt.service.ax.GetScreenSize", return_value=(100, 100)):
+            for mode in ("normal", "flash"):
+                prompt = Prompt.system(mode, desktop, Browser.SAFARI, 2, [PROFILE_INSTRUCTIONS["observe"]])
+                self.assertIn(PROFILE_INSTRUCTIONS["observe"], prompt)
+
     def test_default_settings_are_safe(self):
         safe_env = {
             "MACOS_USE_PROFILE": "observe",

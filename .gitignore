@@ -10,5 +10,10 @@ wheels/
 # Virtual environments
 .venv/
 .env
+.env.*
+*.env
+!.env.example
+freellmapi-keys.env
 logs/
 *.ipynb
+

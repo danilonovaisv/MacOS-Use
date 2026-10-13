@@ -5,6 +5,9 @@ description: Workflow para auditar e alinhar a orquestração do Swarm de Agente
 # Workflow: /agents-orquestrator — Orquestração do Swarm NANO-VEO3-API
 
 > **Slash Command:** `/orchestrate` ou `/agents-orquestrator`  
+
+> **Slash Command-2:**  Ao realizar em toda execução uma pesquisa inicial de acordo com o que foi solicitado, para ver o historico do projeto, utilizando `/graphify query [A SOLICITAÇÃO DO USUÁRIO...]`.
+
 > **Propósito:** Auditar, alinhar e validar a comunicação e responsabilidade dos agentes do ecossistema NANO-VEO3-API.  
 > **Agente Responsável:** `@api-orchestrator`
 
@@ -36,16 +39,19 @@ cat AGENTS.md
 ## FASE 1: Verificação de Contratos, Biblioteca & Testes
 
 1. Executar a checagem da biblioteca de conhecimento NotebookLM:
+
 ```bash
 python .agents/skills/notebooklm/scripts/run.py notebook_manager.py list
 ```
 
-2. Executar a checagem determinística do payload do Veo 3:
+1. Executar a checagem determinística do payload do Veo 3:
+
 ```bash
 npx tsx .agents/skills/veo3-api-integration/scripts/test_payload.ts
 ```
 
-2. Executar a verificação de compilação e linter:
+1. Executar a verificação de compilação e linter:
+
 ```bash
 npm run lint
 npx tsc --noEmit

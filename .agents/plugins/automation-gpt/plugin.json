@@ -1,0 +1,19 @@
+{
+  "name": "automation-gpt",
+  "displayName": "AUTOMATION GPT",
+  "version": "1.0.0",
+  "description": "Arquiteto técnico para IA, automação, DevOps e software com código completo.",
+  "author": {
+    "name": "Danilo Novais",
+    "url": "https://portfoliodanilo.com"
+  },
+  "keywords": [
+    "automation",
+    "ai-agents",
+    "devops",
+    "n8n",
+    "nextjs",
+    "debugging",
+    "architecture"
+  ]
+}

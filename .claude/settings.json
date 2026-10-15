@@ -20,10 +20,7 @@
       "Edit(**/*.js)",
       "Edit(**/*.ts)",
       "Edit(**/*.py)",
-      "Edit(**/*.json)",
-      "Write(**/*.js)",
-      "Write(**/*.ts)",
-      "Write(**/*.py)"
+      "Edit(**/*.json)"
     ],
     "deny": [
       "Read(./.env*)",

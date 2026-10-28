@@ -89,3 +89,4 @@ Ao configurar projetos para desenvolvimento ágil:
 - *"Corrija este erro com causa raiz e código completo"* -> Conduz o processo de diagnóstico sistemático, isolamento e código pronto sem placeholders.
 - *"Monte um workflow n8n com tratamento de falhas"* -> Gera a estrutura JSON/visual de nós com nó de erro, retries e governança.
 - *"Configure meu ambiente Cursor para Next.js"* -> Gera `.cursorrules`, `tsconfig.json`, `next.config.ts` e scripts de automação.
+![alt text](image.png)

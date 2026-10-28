@@ -1056,9 +1056,9 @@
     "semantic_hash": ""
   },
   ".vscode/settings.json": {
-    "mtime": 1790691606.8835142,
-    "seen": 1791919152.360115,
-    "ast_hash": "af4dfaf683b3b26395642ef612c483dc",
+    "mtime": 1793189845.003228,
+    "seen": 1793190265.4876769,
+    "ast_hash": "5bc5b203e4a5061086b09058def34157",
     "semantic_hash": ""
   },
   "MacTech/Audit/A-action-2.sh": {
@@ -2946,8 +2946,8 @@
     "semantic_hash": ""
   },
   ".agents/workflows/agents-orquestrator.md": {
-    "mtime": 1792099675.23844,
-    "seen": 1792106450.679966,
+    "mtime": 1793149688.6603267,
+    "seen": 1793190265.5265229,
     "ast_hash": "b38e065dc37c9d477242181614e92965",
     "semantic_hash": ""
   },
@@ -7287,12 +7287,6 @@
     "mtime": 1786450070.3758094,
     "seen": 1789609793.929962,
     "ast_hash": "cbf912827fc85af73b85f0f2b09eb0c2",
-    "semantic_hash": ""
-  },
-  "graphify-out/converted/Auditoria-Favoritos-Safari_746e75a8.md": {
-    "mtime": 1790691607.1789289,
-    "seen": 1791919152.392884,
-    "ast_hash": "5a47f5aaf00e9d1bceac7235cd8fc947",
     "semantic_hash": ""
   },
   "macos_use/agent/prompt/human.md": {
@@ -14598,21 +14592,99 @@
     "semantic_hash": ""
   },
   ".agents/plugins/automation-gpt/plugin.json": {
-    "mtime": 1792106199.4089997,
-    "seen": 1792106450.633408,
-    "ast_hash": "ea27ffe3173497675c08398028d2545e",
+    "mtime": 1793149302.037155,
+    "seen": 1793190265.48123,
+    "ast_hash": "dd345ee422a1da15e31a94ef10fd4ec1",
     "semantic_hash": ""
   },
   ".agents/plugins/automation-gpt/skills/automation-gpt/SKILL.md": {
-    "mtime": 1792106219.6652546,
-    "seen": 1792106450.677349,
-    "ast_hash": "a02f1709c81b592266b41b40a70c8f37",
+    "mtime": 1792109155.8765628,
+    "seen": 1793190265.523869,
+    "ast_hash": "3cd69a2575f7342b5803037faa0cc5fd",
     "semantic_hash": ""
   },
   ".agents/skills/automation-gpt/SKILL.md": {
     "mtime": 1792106226.277728,
     "seen": 1792106450.67749,
     "ast_hash": "a02f1709c81b592266b41b40a70c8f37",
+    "semantic_hash": ""
+  },
+  ".agents/agents/clickbus-agent.md": {
+    "mtime": 1793190258.61075,
+    "seen": 1793190265.523675,
+    "ast_hash": "89be0ab1fb28cdaf7194088b445a95b9",
+    "semantic_hash": ""
+  },
+  ".agents/skills/agents-orquestrator/SKILL.md": {
+    "mtime": 1793149429.610854,
+    "seen": 1793190265.524004,
+    "ast_hash": "b3f7f74509268d0a07e31b00b510880c",
+    "semantic_hash": ""
+  },
+  ".agents/skills/audit-and-fix/SKILL.md": {
+    "mtime": 1793149429.6114118,
+    "seen": 1793190265.5240052,
+    "ast_hash": "965b17f043b082c35f315c2e29cf6c8f",
+    "semantic_hash": ""
+  },
+  ".agents/skills/auditoria-wifi/SKILL.md": {
+    "mtime": 1793149429.6139054,
+    "seen": 1793190265.524006,
+    "ast_hash": "9274deef388599026e275a877bf228cb",
+    "semantic_hash": ""
+  },
+  ".agents/skills/clickbus/SKILL.md": {
+    "mtime": 1793190207.557405,
+    "seen": 1793190265.524039,
+    "ast_hash": "3e58228a4e5bb5d63350191751572c63",
+    "semantic_hash": ""
+  },
+  ".agents/skills/clickbus/llms.txt": {
+    "mtime": 1793190207.5607114,
+    "seen": 1793190265.524039,
+    "ast_hash": "5c2745a6a5052a3ff78a87979b702a3b",
+    "semantic_hash": ""
+  },
+  ".agents/skills/deepseek-cc-switch-prevc/SKILL.md": {
+    "mtime": 1793149429.6147084,
+    "seen": 1793190265.524101,
+    "ast_hash": "92492facfdef5f4ef1b66b8dea53dbb2",
+    "semantic_hash": ""
+  },
+  ".agents/skills/macos-ajuste/SKILL.md": {
+    "mtime": 1793149429.6154642,
+    "seen": 1793190265.5244029,
+    "ast_hash": "85a588735929b60c7eda48e272755538",
+    "semantic_hash": ""
+  },
+  ".agents/skills/macos-sync-db/SKILL.md": {
+    "mtime": 1793149429.6159813,
+    "seen": 1793190265.525725,
+    "ast_hash": "93a46ccefe43c05da2e4bd8f41cc82db",
+    "semantic_hash": ""
+  },
+  ".agents/skills/notebooklm-guided-research/SKILL.md": {
+    "mtime": 1793149429.6164632,
+    "seen": 1793190265.5257258,
+    "ast_hash": "757bfe33cfdb4298472b0d90c459c251",
+    "semantic_hash": ""
+  },
+  ".agents/skills/workflow-orchestrator/SKILL.md": {
+    "mtime": 1793149429.61692,
+    "seen": 1793190265.5265212,
+    "ast_hash": "2a1f14526469c122c75cfff77da88f77",
+    "semantic_hash": ""
+  },
+  ".agents/skills/workflows-refresh/SKILL.md": {
+    "mtime": 1793149429.6173558,
+    "seen": 1793190265.5265222,
+    "ast_hash": "c185d1a6bbb72dc38e5cf2301b1c4fdc",
+    "semantic_hash": ""
+  },
+  ".agents/plugins/automation-gpt/skills/automation-gpt/image.png": {
+    "mtime": 1792109154.9156616,
+    "seen": 1793190265.556434,
+    "ast_hash": "01d3280aca5ba2ffa1a690a0547cfb23",
     "semantic_hash": ""
   }
 }

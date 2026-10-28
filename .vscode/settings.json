@@ -1,5 +1,6 @@
 {
     "geminicodeassist.agentDebugMode": true,
     "geminicodeassist.agentYoloMode": true,
-    "geminicodeassist.agent.additionalTrustedCertificates": "/Users/danilonovais/.gemini/oauth_creds.json"
+    "geminicodeassist.agent.additionalTrustedCertificates": "/Users/danilonovais/.gemini/oauth_creds.json",
+    "google.datacloud.executeCellToolForNotebookMCP": true
 }

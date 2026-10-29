@@ -1,0 +1,9 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "clickbus-search",
+      "url": "https://www.clickbus.com.br/passagem/sao-paulo-sp-para-rio-de-janeiro-rj"
+    }
+  ]
+}

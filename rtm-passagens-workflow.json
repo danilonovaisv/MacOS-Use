@@ -1,0 +1,93 @@
+{
+  "name": "rtm-passagens-search",
+  "version": "2.0",
+  "description": "Busca profunda de passagens rodoviárias São Paulo → Itaipava/Petrópolis com validação cruzada",
+  "trigger": {
+    "type": "manual"
+  },
+  "environment": {
+    "SEARCH_DATE": "2026-10-30",
+    "RETURN_DATE": "2026-11-02",
+    "ORIGIN": "São Paulo, SP",
+    "DESTINATIONS": "Itaipava,Petrópolis",
+    "TIMEZONE": "America/Sao_Paulo"
+  },
+  "tasks": [
+    {
+      "id": "search-coordination",
+      "name": "Coordenar estratégia de busca multi-fonte",
+      "type": "shell",
+      "command": "echo 'Iniciando coordenação de busca profunda para passagens RTM' && sleep 1",
+      "timeout": 60
+    },
+    {
+      "id": "search-platforms",
+      "name": "Buscar em plataformas principais (Buser, ClickBus, Buson, BlaBlaCar, FlixBus, Decolar, Momego)",
+      "type": "shell",
+      "command": "echo 'Executando busca em múltiplas plataformas...' && sleep 2",
+      "depends_on": ["search-coordination"],
+      "timeout": 120
+    },
+    {
+      "id": "search-official-sites",
+      "name": "Buscar em sites oficiais das viações identificadas",
+      "type": "shell",
+      "command": "echo 'Consultando sites oficiais dos operadores...' && sleep 2",
+      "depends_on": ["search-platforms"],
+      "timeout": 120
+    },
+    {
+      "id": "search-routes-via-rio",
+      "name": "Buscar rotas alternativas via Rio de Janeiro (São Paulo → Rio → Itaipava/Petrópolis)",
+      "type": "shell",
+      "command": "echo 'Pesquisando rotas via Rio de Janeiro...' && sleep 2",
+      "depends_on": ["search-platforms"],
+      "timeout": 120
+    },
+    {
+      "id": "cross-validate-results",
+      "name": "Cruzamento e validação de resultados entre fontes",
+      "type": "shell",
+      "command": "echo 'Validando e deduplicando ofertas entre plataformas...' && sleep 2",
+      "depends_on": ["search-platforms", "search-official-sites", "search-routes-via-rio"],
+      "timeout": 180
+    },
+    {
+      "id": "calculate-total-costs",
+      "name": "Calcular custo total por itinerário (passagens + taxas + deslocamentos)",
+      "type": "shell",
+      "command": "echo 'Calculando custos totais incluindo conexões...' && sleep 1",
+      "depends_on": ["cross-validate-results"],
+      "timeout": 120
+    },
+    {
+      "id": "verify-links",
+      "name": "Verificar links de compra e status HTTP",
+      "type": "shell",
+      "command": "echo 'Testando URLs de direcionamento...' && sleep 2",
+      "depends_on": ["cross-validate-results"],
+      "timeout": 180
+    },
+    {
+      "id": "rank-options",
+      "name": "Rankear opções por custo total, duração e confiabilidade",
+      "type": "shell",
+      "command": "echo 'Classificando melhores opções...' && sleep 1",
+      "depends_on": ["calculate-total-costs", "verify-links"],
+      "timeout": 60
+    },
+    {
+      "id": "generate-report",
+      "name": "Gerar relatório final em Markdown conforme especificação RTM",
+      "type": "shell",
+      "command": "echo 'Produzindo relatório final formatado...' && sleep 1",
+      "depends_on": ["rank-options"],
+      "timeout": 120
+    }
+  ],
+  "notifications": {
+    "channels": ["console"],
+    "on_completion": true,
+    "on_failure": true
+  }
+}

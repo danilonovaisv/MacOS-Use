@@ -1,11 +1,41 @@
 {
   "version": 1,
   "skills": {
+    "cc-switch": {
+      "source": "hsiifu3/cc-switch-skill",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "135810f389bfbc0895329be91dde3a4a2b1245f0d1b2617ed037bc7610e39449"
+    },
+    "cli-anything-ccswitch": {
+      "source": "hkuds/cli-anything",
+      "sourceType": "github",
+      "skillPath": "skills/cli-anything-ccswitch/SKILL.md",
+      "computedHash": "ac3f316d9a6bdbe1057478bcd90a1586ecd8fc508577423ce36d9dfc1dcba867"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "computedHash": "b146008599c31057cef1c145774cea5d5afb30e8f43fa802e47a4b461419aaaf"
+    },
     "macos-development": {
       "source": "rshankras/claude-code-apple-skills",
       "sourceType": "github",
       "skillPath": "skills/macos/SKILL.md",
       "computedHash": "294b31742ef3f87e13859714c402081845eaebd52e4691c716f5ed38c4013936"
+    },
+    "prompt-improver": {
+      "source": "dotneet/claude-code-marketplace",
+      "sourceType": "github",
+      "skillPath": "prompt/skills/prompt-improver/SKILL.md",
+      "computedHash": "7111adb20ba1fe46e6911b52005745dcd69832f5c9c0abc7a14db09d25dac727"
+    },
+    "use-freellmapi": {
+      "source": "ivy00johns/skill-madness",
+      "sourceType": "github",
+      "skillPath": "skills/workflows/use-freellmapi/SKILL.md",
+      "computedHash": "b48b6df83b127d0fc860f6c129d473d320b3ed76d0656720f07dd5611cf46fce"
     }
   }
 }

@@ -16,4 +16,5 @@ wheels/
 freellmapi-keys.env
 logs/
 *.ipynb
+backup-variaveis/
 

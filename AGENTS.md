@@ -29,6 +29,7 @@ Este repositório gerencia o estado e a governança de um ambiente macOS (Apple 
 | `/agents-orquestrator` | `.agents/workflows/agents-orquestrator.md` | Alinha e coordena o Swarm de Agentes no ecossistema NANO-VEO3-API. |
 | `/workflow-orchestrator` | `.agents/workflows/workflow-orchestrator.md` | Orquestração avançada de workflows complexos, agendamentos e dependências de tarefas. |
 | `/workflows-refresh` | `.agents/workflows/workflows-refresh.md` | Auditoria, sincronização e alinhamento de todos os workflows do diretório `.agents/workflows/`. |
+| `/quick-switch` | `.agents/workflows/quick-switch.md` | Procedimento de troca rápida de provedores (FreeLLMAPI <-> APIs Oficiais) para Codex, Claude e Gemini via CC Switch. |
 
 ## graphify
 

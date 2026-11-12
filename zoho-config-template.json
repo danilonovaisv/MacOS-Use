@@ -1,0 +1,15 @@
+{
+  "account_name": "Zoho – Danilo",
+  "full_name": "Danilo",
+  "email": "danilo@portfoliodanilo.com",
+  "username": "danilo@portfoliodanilo.com",
+  "password": "An@10011982@#",
+  "imap_server": "imap.zoho.com",
+  "imap_port": 993,
+  "imap_ssl": true,
+  "smtp_server": "smtp.zoho.com",
+  "smtp_port": 465,
+  "smtp_ssl": true,
+  "smtp_auth": true,
+  "account_type": "IMAP"
+}

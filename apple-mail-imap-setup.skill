@@ -1,0 +1,89 @@
+# Apple Mail IMAP Account Setup Skill
+
+Cria contas IMAP no Apple Mail de forma segura com validação de parâmetros Zoho Mail.
+
+## When to Use
+
+Use quando:
+- Configurar conta Zoho Mail (`danilo@portfoliodanilo.com`) no Apple Mail
+- Qualquer outra conta IMAP no Apple Mail
+- Precisar criar conta de e-mail via AppleScript
+
+## How It Works
+
+1. Valida parâmetros IMAP (servidor, porta, SSL, credenciais)
+2. Gera AppleScript para criar conta no Mail.app
+3. Executa script com permissão do usuário
+4. Retorna status de configuração
+
+## Safety Rules
+
+- **NUNCA** envia e-mail, deleta, move mensagens, modifica flags
+- **NUNCA** instala LaunchAgents ou muda permissões TCC sem aprovação humana
+- Apenas cria/valida configurações de conta IMAP
+
+## Zoho Mail Configuration Template
+
+### Parâmetros obrigatórios
+
+```
+Nome da conta: Zoho – Danilo
+Nome completo: Danilo
+Endereço de e-mail: danilo@portfoliodanilo.com
+Nome de usuário: danilo@portfoliodanilo.com (endereço completo)
+Senha: [senha da conta ou app-specific password se 2FA]
+```
+
+### Servidores Zoho
+
+**IMAP (Entrada)**:
+- Servidor: `imap.zoho.com` (contas pessoais)
+- Ou `imappro.zoho.com` (domínio próprio como portfoliodanilo.com)
+- Porta: `993`
+- SSL: Ativado
+
+**SMTP (Saída)**:
+- Servidor: `smtp.zoho.com`
+- Porta: `465` (SSL) ou `587` (TLS/STARTTLS)
+- Autenticação: Ativado
+
+### 2FA/Zoho App Password
+
+Se 2FA estiver ativo, use **App-Specific Password**:
+- Zoho Console → Security → Two Factor Authentication → Application Specific Password
+- Escolher aplicação: Mail
+- Gerar e usar como senha
+
+## Usage Example
+
+Invocar skill com parâmetros:
+
+```
+Nome da conta: Zoho – Danilo
+Nome completo: Danilo
+Endereço de e-mail: danilo@portfoliodanilo.com
+Nome de usuário: danilo@portfoliodanilo.com
+Senha: [usar app-specific password se 2FA]
+Servidor IMAP: imap.zoho.com
+Porta IMAP: 993
+SSL IMAP: true
+Servidor SMTP: smtp.zoho.com
+Porta SMTP: 465
+SSL SMTP: true
+Autenticação SMTP: true
+Tipo: IMAP
+```
+
+## Error Handling
+
+Erros comuns:
+- `Authentication failed` → Verificar senha/app-password IMAP habilitado
+- `Connection refused` → Verificar servidor porta SSL
+- `Cannot connect to server` → Verificar firewall/rede
+
+## Verification
+
+Após configuração:
+1. Abrir Apple Mail
+2. Verificar conta criada em Preferences → Accounts
+3. Verificar sincronização de pastas (Inbox, Sent, Drafts)
